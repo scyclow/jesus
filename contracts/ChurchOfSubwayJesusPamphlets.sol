@@ -23,7 +23,7 @@ contract ChurchOfSubwayJesusPamphlets is ERC721 {
   uint256 private _upgradedPamphlets = 0;
   uint256 private _legacyPamphlets = 75;
   uint256 private _newPamphlets = 0;
-  SequencesMetadata private _metadataContract;
+  Metadata private _metadataContract;
   ChurchOfSubwayJesusPamphletsDAO private _church;
 
   address private royaltyBenificiary;
@@ -31,7 +31,7 @@ contract ChurchOfSubwayJesusPamphlets is ERC721 {
 
   constructor() ERC721("Church of Subway Jesus Pamphlets", 'JESUS') {
     royaltyBenificiary = msg.sender;
-    _metadataContract = new Metadata(this);
+    _metadataContract = new Metadata();
     _church = new ChurchOfSubwayJesusPamphletsDAO(this);
 
     // start total supply at 75 or 76
@@ -44,17 +44,17 @@ contract ChurchOfSubwayJesusPamphlets is ERC721 {
   }
 
   modifier onlyChurch {
-    require(_church == msg.sender, 'Caller is not the church');
+    require(church() == msg.sender, 'Caller is not the church');
     _;
   }
 
   // require user to approve this contract for specific token id
-  function redeem(uint256 fullTokenId) {
-    uint256 humanTokenId = fullTokenId & 0x000000000000000000000000000000000000000000000000000000FFFFFFFFFF;
-    uint256 trimmed = fullTokenId & 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF0000000000;
-    uint256 shifted = trimmed >> 40;
-    uint256 isSubwayJesusToken = shifted == 0x7C23C1B7E544E3E805BA675C811E287FC9D719490000000000001B;
-    require(isSubwayJesusToken);
+  function redeem(uint256 fullTokenId) public {
+    // uint256 humanTokenId = fullTokenId & 0x000000000000000000000000000000000000000000000000000000FFFFFFFFFF;
+    // uint256 trimmed = fullTokenId & 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF0000000000;
+    // uint256 shifted = trimmed >> 40;
+    // uint256 isSubwayJesusToken = shifted == 0x7C23C1B7E544E3E805BA675C811E287FC9D719490000000000001B;
+    // require(isSubwayJesusToken);
 
     // require openseaStorefront.balanceOf(tokenId, msg.sender) == 1
     // openseaStorefront.safeTransfer original to address(this)
@@ -64,7 +64,7 @@ contract ChurchOfSubwayJesusPamphlets is ERC721 {
 
   // TODO downgrade token -- burn new token and receive old one
 
-  function mintBatch(address[] to) external onlyChurch {
+  function mintBatch(address[] calldata to) external onlyChurch {
     for (uint256 i; i < to.length; i++) {
       _mint(to[i], _legacyPamphlets + _newPamphlets);
       _newPamphlets++;
@@ -128,7 +128,7 @@ contract ChurchOfSubwayJesusPamphlets is ERC721 {
 
   function emitTokenEvent(uint256 tokenId, string calldata eventType, string calldata content) external {
     require(
-      owner() == _msgSender() || ERC721.ownerOf(tokenId) == _msgSender(),
+      church() == _msgSender() || ERC721.ownerOf(tokenId) == _msgSender(),
       'Only project or token owner can emit token event'
     );
     emit TokenEvent(_msgSender(), tokenId, eventType, content);

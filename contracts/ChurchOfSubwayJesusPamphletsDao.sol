@@ -56,7 +56,7 @@ contract ChurchOfSubwayJesusPamphletsDAO is IERC721Receiver {
 
   function castVote(uint256 proposalId, uint256 tokenId, bool vote) public {
     require(baseContract.ownerOf(tokenId) == msg.sender);
-    _castVotes(proposalId, [tokenId], vote);
+    _castVote(proposalId, tokenId, vote);
   }
 
   function castVotesBySig(
@@ -64,7 +64,7 @@ contract ChurchOfSubwayJesusPamphletsDAO is IERC721Receiver {
     bytes[] calldata signatures,
     address[] calldata owners,
     uint256[] calldata tokenIds,
-    bool calldata vote
+    bool[] calldata votes
   ) public {
     require(owners.length == signatures.length);
     require(tokenIds.length == signatures.length);
@@ -73,12 +73,12 @@ contract ChurchOfSubwayJesusPamphletsDAO is IERC721Receiver {
 
     for (uint256 i; i < votes.length; i++) {
       address owner = owners[i];
-      address tokenId = tokenIds[i];
-      address vote = votes[i];
+      uint256 tokenId = tokenIds[i];
+      bool vote = votes[i];
       // TODO verify votes are valid
+      _castVote(proposalId, tokenId, vote);
     }
 
-    _castVotes(proposalId, tokenIds, vote);
   }
 
   function castDelegatedVote(uint256 proposalId, uint256[] calldata tokenIds, bool vote) public {
@@ -92,7 +92,7 @@ contract ChurchOfSubwayJesusPamphletsDAO is IERC721Receiver {
 
   function delegate(uint256 tokenId, address priest) public {
     require(baseContract.ownerOf(tokenId) == msg.sender);
-    delegations[tokenId] = address;
+    delegations[tokenId] = priest;
   }
 
 
@@ -114,6 +114,21 @@ contract ChurchOfSubwayJesusPamphletsDAO is IERC721Receiver {
       proposals[proposalId].totalVotes -= voteChanges;
     }
   }
+
+  function _castVote(uint256 proposalId, uint256 tokenId, bool vote) private {
+
+    if (proposalVotes[proposalId][tokenId] != vote) {
+      proposalVotes[proposalId][tokenId] = vote;
+    }
+
+    if (vote) {
+      proposals[proposalId].totalVotes += 1;
+    } else {
+      proposals[proposalId].totalVotes -= 1;
+    }
+  }
+
+
 
   function execute(
     address target,
