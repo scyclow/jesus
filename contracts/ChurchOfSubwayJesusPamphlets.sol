@@ -33,6 +33,10 @@ contract ChurchOfSubwayJesusPamphlets is ERC721 {
     royaltyBenificiary = msg.sender;
     _metadataContract = new Metadata(this);
     _church = new ChurchOfSubwayJesusPamphletsDAO(this);
+
+    // start total supply at 75 or 76
+    // change balance of 0x0 to 76
+    // emit a bunch of events where all original tokens are transferred to 0x0
   }
 
   function church() public view returns (address) {
@@ -57,6 +61,8 @@ contract ChurchOfSubwayJesusPamphlets is ERC721 {
     // mint new pamphlet
     _upgradedPamphlets++;
   }
+
+  // TODO downgrade token -- burn new token and receive old one
 
   function mintBatch(address[] to) external onlyChurch {
     for (uint256 i; i < to.length; i++) {

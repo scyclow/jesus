@@ -46,6 +46,7 @@ contract ChurchOfSubwayJesusPamphletsDAO is IERC721Receiver {
     bytes memory calldata_
   ) public returns (uint256) {
     uint256 proposalId = hashProposal(target, value, calldata_);
+    // TODO figure out how to make sure increasing supply doesn't fuck up quorum
     proposals[proposalId].maxVotes = baseContract.totalSupply();
 
     castVote(proposalId, tokenId, true);
