@@ -19,24 +19,47 @@ import "./ChurchOfSubwayJesusPamphletsDAO.sol";
 
 pragma solidity ^0.8.11;
 
+interface IOSOpenStorefront {
+  function safeTransferFrom(
+    address from,
+    address to,
+    uint256 id,
+    uint256 amount,
+    bytes calldata data
+  ) external;
+
+  function safeBatchTransferFrom(
+    address from,
+    address to,
+    uint256[] calldata ids,
+    uint256[] calldata amounts,
+    bytes calldata data
+  ) external;
+}
+
 contract ChurchOfSubwayJesusPamphlets is ERC721 {
-  uint256 private _upgradedPamphlets = 0;
-  uint256 private _legacyPamphlets = 75;
-  uint256 private _newPamphlets = 0;
+  uint256 private _totalSupply = 76;
   Metadata private _metadataContract;
   ChurchOfSubwayJesusPamphletsDAO private _church;
+
+  IOSOpenStorefront public osOpenStorefront;
 
   address private royaltyBenificiary;
   uint16 private royaltyBasisPoints = 1000;
 
-  constructor() ERC721("Church of Subway Jesus Pamphlets", 'JESUS') {
+  constructor(address _os) ERC721("Church of Subway Jesus Pamphlets", 'JESUS') {
     royaltyBenificiary = msg.sender;
     _metadataContract = new Metadata();
     _church = new ChurchOfSubwayJesusPamphletsDAO(this);
 
-    // start total supply at 75 or 76
-    // change balance of 0x0 to 76
-    // emit a bunch of events where all original tokens are transferred to 0x0
+    osOpenStorefront = IOSOpenStorefront(_os);
+
+    // mint tokens 0 - 75
+    _mint(msg.sender, 0);
+
+    for (uint256 i = 1; i < 76; i++) {
+      _mint(0x6666666666666666666666666666666666666666, i);
+    }
   }
 
   function church() public view returns (address) {
@@ -59,16 +82,73 @@ contract ChurchOfSubwayJesusPamphlets is ERC721 {
     // require openseaStorefront.balanceOf(tokenId, msg.sender) == 1
     // openseaStorefront.safeTransfer original to address(this)
     // mint new pamphlet
-    _upgradedPamphlets++;
+    // _upgradedPamphlets++;
   }
+
+
+
+  function onERC1155Received(
+    address,
+    address from,
+    uint256 id,
+    uint256 value,
+    bytes calldata
+  ) external returns (bytes4) {
+
+
+    // require(msg.sender == address(osOpenStorefront), 'Sender must be OS open storefront');
+    // require(value == 1, 'Value must be 1');
+    // // TODO id stuff
+    uint newId = id;
+
+
+    osOpenStorefront.safeTransferFrom(address(this), address(_church), id, value, '');
+    // maybe from -> from so it doesn't read as a mint
+    _transfer(0x6666666666666666666666666666666666666666, from, newId);
+
+
+    // 0xf23a6e61
+    return bytes4(keccak256("onERC1155Received(address,address,uint256,uint256,bytes)"));
+  }
+
+
+  function onERC1155BatchReceived(
+    address,
+    address from,
+    uint256[] calldata ids,
+    uint256[] calldata values,
+    bytes calldata
+  ) external returns (bytes4) {
+    require(msg.sender == address(osOpenStorefront), 'Sender must be OS open storefront');
+    require(ids.length == values.length);
+
+    for (uint256 i; i < ids.length; i++) {
+      require(values[i] == 1, 'Value must be 1');
+
+      uint256 id = ids[1];
+
+      // TODO id stuff
+      uint newId = id;
+      osOpenStorefront.safeTransferFrom(address(this), address(_church), id, 1, '');
+      // maybe from -> from so it doesn't read as a mint
+      _transfer(0x6666666666666666666666666666666666666666, from, newId);
+
+    }
+
+    // 0xbc197c81
+    bytes4(keccak256("onERC1155BatchReceived(address,address,uint256[],uint256[],bytes)"));
+  }
+
+
+
 
   // TODO downgrade token -- burn new token and receive old one
 
   function mintBatch(address[] calldata to) external onlyChurch {
     for (uint256 i; i < to.length; i++) {
-      _mint(to[i], _legacyPamphlets + _newPamphlets);
-      _newPamphlets++;
+      _mint(to[i], _totalSupply);
     }
+    _totalSupply += to.length;
   }
 
   function tokenURI(uint256 tokenId) public view virtual override returns (string memory) {
@@ -76,7 +156,7 @@ contract ChurchOfSubwayJesusPamphlets is ERC721 {
   }
 
   function totalSupply() external view returns (uint256) {
-    return _upgradedPamphlets + _newPamphlets;
+    return _totalSupply;
   }
 
   function exists(uint256 tokenId) external view returns (bool) {
