@@ -71,21 +71,6 @@ contract ChurchOfSubwayJesusPamphlets is ERC721 {
     _;
   }
 
-  // require user to approve this contract for specific token id
-  function redeem(uint256 fullTokenId) public {
-    // uint256 humanTokenId = fullTokenId & 0x000000000000000000000000000000000000000000000000000000FFFFFFFFFF;
-    // uint256 trimmed = fullTokenId & 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF0000000000;
-    // uint256 shifted = trimmed >> 40;
-    // uint256 isSubwayJesusToken = shifted == 0x7C23C1B7E544E3E805BA675C811E287FC9D719490000000000001B;
-    // require(isSubwayJesusToken);
-
-    // require openseaStorefront.balanceOf(tokenId, msg.sender) == 1
-    // openseaStorefront.safeTransfer original to address(this)
-    // mint new pamphlet
-    // _upgradedPamphlets++;
-  }
-
-
 
   function onERC1155Received(
     address,
@@ -103,7 +88,6 @@ contract ChurchOfSubwayJesusPamphlets is ERC721 {
 
 
     osOpenStorefront.safeTransferFrom(address(this), address(_church), id, value, '');
-    // maybe from -> from so it doesn't read as a mint
     _transfer(0x6666666666666666666666666666666666666666, from, newId);
 
 
@@ -130,7 +114,6 @@ contract ChurchOfSubwayJesusPamphlets is ERC721 {
       // TODO id stuff
       uint newId = id;
       osOpenStorefront.safeTransferFrom(address(this), address(_church), id, 1, '');
-      // maybe from -> from so it doesn't read as a mint
       _transfer(0x6666666666666666666666666666666666666666, from, newId);
 
     }
@@ -140,13 +123,9 @@ contract ChurchOfSubwayJesusPamphlets is ERC721 {
   }
 
 
-
-
-  // TODO downgrade token -- burn new token and receive old one
-
   function mintBatch(address[] calldata to) external onlyChurch {
     for (uint256 i; i < to.length; i++) {
-      _mint(to[i], _totalSupply);
+      _mint(to[i], _totalSupply + i);
     }
     _totalSupply += to.length;
   }
