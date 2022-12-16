@@ -20,9 +20,9 @@ contract ChurchOfSubwayJesusPamphletsDAO is IERC721Receiver {
   mapping(uint256 => mapping(uint256 => bool)) public proposalVotes;
   mapping(uint256 => address) public delegations;
 
-  constructor(ChurchOfSubwayJesusPamphlets _addr) {
+  constructor(ChurchOfSubwayJesusPamphlets _addr, address _cardinal) {
     baseContract = _addr;
-    cardinal = msg.sender;
+    cardinal = _cardinal;
   }
 
   function hashProposal(

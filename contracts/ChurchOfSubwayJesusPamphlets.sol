@@ -40,9 +40,9 @@ interface IOSOpenStorefront {
 contract ChurchOfSubwayJesusPamphlets is ERC721 {
   uint256 private _totalSupply = 76;
   Metadata private _metadataContract;
-  ChurchOfSubwayJesusPamphletsDAO private _church;
+  address public church;
+  IOSOpenStorefront private _purgatory;
 
-  IOSOpenStorefront public osOpenStorefront;
 
   address private royaltyBenificiary;
   uint16 private royaltyBasisPoints = 1000;
@@ -50,9 +50,8 @@ contract ChurchOfSubwayJesusPamphlets is ERC721 {
   constructor(address _os) ERC721("Church of Subway Jesus Pamphlets", 'JESUS') {
     royaltyBenificiary = msg.sender;
     _metadataContract = new Metadata();
-    _church = new ChurchOfSubwayJesusPamphletsDAO(this);
-
-    osOpenStorefront = IOSOpenStorefront(_os);
+    _purgatory = IOSOpenStorefront(_os);
+    church = address(new ChurchOfSubwayJesusPamphletsDAO(this, msg.sender));
 
     // mint tokens 0 - 75
     _mint(msg.sender, 0);
@@ -62,13 +61,17 @@ contract ChurchOfSubwayJesusPamphlets is ERC721 {
     }
   }
 
-  function church() public view returns (address) {
-    return address(_church);
+  function purgatory() public view returns (address) {
+    return address(_purgatory);
   }
 
   modifier onlyChurch {
-    require(church() == msg.sender, 'Caller is not the church');
+    require(church == msg.sender, 'Caller is not the church');
     _;
+  }
+
+  function transferChurch(address newChurch) external onlyChurch {
+    church = newChurch;
   }
 
 
@@ -81,13 +84,13 @@ contract ChurchOfSubwayJesusPamphlets is ERC721 {
   ) external returns (bytes4) {
 
 
-    // require(msg.sender == address(osOpenStorefront), 'Sender must be OS open storefront');
+    // require(msg.sender == address(_purgatory), 'Sender must be OS open storefront');
     // require(value == 1, 'Value must be 1');
     // // TODO id stuff
     uint newId = id;
 
 
-    osOpenStorefront.safeTransferFrom(address(this), address(_church), id, value, '');
+    _purgatory.safeTransferFrom(address(this), church, id, value, '');
     _transfer(0x6666666666666666666666666666666666666666, from, newId);
 
 
@@ -103,7 +106,7 @@ contract ChurchOfSubwayJesusPamphlets is ERC721 {
     uint256[] calldata values,
     bytes calldata
   ) external returns (bytes4) {
-    require(msg.sender == address(osOpenStorefront), 'Sender must be OS open storefront');
+    require(msg.sender == address(_purgatory), 'Sender must be OS open storefront');
     require(ids.length == values.length);
 
     for (uint256 i; i < ids.length; i++) {
@@ -113,7 +116,7 @@ contract ChurchOfSubwayJesusPamphlets is ERC721 {
 
       // TODO id stuff
       uint newId = id;
-      osOpenStorefront.safeTransferFrom(address(this), address(_church), id, 1, '');
+      _purgatory.safeTransferFrom(address(this), church, id, 1, '');
       _transfer(0x6666666666666666666666666666666666666666, from, newId);
 
     }
@@ -187,7 +190,7 @@ contract ChurchOfSubwayJesusPamphlets is ERC721 {
 
   function emitTokenEvent(uint256 tokenId, string calldata eventType, string calldata content) external {
     require(
-      church() == _msgSender() || ERC721.ownerOf(tokenId) == _msgSender(),
+      church == _msgSender() || ERC721.ownerOf(tokenId) == _msgSender(),
       'Only project or token owner can emit token event'
     );
     emit TokenEvent(_msgSender(), tokenId, eventType, content);
