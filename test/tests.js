@@ -1,6 +1,7 @@
 const { expect } = require('chai')
 const { ethers, waffle } = require('hardhat')
 const { expectRevert, time, snapshot } = require('@openzeppelin/test-helpers')
+const osTokenData = require('../osDataParsed.json')
 
 const toETH = amt => ethers.utils.parseEther(String(amt))
 const num = n => Number(ethers.utils.formatEther(n))
@@ -8,6 +9,12 @@ const num = n => Number(ethers.utils.formatEther(n))
 const encodeWithSignature = (functionName, argTypes, params) => {
   const iface = new ethers.utils.Interface([`function ${functionName}(${argTypes.join(',')})`])
   return iface.encodeFunctionData(functionName, params)
+}
+
+function times(t, fn) {
+  const out = []
+  for (let i = 0; i < t; i++) out.push(fn(i))
+  return out
 }
 
 
@@ -68,20 +75,217 @@ describe('ChurchOfSubwayJesusPamphlets', () => {
   })
 
   describe('onERC1155Received', () => {
-    it('should only work for correct tokens', async () => {
-      await MockERC1155.connect(cardinal).mint(cardinal.address, 1)
-      await MockERC1155.connect(cardinal).safeTransferFrom(cardinal.address, Jesus.address, 1, 1, [])
+    it('should work for SJP tokens', async () => {
+      await Promise.all(osTokenData.map(async d => {
+        const { os_token_id } = d
+        await MockERC1155.connect(cardinal).mint(disciple1.address, os_token_id)
+        await MockERC1155.connect(disciple1).safeTransferFrom(disciple1.address, Jesus.address, os_token_id, 1, [])
+      }))
+
+      expect(await Jesus.connect(cardinal).balanceOf(disciple1.address)).to.equal(75)
+
+      for (let id = 1; id <= 75; id++) {
+        expect(await Jesus.connect(cardinal).ownerOf(id)).to.equal(disciple1.address)
+      }
+
+      // should forward old tokens to DAO
+      await Promise.all(osTokenData.map(async d => {
+        expect(await MockERC1155.connect(cardinal).balanceOf(JesusDAO.address, d.os_token_id)).to.equal(1)
+      }))
     })
 
+    it('should revert for non-SJP tokens on purgatory contract', async () => {
+      const incorrectTokens = [
+        '56149969866452300878143827841099029158054578672514359653557300808794916257793', // flyer1
+        '56149969866452300878143827841099029158054578672514359653557300807695404630017', // flyer2
+        '56149969866452300878143827841099029158054578672514359653557300857173427879937', // seeing$
+        '56149969866452300878143827841099029158054578672514359653557300854974404624385', // vista
+        '32150014705918146096138927293761864425970273519802704166038767670271735234561', // wineVoucher
+      ]
 
-    it('should transfer the correct new token from 0x666 to the caller', async () => {})
-    it('should forward the OS token to the church', async () => {})
+      await Promise.all(incorrectTokens.map(async id => {
+        await MockERC1155.connect(cardinal).mint(disciple1.address, id)
+        await expectRevert(
+          MockERC1155.connect(disciple1).safeTransferFrom(disciple1.address, Jesus.address, id, 1, []),
+          'Not Subway Jesus Pamphlet token'
+        )
+      }))
+    })
+
+    it('should revert if non-1 amount is transferred', async () => {
+      const tokenId = osTokenData[0].os_token_id
+
+      await MockERC1155.connect(cardinal).mint(disciple1.address, tokenId)
+      await MockERC1155.connect(cardinal).mint(disciple1.address, tokenId)
+      await expectRevert(
+        MockERC1155.connect(disciple1).safeTransferFrom(disciple1.address, Jesus.address, tokenId, 2, []),
+        'Must absolve a single token'
+      )
+    })
+
+    it('should revert if 0 amount is transferred', async () => {
+      const tokenId = osTokenData[0].os_token_id
+
+      await MockERC1155.connect(cardinal).mint(disciple1.address, tokenId)
+      await MockERC1155.connect(cardinal).mint(disciple1.address, tokenId)
+      await expectRevert(
+        MockERC1155.connect(disciple1).safeTransferFrom(disciple1.address, Jesus.address, tokenId, 0, []),
+        'Must absolve a single token'
+      )
+    })
+
+    it('should revert when transferred correct id on wrong contract', async () => {
+      const FakeMockERC1155 = await MockERC1155Factory.deploy()
+      await FakeMockERC1155.deployed()
+
+      const tokenId = osTokenData[0].os_token_id
+
+      await FakeMockERC1155.connect(cardinal).mint(disciple1.address, tokenId)
+
+      await expectRevert(
+        FakeMockERC1155.connect(disciple1).safeTransferFrom(disciple1.address, Jesus.address, tokenId, 1, []),
+        'Cannot absolve sins without purgatory'
+      )
+    })
+
+    it('should revert if token has already been saved', async () => {
+      const tokenId = osTokenData[0].os_token_id
+      await MockERC1155.connect(cardinal).mint(disciple1.address, tokenId)
+      await MockERC1155.connect(disciple1).safeTransferFrom(disciple1.address, Jesus.address, tokenId, 1, [])
+
+      await MockERC1155.connect(cardinal).mint(disciple1.address, tokenId)
+
+      await expectRevert(
+        MockERC1155.connect(disciple1).safeTransferFrom(disciple1.address, Jesus.address, tokenId, 1, []),
+        'ERC721: transfer of token that is not own'
+      )
+    })
   })
 
   describe('onERC1155BatchReceived', () => {
-    it('should only work for correct tokens', async () => {})
-    it('should transfer the correct new token from 0x666 to the caller', async () => {})
-    it('should forward the OS token to the church', async () => {})
+    it('should work for SJP tokens', async () => {
+      await Promise.all(osTokenData.map(async d => MockERC1155.connect(cardinal).mint(disciple1.address, d.os_token_id)))
+
+      await MockERC1155.connect(disciple1).safeBatchTransferFrom(
+        disciple1.address,
+        Jesus.address,
+        osTokenData.map(d => d.os_token_id),
+        osTokenData.map(d => 1),
+        []
+      )
+
+      expect(await Jesus.connect(cardinal).balanceOf(disciple1.address)).to.equal(75)
+
+      for (let id = 1; id <= 75; id++) {
+        expect(await Jesus.connect(cardinal).ownerOf(id)).to.equal(disciple1.address)
+      }
+
+      // should forward old tokens to DAO
+      await Promise.all(osTokenData.map(async d => {
+        expect(await MockERC1155.connect(cardinal).balanceOf(JesusDAO.address, d.os_token_id)).to.equal(1)
+      }))
+    })
+
+    it('should revert for non-SJP tokens on purgatory contract', async () => {
+      await Promise.all(osTokenData.map(async d => MockERC1155.connect(cardinal).mint(disciple1.address, d.os_token_id)))
+
+      const nonSJP = '56149969866452300878143827841099029158054578672514359653557300808794916257793' // flyer1
+      await MockERC1155.connect(cardinal).mint(disciple1.address, nonSJP)
+
+      const ids = osTokenData.map(d => d.os_token_id)
+      ids[25] = nonSJP
+
+      await expectRevert(
+        MockERC1155.connect(disciple1).safeBatchTransferFrom(
+          disciple1.address,
+          Jesus.address,
+          ids,
+          osTokenData.map(d => 1),
+          []
+        ),
+        'Not Subway Jesus Pamphlet token'
+      )
+    })
+
+
+    it('should revert if non-1 amount is transferred', async () => {
+      await Promise.all(osTokenData.map(async d => MockERC1155.connect(cardinal).mint(disciple1.address, d.os_token_id)))
+      await MockERC1155.connect(cardinal).mint(disciple1.address, osTokenData[1].os_token_id)
+      const amounts = osTokenData.map(() => 1)
+      amounts[1] = 2
+
+      await expectRevert(
+        MockERC1155.connect(disciple1).safeBatchTransferFrom(
+          disciple1.address,
+          Jesus.address,
+          osTokenData.map(d => d.os_token_id),
+          amounts,
+          []
+        ),
+        'Must absolve a single token'
+      )
+
+    })
+
+    it('should revert if 0 amount is transferred', async () => {
+      await Promise.all(osTokenData.map(async d => MockERC1155.connect(cardinal).mint(disciple1.address, d.os_token_id)))
+      const amounts = osTokenData.map(() => 1)
+      amounts[1] = 0
+
+      await expectRevert(
+        MockERC1155.connect(disciple1).safeBatchTransferFrom(
+          disciple1.address,
+          Jesus.address,
+          osTokenData.map(d => d.os_token_id),
+          amounts,
+          []
+        ),
+        'Must absolve a single token'
+      )
+    })
+
+    it('should revert when transferred correct id on wrong contract', async () => {
+      const FakeMockERC1155 = await MockERC1155Factory.deploy()
+      await FakeMockERC1155.deployed()
+
+      await Promise.all(osTokenData.map(async d => FakeMockERC1155.connect(cardinal).mint(disciple1.address, d.os_token_id)))
+
+
+      await expectRevert(
+        FakeMockERC1155.connect(disciple1).safeBatchTransferFrom(
+          disciple1.address,
+          Jesus.address,
+          osTokenData.map(d => d.os_token_id),
+          osTokenData.map(() => 1),
+          []
+        ),
+        'Cannot absolve sins without purgatory'
+      )
+    })
+
+    it('should revert if token has already been saved', async () => {
+      await Promise.all(osTokenData.map(async d => MockERC1155.connect(cardinal).mint(disciple1.address, d.os_token_id)))
+
+      await MockERC1155.connect(disciple1).safeBatchTransferFrom(
+        disciple1.address,
+        Jesus.address,
+        osTokenData.map(d => d.os_token_id),
+        osTokenData.map(d => 1),
+        []
+      )
+      await Promise.all(osTokenData.map(async d => MockERC1155.connect(cardinal).mint(disciple1.address, d.os_token_id)))
+
+      await expectRevert(
+        MockERC1155.connect(disciple1).safeBatchTransferFrom(
+          disciple1.address,
+          Jesus.address,
+          osTokenData.map(d => d.os_token_id),
+          osTokenData.map(d => 1),
+          []
+        ),
+        'ERC721: transfer of token that is not own'
+      )
+    })
   })
 
   describe('batchMint', () => {
