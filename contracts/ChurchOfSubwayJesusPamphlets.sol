@@ -15,7 +15,7 @@
 
 import "./Dependencies.sol";
 import "./Metadata.sol";
-import "./ChurchOfSubwayJesusPamphletsDAO.sol";
+import "./ChurchOfSubwayJesusPamphletsDao.sol";
 
 pragma solidity ^0.8.11;
 
@@ -74,57 +74,56 @@ contract ChurchOfSubwayJesusPamphlets is ERC721 {
     church = newChurch;
   }
 
+  function absolveSins(uint256 tokenId, address to) internal {
+    // Make sure token is from original SJP collection
+    require(
+      tokenId >> 96 == 0x007C23C1B7E544E3E805BA675C811E287FC9D71949 ||
+      tokenId >> 96 == 0x0047144372eb383466d18fc91db9cd0396aa6c87a4,
+      'Not Subway Jesus Pamphlet token'
+    );
 
-  function onERC1155Received(
-    address,
-    address from,
-    uint256 id,
-    uint256 value,
-    bytes calldata
-  ) external returns (bytes4) {
-
-
-    // require(msg.sender == address(_purgatory), 'Sender must be OS open storefront');
-    // require(value == 1, 'Value must be 1');
-    // // TODO id stuff
-    uint newId = id;
-
-
-    _purgatory.safeTransferFrom(address(this), church, id, value, '');
-    _transfer(0x6666666666666666666666666666666666666666, from, newId);
-
-
-    // 0xf23a6e61
-    return bytes4(keccak256("onERC1155Received(address,address,uint256,uint256,bytes)"));
-  }
-
-
-  function onERC1155BatchReceived(
-    address,
-    address from,
-    uint256[] calldata ids,
-    uint256[] calldata values,
-    bytes calldata
-  ) external returns (bytes4) {
-    require(msg.sender == address(_purgatory), 'Sender must be OS open storefront');
-    require(ids.length == values.length);
-
-    for (uint256 i; i < ids.length; i++) {
-      require(values[i] == 1, 'Value must be 1');
-
-      uint256 id = ids[1];
-
-      // TODO id stuff
-      uint newId = id;
-      _purgatory.safeTransferFrom(address(this), church, id, 1, '');
-      _transfer(0x6666666666666666666666666666666666666666, from, newId);
-
+    // Get new token ID
+    uint256 originalIndex = tokenId >> 40 & 0x0000000000000000000000000000000000000000FFFFFFFFFFFFFF;
+    uint256 newTokenId;
+    if (originalIndex <= 65) {
+      // Original starts at 2, so subtract by 1 to start them at 1
+      newTokenId = originalIndex - 1;
+    } else {
+      // 66 was skipped, so subtract by 2 for the rest
+      newTokenId = originalIndex - 2;
     }
 
-    // 0xbc197c81
-    bytes4(keccak256("onERC1155BatchReceived(address,address,uint256[],uint256[],bytes)"));
+    // Absolution
+    _transfer(0x6666666666666666666666666666666666666666, to, newTokenId);
   }
 
+  function onERC1155Received(
+    address operator,
+    address from,
+    uint256 id,
+    uint256 amount,
+    bytes calldata data
+  ) external returns (bytes4) {
+    require(operator == address(_purgatory), 'Cannot absolve sins without purgatory');
+    absolveSins(id, from);
+    _purgatory.safeTransferFrom(address(this), church, id, amount, '');
+    return this.onERC1155Received.selector;
+  }
+
+  function onERC1155BatchReceived(
+    address operator,
+    address from,
+    uint256[] calldata ids,
+    uint256[] calldata amounts,
+    bytes calldata data
+  ) external returns (bytes4) {
+    require(operator == address(_purgatory), 'Cannot absolve sins without purgatory');
+    for (uint256 i = 0; i < ids.length; i++) {
+      absolveSins(ids[i], from);
+    }
+    _purgatory.safeBatchTransferFrom(address(this), church, ids, amounts, '');
+    return this.onERC1155BatchReceived.selector;
+  }
 
   function mintBatch(address[] calldata to) external onlyChurch {
     for (uint256 i; i < to.length; i++) {
