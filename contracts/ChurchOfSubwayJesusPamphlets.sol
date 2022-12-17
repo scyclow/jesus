@@ -75,15 +75,22 @@ contract ChurchOfSubwayJesusPamphlets is ERC721 {
   }
 
   function absolveSins(uint256 tokenId, address to) internal {
+    uint256 originalIndex = tokenId >> 40 & 0x0000000000000000000000000000000000000000FFFFFFFFFFFFFF;
+
     // Make sure token is from original SJP collection
-    require(
-      tokenId >> 96 == 0x007C23C1B7E544E3E805BA675C811E287FC9D71949 ||
-      tokenId >> 96 == 0x0047144372eb383466d18fc91db9cd0396aa6c87a4,
-      'Not Subway Jesus Pamphlet token'
-    );
+    if (
+      originalIndex == 9  ||
+      originalIndex == 10 ||
+      originalIndex == 52 ||
+      originalIndex == 54 ||
+      originalIndex >= 67
+    ) {
+      require(tokenId >> 96 == 0x0047144372eb383466d18fc91db9cd0396aa6c87a4, 'Not Subway Jesus Pamphlet token');
+    } else {
+      require(tokenId >> 96 == 0x007C23C1B7E544E3E805BA675C811E287FC9D71949, 'Not Subway Jesus Pamphlet token');
+    }
 
     // Get new token ID
-    uint256 originalIndex = tokenId >> 40 & 0x0000000000000000000000000000000000000000FFFFFFFFFFFFFF;
     uint256 newTokenId;
     if (originalIndex <= 65) {
       // Original starts at 2, so subtract by 1 to start them at 1
@@ -104,7 +111,7 @@ contract ChurchOfSubwayJesusPamphlets is ERC721 {
     uint256 amount,
     bytes calldata data
   ) external returns (bytes4) {
-    require(operator == address(_purgatory), 'Cannot absolve sins without purgatory');
+    require(msg.sender == address(_purgatory), 'Cannot absolve sins without purgatory');
     absolveSins(id, from);
     _purgatory.safeTransferFrom(address(this), church, id, amount, '');
     return this.onERC1155Received.selector;
@@ -117,7 +124,7 @@ contract ChurchOfSubwayJesusPamphlets is ERC721 {
     uint256[] calldata amounts,
     bytes calldata data
   ) external returns (bytes4) {
-    require(operator == address(_purgatory), 'Cannot absolve sins without purgatory');
+    require(msg.sender == address(_purgatory), 'Cannot absolve sins without purgatory');
     for (uint256 i = 0; i < ids.length; i++) {
       absolveSins(ids[i], from);
     }
