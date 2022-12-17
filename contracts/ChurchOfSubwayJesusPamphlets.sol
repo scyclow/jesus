@@ -15,7 +15,7 @@
 
 import "./Dependencies.sol";
 import "./Metadata.sol";
-import "./ChurchOfSubwayJesusPamphletsDao.sol";
+import "./ChurchOfSubwayJesusPamphletsDAO.sol";
 
 pragma solidity ^0.8.11;
 
@@ -105,30 +105,35 @@ contract ChurchOfSubwayJesusPamphlets is ERC721 {
   }
 
   function onERC1155Received(
-    address operator,
+    address,
     address from,
     uint256 id,
     uint256 amount,
-    bytes calldata data
+    bytes calldata
   ) external returns (bytes4) {
     require(msg.sender == address(_purgatory), 'Cannot absolve sins without purgatory');
+    require(amount == 1, 'Must absolve a single token');
+
     absolveSins(id, from);
     _purgatory.safeTransferFrom(address(this), church, id, amount, '');
     return this.onERC1155Received.selector;
   }
 
   function onERC1155BatchReceived(
-    address operator,
+    address,
     address from,
     uint256[] calldata ids,
     uint256[] calldata amounts,
-    bytes calldata data
+    bytes calldata
   ) external returns (bytes4) {
     require(msg.sender == address(_purgatory), 'Cannot absolve sins without purgatory');
+
     for (uint256 i = 0; i < ids.length; i++) {
+      require(amounts[i] == 1, 'Must absolve a single token');
       absolveSins(ids[i], from);
     }
     _purgatory.safeBatchTransferFrom(address(this), church, ids, amounts, '');
+
     return this.onERC1155BatchReceived.selector;
   }
 

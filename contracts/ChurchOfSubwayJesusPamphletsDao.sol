@@ -174,13 +174,11 @@ contract ChurchOfSubwayJesusPamphletsDAO is IERC721Receiver {
   }
 
   function onERC1155Received(address, address, uint256, uint256, bytes calldata) external returns (bytes4) {
-    // 0xf23a6e61
-    return bytes4(keccak256("onERC1155Received(address,address,uint256,uint256,bytes)"));
+    return this.onERC1155Received.selector;
   }
 
   function onERC1155BatchReceived(address, address, uint256[] calldata, uint256[] calldata, bytes calldata) external returns (bytes4) {
-    // 0xbc197c81
-    bytes4(keccak256("onERC1155BatchReceived(address,address,uint256[],uint256[],bytes)"));
+    return this.onERC1155BatchReceived.selector;
   }
 
   receive() external payable {}
