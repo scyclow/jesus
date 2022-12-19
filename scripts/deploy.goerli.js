@@ -16,11 +16,11 @@ async function main() {
   await MockERC1155.deployed()
 
   console.log('Deploying Jesus')
-  JesusFactory = await ethers.getContractFactory('ChurchOfSubwayJesusPamphlets', cardinal)
+  JesusFactory = await ethers.getContractFactory('SubwayJesusPamphlets', cardinal)
   Jesus = await JesusFactory.deploy(MockERC1155.address)
   await Jesus.deployed()
 
-  JesusDAOFactory = await ethers.getContractFactory('ChurchOfSubwayJesusPamphletsDAO')
+  JesusDAOFactory = await ethers.getContractFactory('ChurchOfSubwayJesusPamphlets')
   JesusDAO = await JesusDAOFactory.attach(
     await Jesus.connect(cardinal).church()
   )
