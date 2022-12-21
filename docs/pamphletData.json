@@ -231,6 +231,64 @@
     ]
   },
   {
+    "name": "Christ Loves You",
+    "token_id": "8",
+    "os_token_id": "32150014705918146096138927293761864425970273519802704166038767607599572451329",
+    "description": "Photograph by Steve Pikelny (2022) | Published by Unknown | Content: Informational | Condition: Okay | Type: Flyer",
+    "external_url": "https://steviep.xyz/jesus/8",
+    "attributes": [
+      {
+        "trait_type": "Content",
+        "value": "Informational"
+      },
+      {
+        "trait_type": "Type",
+        "value": "Flyer"
+      },
+      {
+        "trait_type": "Publisher",
+        "value": "Unknown"
+      },
+      {
+        "trait_type": "Condition",
+        "value": "Okay"
+      },
+      {
+        "trait_type": "Year",
+        "value": "2021"
+      }
+    ]
+  },
+  {
+    "name": "Do You Know For Sure?? That you have Eternal Life?",
+    "token_id": "9",
+    "os_token_id": "32150014705918146096138927293761864425970273519802704166038767608699084079105",
+    "description": "Photograph by Steve Pikelny (2022) | Published by Evangelism Explosion International | Content: Infographic | Condition: Good | Type: Tract",
+    "external_url": "https://steviep.xyz/jesus/9",
+    "attributes": [
+      {
+        "trait_type": "Publisher",
+        "value": "Evangelism Explosion International"
+      },
+      {
+        "trait_type": "Condition",
+        "value": "Good"
+      },
+      {
+        "trait_type": "Type",
+        "value": "Tract"
+      },
+      {
+        "trait_type": "Content",
+        "value": "Infographic"
+      },
+      {
+        "trait_type": "Year",
+        "value": "2021"
+      }
+    ]
+  },
+  {
     "name": "This Was Your Life!",
     "token_id": "10",
     "os_token_id": "56149969866452300878143827841099029158054578672514359653557300809894427885569",
@@ -1424,6 +1482,35 @@
     ]
   },
   {
+    "name": "Fellowship Tract League Order Form",
+    "token_id": "51",
+    "os_token_id": "32150014705918146096138927293761864425970273519802704166038767654878572445697",
+    "description": "Photograph by Steve Pikelny (2022) | Published by Fellowship Tract League | Content: Transactional | Condition: Good | Type: Pamphlet",
+    "external_url": "https://steviep.xyz/jesus/51",
+    "attributes": [
+      {
+        "trait_type": "Type",
+        "value": "Pamphlet"
+      },
+      {
+        "trait_type": "Condition",
+        "value": "Good"
+      },
+      {
+        "trait_type": "Publisher",
+        "value": "Fellowship Tract League"
+      },
+      {
+        "trait_type": "Content",
+        "value": "Transactional"
+      },
+      {
+        "trait_type": "Year",
+        "value": "2021"
+      }
+    ]
+  },
+  {
     "name": "Happy Hour",
     "token_id": "52",
     "os_token_id": "56149969866452300878143827841099029158054578672514359653557300856073916252161",
@@ -1445,6 +1532,35 @@
       {
         "trait_type": "Condition",
         "value": "Terrible"
+      },
+      {
+        "trait_type": "Year",
+        "value": "2021"
+      }
+    ]
+  },
+  {
+    "name": "For He Wrote of Me",
+    "token_id": "53",
+    "os_token_id": "32150014705918146096138927293761864425970273519802704166038767657077595701249",
+    "description": "Photograph by Steve Pikelny (2022) | Published by Christian Revolutionary Brotherhood | Content: History | Condition: Okay | Type: Flyer",
+    "external_url": "https://steviep.xyz/jesus/53",
+    "attributes": [
+      {
+        "trait_type": "Content",
+        "value": "History"
+      },
+      {
+        "trait_type": "Type",
+        "value": "Flyer"
+      },
+      {
+        "trait_type": "Publisher",
+        "value": "Christian Revolutionary Brotherhood"
+      },
+      {
+        "trait_type": "Condition",
+        "value": "Okay"
       },
       {
         "trait_type": "Year",
@@ -1760,122 +1876,6 @@
       {
         "trait_type": "Publisher",
         "value": "Jehovah's Witnesses"
-      },
-      {
-        "trait_type": "Condition",
-        "value": "Okay"
-      },
-      {
-        "trait_type": "Year",
-        "value": "2021"
-      }
-    ]
-  },
-  {
-    "name": "Christ Loves You",
-    "token_id": "8",
-    "os_token_id": "32150014705918146096138927293761864425970273519802704166038767607599572451329",
-    "description": "Photograph by Steve Pikelny (2022) | Published by Unknown | Content: Informational | Condition: Okay | Type: Flyer",
-    "external_url": "https://steviep.xyz/jesus/8",
-    "attributes": [
-      {
-        "trait_type": "Content",
-        "value": "Informational"
-      },
-      {
-        "trait_type": "Type",
-        "value": "Flyer"
-      },
-      {
-        "trait_type": "Publisher",
-        "value": "Unknown"
-      },
-      {
-        "trait_type": "Condition",
-        "value": "Okay"
-      },
-      {
-        "trait_type": "Year",
-        "value": "2021"
-      }
-    ]
-  },
-  {
-    "name": "Do You Know For Sure?? That you have Eternal Life?",
-    "token_id": "9",
-    "os_token_id": "32150014705918146096138927293761864425970273519802704166038767608699084079105",
-    "description": "Photograph by Steve Pikelny (2022) | Published by Evangelism Explosion International | Content: Infographic | Condition: Good | Type: Tract",
-    "external_url": "https://steviep.xyz/jesus/9",
-    "attributes": [
-      {
-        "trait_type": "Publisher",
-        "value": "Evangelism Explosion International"
-      },
-      {
-        "trait_type": "Condition",
-        "value": "Good"
-      },
-      {
-        "trait_type": "Type",
-        "value": "Tract"
-      },
-      {
-        "trait_type": "Content",
-        "value": "Infographic"
-      },
-      {
-        "trait_type": "Year",
-        "value": "2021"
-      }
-    ]
-  },
-  {
-    "name": "Fellowship Tract League Order Form",
-    "token_id": "51",
-    "os_token_id": "32150014705918146096138927293761864425970273519802704166038767654878572445697",
-    "description": "Photograph by Steve Pikelny (2022) | Published by Fellowship Tract League | Content: Transactional | Condition: Good | Type: Pamphlet",
-    "external_url": "https://steviep.xyz/jesus/51",
-    "attributes": [
-      {
-        "trait_type": "Type",
-        "value": "Pamphlet"
-      },
-      {
-        "trait_type": "Condition",
-        "value": "Good"
-      },
-      {
-        "trait_type": "Publisher",
-        "value": "Fellowship Tract League"
-      },
-      {
-        "trait_type": "Content",
-        "value": "Transactional"
-      },
-      {
-        "trait_type": "Year",
-        "value": "2021"
-      }
-    ]
-  },
-  {
-    "name": "For He Wrote of Me",
-    "token_id": "53",
-    "os_token_id": "32150014705918146096138927293761864425970273519802704166038767657077595701249",
-    "description": "Photograph by Steve Pikelny (2022) | Published by Christian Revolutionary Brotherhood | Content: History | Condition: Okay | Type: Flyer",
-    "external_url": "https://steviep.xyz/jesus/53",
-    "attributes": [
-      {
-        "trait_type": "Content",
-        "value": "History"
-      },
-      {
-        "trait_type": "Type",
-        "value": "Flyer"
-      },
-      {
-        "trait_type": "Publisher",
-        "value": "Christian Revolutionary Brotherhood"
       },
       {
         "trait_type": "Condition",
