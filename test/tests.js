@@ -727,4 +727,31 @@ describe('ChurchOfSubwayJesusPamphlets', () => {
       )
     })
   })
+
+  describe.only('hashVote/verifySignature', () => {
+    it('should work', async () => {
+
+      console.log('cardinal', cardinal.address)
+      console.log('disciple1', disciple1.address)
+      console.log('disciple2', disciple2.address)
+      console.log('disciple3', disciple3.address)
+      console.log('priest1', priest1.address)
+      console.log('priest2', priest2.address)
+      console.log('JesusDAO', JesusDAO.address)
+      console.log('Jesus', Jesus.address)
+
+      const mintOneCalldata = encodeWithSignature('mintBatch', ['address[]'], [[disciple1.address]])
+      const proposalId = await JesusDAO.connect(disciple1).hashProposal(JesusDAO.address, 0, mintOneCalldata, 0)
+
+      const now = Number(await time.latest())
+      const expiration = Number(now + time.duration.days(1))
+
+      const digestHash = await JesusDAO.connect(disciple1).hashVote(proposalId, 1, true, now + expiration)
+      console.log(digestHash, ethers.utils.id(digestHash))
+      const signature = await disciple1.signMessage(ethers.utils.id(digestHash))
+
+      const signedAddress = await JesusDAO.connect(cardinal).verifySignature(proposalId, 1, true, now + expiration, signature)
+      expect(signedAddress).to.equal(disciple1.address)
+    })
+  })
 })

@@ -25,7 +25,8 @@
         "value": "2021"
       }
     ],
-    "token_id": "1"
+    "token_id": "1",
+    "external_url": "https://steviep.xyz/jesus/pamphlets/1"
   },
   {
     "name": "I'm a Pretty Good Person",
@@ -53,7 +54,8 @@
         "value": "2021"
       }
     ],
-    "token_id": "2"
+    "token_id": "2",
+    "external_url": "https://steviep.xyz/jesus/pamphlets/2"
   },
   {
     "name": "The True Image of Christ",
@@ -81,7 +83,8 @@
         "value": "2021"
       }
     ],
-    "token_id": "3"
+    "token_id": "3",
+    "external_url": "https://steviep.xyz/jesus/pamphlets/3"
   },
   {
     "name": "The Way To God",
@@ -109,7 +112,8 @@
         "value": "2021"
       }
     ],
-    "token_id": "4"
+    "token_id": "4",
+    "external_url": "https://steviep.xyz/jesus/pamphlets/4"
   },
   {
     "name": "The Long Trip",
@@ -137,7 +141,8 @@
         "value": "2021"
       }
     ],
-    "token_id": "5"
+    "token_id": "5",
+    "external_url": "https://steviep.xyz/jesus/pamphlets/5"
   },
   {
     "name": "Have You Heard The Good News?",
@@ -165,7 +170,8 @@
         "value": "2021"
       }
     ],
-    "token_id": "6"
+    "token_id": "6",
+    "external_url": "https://steviep.xyz/jesus/pamphlets/6"
   },
   {
     "name": "Who Am I that a KING Would Die in My Place",
@@ -193,7 +199,8 @@
         "value": "2021"
       }
     ],
-    "token_id": "7"
+    "token_id": "7",
+    "external_url": "https://steviep.xyz/jesus/pamphlets/7"
   },
   {
     "name": "This Was Your Life!",
@@ -221,7 +228,8 @@
         "value": "2021"
       }
     ],
-    "token_id": "10"
+    "token_id": "10",
+    "external_url": "https://steviep.xyz/jesus/pamphlets/10"
   },
   {
     "name": "The Amazing Life of Jesus Christ",
@@ -249,7 +257,8 @@
         "value": "2021"
       }
     ],
-    "token_id": "11"
+    "token_id": "11",
+    "external_url": "https://steviep.xyz/jesus/pamphlets/11"
   },
   {
     "name": "Holy Joe",
@@ -277,7 +286,8 @@
         "value": "2021"
       }
     ],
-    "token_id": "12"
+    "token_id": "12",
+    "external_url": "https://steviep.xyz/jesus/pamphlets/12"
   },
   {
     "name": "Jesus Christ Loves You",
@@ -305,7 +315,8 @@
         "value": "2021"
       }
     ],
-    "token_id": "13"
+    "token_id": "13",
+    "external_url": "https://steviep.xyz/jesus/pamphlets/13"
   },
   {
     "name": "Finding The Light",
@@ -333,7 +344,8 @@
         "value": "2021"
       }
     ],
-    "token_id": "14"
+    "token_id": "14",
+    "external_url": "https://steviep.xyz/jesus/pamphlets/14"
   },
   {
     "name": "Forgiveness: A Key to Better Health",
@@ -361,7 +373,8 @@
         "value": "2021"
       }
     ],
-    "token_id": "15"
+    "token_id": "15",
+    "external_url": "https://steviep.xyz/jesus/pamphlets/15"
   },
   {
     "name": "Seven Things You Will Do Now or Later",
@@ -389,7 +402,8 @@
         "value": "2021"
       }
     ],
-    "token_id": "16"
+    "token_id": "16",
+    "external_url": "https://steviep.xyz/jesus/pamphlets/16"
   },
   {
     "name": "Who do YOU say that I AM?",
@@ -417,7 +431,8 @@
         "value": "2021"
       }
     ],
-    "token_id": "17"
+    "token_id": "17",
+    "external_url": "https://steviep.xyz/jesus/pamphlets/17"
   },
   {
     "name": "Believe in the Lord Jesus! He Forgives! He Saves!",
@@ -449,11 +464,12 @@
         "value": "2021"
       }
     ],
-    "token_id": "18"
+    "token_id": "18",
+    "external_url": "https://steviep.xyz/jesus/pamphlets/18"
   },
   {
     "name": "Is There a God?",
-    "description": "Photograph by Steve Pikelny (2021) | Published by Deer Run Amish Church | Content: Philosophical | Condition: Very Good | Type: Leaflet",
+    "description": "Photograph by Steve Pikelny (2021) | Published by Deer Run Amish Church | Content: Philosophy | Condition: Very Good | Type: Leaflet",
     "os_token_id": "56149969866452300878143827841099029158054578672514359653557300819790032535553",
     "attributes": [
       {
@@ -462,7 +478,7 @@
       },
       {
         "trait_type": "Content",
-        "value": "Philosophical"
+        "value": "Philosophy"
       },
       {
         "trait_type": "Condition",
@@ -477,7 +493,8 @@
         "value": "2021"
       }
     ],
-    "token_id": "19"
+    "token_id": "19",
+    "external_url": "https://steviep.xyz/jesus/pamphlets/19"
   },
   {
     "name": "All This I Did For Thee",
@@ -505,7 +522,8 @@
         "value": "2021"
       }
     ],
-    "token_id": "20"
+    "token_id": "20",
+    "external_url": "https://steviep.xyz/jesus/pamphlets/20"
   },
   {
     "name": "Death It Happens Every Day",
@@ -533,7 +551,8 @@
         "value": "2021"
       }
     ],
-    "token_id": "21"
+    "token_id": "21",
+    "external_url": "https://steviep.xyz/jesus/pamphlets/21"
   },
   {
     "name": "The Blood",
@@ -561,7 +580,8 @@
         "value": "2021"
       }
     ],
-    "token_id": "22"
+    "token_id": "22",
+    "external_url": "https://steviep.xyz/jesus/pamphlets/22"
   },
   {
     "name": "After Death, What?",
@@ -589,7 +609,8 @@
         "value": "2021"
       }
     ],
-    "token_id": "23"
+    "token_id": "23",
+    "external_url": "https://steviep.xyz/jesus/pamphlets/23"
   },
   {
     "name": "Man's most-asked Question!",
@@ -617,7 +638,8 @@
         "value": "2021"
       }
     ],
-    "token_id": "24"
+    "token_id": "24",
+    "external_url": "https://steviep.xyz/jesus/pamphlets/24"
   },
   {
     "name": "My Best Friend",
@@ -645,7 +667,8 @@
         "value": "2021"
       }
     ],
-    "token_id": "25"
+    "token_id": "25",
+    "external_url": "https://steviep.xyz/jesus/pamphlets/25"
   },
   {
     "name": "I'll Do It Later",
@@ -673,7 +696,8 @@
         "value": "2021"
       }
     ],
-    "token_id": "26"
+    "token_id": "26",
+    "external_url": "https://steviep.xyz/jesus/pamphlets/26"
   },
   {
     "name": "Life's Greatest Decision",
@@ -701,7 +725,8 @@
         "value": "2021"
       }
     ],
-    "token_id": "27"
+    "token_id": "27",
+    "external_url": "https://steviep.xyz/jesus/pamphlets/27"
   },
   {
     "name": "No More Timeouts!",
@@ -729,7 +754,8 @@
         "value": "2021"
       }
     ],
-    "token_id": "28"
+    "token_id": "28",
+    "external_url": "https://steviep.xyz/jesus/pamphlets/28"
   },
   {
     "name": "Help from Above",
@@ -757,7 +783,8 @@
         "value": "2021"
       }
     ],
-    "token_id": "29"
+    "token_id": "29",
+    "external_url": "https://steviep.xyz/jesus/pamphlets/29"
   },
   {
     "name": "The Soiled Garment",
@@ -785,7 +812,8 @@
         "value": "2021"
       }
     ],
-    "token_id": "30"
+    "token_id": "30",
+    "external_url": "https://steviep.xyz/jesus/pamphlets/30"
   },
   {
     "name": "Get Connected to Christ",
@@ -813,7 +841,8 @@
         "value": "2021"
       }
     ],
-    "token_id": "31"
+    "token_id": "31",
+    "external_url": "https://steviep.xyz/jesus/pamphlets/31"
   },
   {
     "name": "God Loves You",
@@ -841,7 +870,8 @@
         "value": "2021"
       }
     ],
-    "token_id": "32"
+    "token_id": "32",
+    "external_url": "https://steviep.xyz/jesus/pamphlets/32"
   },
   {
     "name": "3 Things God Cannot Do",
@@ -869,7 +899,8 @@
         "value": "2021"
       }
     ],
-    "token_id": "33"
+    "token_id": "33",
+    "external_url": "https://steviep.xyz/jesus/pamphlets/33"
   },
   {
     "name": "Someday You Will Stand Before God...",
@@ -897,7 +928,8 @@
         "value": "2021"
       }
     ],
-    "token_id": "34"
+    "token_id": "34",
+    "external_url": "https://steviep.xyz/jesus/pamphlets/34"
   },
   {
     "name": "Where is the Evidence That the Bible is the Word of God?",
@@ -925,7 +957,8 @@
         "value": "2021"
       }
     ],
-    "token_id": "35"
+    "token_id": "35",
+    "external_url": "https://steviep.xyz/jesus/pamphlets/35"
   },
   {
     "name": "is there something missing in your life?",
@@ -953,7 +986,8 @@
         "value": "2021"
       }
     ],
-    "token_id": "36"
+    "token_id": "36",
+    "external_url": "https://steviep.xyz/jesus/pamphlets/36"
   },
   {
     "name": "Is Something Missing in Your Life?",
@@ -981,7 +1015,8 @@
         "value": "2021"
       }
     ],
-    "token_id": "37"
+    "token_id": "37",
+    "external_url": "https://steviep.xyz/jesus/pamphlets/37"
   },
   {
     "name": "The Grace That Saves",
@@ -1009,7 +1044,8 @@
         "value": "2021"
       }
     ],
-    "token_id": "38"
+    "token_id": "38",
+    "external_url": "https://steviep.xyz/jesus/pamphlets/38"
   },
   {
     "name": "The Only Doorway",
@@ -1037,7 +1073,8 @@
         "value": "2021"
       }
     ],
-    "token_id": "39"
+    "token_id": "39",
+    "external_url": "https://steviep.xyz/jesus/pamphlets/39"
   },
   {
     "name": "Where Are You Going to Spend Eternity?",
@@ -1065,7 +1102,8 @@
         "value": "2021"
       }
     ],
-    "token_id": "40"
+    "token_id": "40",
+    "external_url": "https://steviep.xyz/jesus/pamphlets/40"
   },
   {
     "name": "Listen! Who Is That Calling You?",
@@ -1093,7 +1131,8 @@
         "value": "2021"
       }
     ],
-    "token_id": "41"
+    "token_id": "41",
+    "external_url": "https://steviep.xyz/jesus/pamphlets/41"
   },
   {
     "name": "An hour with your Bible",
@@ -1121,7 +1160,8 @@
         "value": "2021"
       }
     ],
-    "token_id": "42"
+    "token_id": "42",
+    "external_url": "https://steviep.xyz/jesus/pamphlets/42"
   },
   {
     "name": "It's Simple to be Saved",
@@ -1149,7 +1189,8 @@
         "value": "2021"
       }
     ],
-    "token_id": "43"
+    "token_id": "43",
+    "external_url": "https://steviep.xyz/jesus/pamphlets/43"
   },
   {
     "name": "JW.ORG",
@@ -1177,7 +1218,8 @@
         "value": "2021"
       }
     ],
-    "token_id": "44"
+    "token_id": "44",
+    "external_url": "https://steviep.xyz/jesus/pamphlets/44"
   },
   {
     "name": "Prophet D3",
@@ -1205,7 +1247,8 @@
         "value": "2021"
       }
     ],
-    "token_id": "45"
+    "token_id": "45",
+    "external_url": "https://steviep.xyz/jesus/pamphlets/45"
   },
   {
     "name": "Rite of Anointing and Pastoral Care of the Sick",
@@ -1233,7 +1276,8 @@
         "value": "2021"
       }
     ],
-    "token_id": "46"
+    "token_id": "46",
+    "external_url": "https://steviep.xyz/jesus/pamphlets/46"
   },
   {
     "name": "Ten Commandments Twice Removed",
@@ -1261,7 +1305,8 @@
         "value": "2021"
       }
     ],
-    "token_id": "47"
+    "token_id": "47",
+    "external_url": "https://steviep.xyz/jesus/pamphlets/47"
   },
   {
     "name": "Destination - Success",
@@ -1289,7 +1334,8 @@
         "value": "2021"
       }
     ],
-    "token_id": "48"
+    "token_id": "48",
+    "external_url": "https://steviep.xyz/jesus/pamphlets/48"
   },
   {
     "name": "Who Was The Fourth Man In The Fire?",
@@ -1317,7 +1363,8 @@
         "value": "2021"
       }
     ],
-    "token_id": "49"
+    "token_id": "49",
+    "external_url": "https://steviep.xyz/jesus/pamphlets/49"
   },
   {
     "name": "Where is your Destination?",
@@ -1345,7 +1392,8 @@
         "value": "2021"
       }
     ],
-    "token_id": "50"
+    "token_id": "50",
+    "external_url": "https://steviep.xyz/jesus/pamphlets/50"
   },
   {
     "name": "Happy Hour",
@@ -1373,7 +1421,8 @@
         "value": "2021"
       }
     ],
-    "token_id": "52"
+    "token_id": "52",
+    "external_url": "https://steviep.xyz/jesus/pamphlets/52"
   },
   {
     "name": "Choices Choices",
@@ -1401,7 +1450,8 @@
         "value": "2021"
       }
     ],
-    "token_id": "54"
+    "token_id": "54",
+    "external_url": "https://steviep.xyz/jesus/pamphlets/54"
   },
   {
     "name": "El Poder De La Resurrección",
@@ -1429,7 +1479,8 @@
         "value": "2021"
       }
     ],
-    "token_id": "55"
+    "token_id": "55",
+    "external_url": "https://steviep.xyz/jesus/pamphlets/55"
   },
   {
     "name": "Your Life Recorded",
@@ -1457,7 +1508,8 @@
         "value": "2021"
       }
     ],
-    "token_id": "56"
+    "token_id": "56",
+    "external_url": "https://steviep.xyz/jesus/pamphlets/56"
   },
   {
     "name": "Anímate a Elegir Correctamente",
@@ -1485,7 +1537,8 @@
         "value": "2021"
       }
     ],
-    "token_id": "57"
+    "token_id": "57",
+    "external_url": "https://steviep.xyz/jesus/pamphlets/57"
   },
   {
     "name": "The Answer For You",
@@ -1513,7 +1566,8 @@
         "value": "2021"
       }
     ],
-    "token_id": "58"
+    "token_id": "58",
+    "external_url": "https://steviep.xyz/jesus/pamphlets/58"
   },
   {
     "name": "A Biblical Guide to Salvation",
@@ -1541,7 +1595,8 @@
         "value": "2021"
       }
     ],
-    "token_id": "59"
+    "token_id": "59",
+    "external_url": "https://steviep.xyz/jesus/pamphlets/59"
   },
   {
     "name": "El Conflicto de Tu Alma",
@@ -1569,7 +1624,8 @@
         "value": "2021"
       }
     ],
-    "token_id": "60"
+    "token_id": "60",
+    "external_url": "https://steviep.xyz/jesus/pamphlets/60"
   },
   {
     "name": "Repentance Door of Mercy",
@@ -1597,7 +1653,8 @@
         "value": "2021"
       }
     ],
-    "token_id": "61"
+    "token_id": "61",
+    "external_url": "https://steviep.xyz/jesus/pamphlets/61"
   },
   {
     "name": "God's Wonderful Plan of Salvation",
@@ -1625,7 +1682,8 @@
         "value": "2021"
       }
     ],
-    "token_id": "62"
+    "token_id": "62",
+    "external_url": "https://steviep.xyz/jesus/pamphlets/62"
   },
   {
     "name": "Are You Saved? Do You Know?",
@@ -1653,7 +1711,8 @@
         "value": "2021"
       }
     ],
-    "token_id": "63"
+    "token_id": "63",
+    "external_url": "https://steviep.xyz/jesus/pamphlets/63"
   },
   {
     "name": "Will suffering ever end?",
@@ -1681,7 +1740,8 @@
         "value": "2021"
       }
     ],
-    "token_id": "64"
+    "token_id": "64",
+    "external_url": "https://steviep.xyz/jesus/pamphlets/64"
   },
   {
     "name": "Christ Loves You",
@@ -1709,7 +1769,8 @@
         "value": "2021"
       }
     ],
-    "token_id": "8"
+    "token_id": "8",
+    "external_url": "https://steviep.xyz/jesus/pamphlets/8"
   },
   {
     "name": "Do You Know For Sure?? That you have Eternal Life?",
@@ -1737,7 +1798,8 @@
         "value": "2021"
       }
     ],
-    "token_id": "9"
+    "token_id": "9",
+    "external_url": "https://steviep.xyz/jesus/pamphlets/9"
   },
   {
     "name": "Fellowship Tract League Order Form",
@@ -1765,7 +1827,8 @@
         "value": "2021"
       }
     ],
-    "token_id": "51"
+    "token_id": "51",
+    "external_url": "https://steviep.xyz/jesus/pamphlets/51"
   },
   {
     "name": "For He Wrote of Me",
@@ -1793,7 +1856,8 @@
         "value": "2021"
       }
     ],
-    "token_id": "53"
+    "token_id": "53",
+    "external_url": "https://steviep.xyz/jesus/pamphlets/53"
   },
   {
     "name": "Freedom From Worry",
@@ -1821,7 +1885,8 @@
         "value": "2021"
       }
     ],
-    "token_id": "65"
+    "token_id": "65",
+    "external_url": "https://steviep.xyz/jesus/pamphlets/65"
   },
   {
     "name": "God Cares about the condition of your SOUL not the Color of Your Skin",
@@ -1849,7 +1914,8 @@
         "value": "2021"
       }
     ],
-    "token_id": "66"
+    "token_id": "66",
+    "external_url": "https://steviep.xyz/jesus/pamphlets/66"
   },
   {
     "name": "God Loves you!",
@@ -1877,7 +1943,8 @@
         "value": "2021"
       }
     ],
-    "token_id": "67"
+    "token_id": "67",
+    "external_url": "https://steviep.xyz/jesus/pamphlets/67"
   },
   {
     "name": "Have you made the wonderful discovery of the spirit-filled life?",
@@ -1905,7 +1972,8 @@
         "value": "2021"
       }
     ],
-    "token_id": "68"
+    "token_id": "68",
+    "external_url": "https://steviep.xyz/jesus/pamphlets/68"
   },
   {
     "name": "Life's Greatest Adventure",
@@ -1933,7 +2001,8 @@
         "value": "2021"
       }
     ],
-    "token_id": "69"
+    "token_id": "69",
+    "external_url": "https://steviep.xyz/jesus/pamphlets/69"
   },
   {
     "name": "Missing Heaven by 18 Inches",
@@ -1961,7 +2030,8 @@
         "value": "2021"
       }
     ],
-    "token_id": "70"
+    "token_id": "70",
+    "external_url": "https://steviep.xyz/jesus/pamphlets/70"
   },
   {
     "name": "National Sunday Law",
@@ -1989,7 +2059,8 @@
         "value": "2021"
       }
     ],
-    "token_id": "71"
+    "token_id": "71",
+    "external_url": "https://steviep.xyz/jesus/pamphlets/71"
   },
   {
     "name": "Never Receive 666 The Mark Of The Beast",
@@ -2017,7 +2088,8 @@
         "value": "2021"
       }
     ],
-    "token_id": "72"
+    "token_id": "72",
+    "external_url": "https://steviep.xyz/jesus/pamphlets/72"
   },
   {
     "name": "Suppose it is true after all? What Then?",
@@ -2045,7 +2117,8 @@
         "value": "2021"
       }
     ],
-    "token_id": "73"
+    "token_id": "73",
+    "external_url": "https://steviep.xyz/jesus/pamphlets/73"
   },
   {
     "name": "The Veri-Chip is 666",
@@ -2073,7 +2146,8 @@
         "value": "2021"
       }
     ],
-    "token_id": "74"
+    "token_id": "74",
+    "external_url": "https://steviep.xyz/jesus/pamphlets/74"
   },
   {
     "name": "You Can Be Debt Free!",
@@ -2101,6 +2175,7 @@
         "value": "2021"
       }
     ],
-    "token_id": "75"
+    "token_id": "75",
+    "external_url": "https://steviep.xyz/jesus/pamphlets/75"
   }
 ]

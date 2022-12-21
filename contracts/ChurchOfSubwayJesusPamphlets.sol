@@ -4,6 +4,7 @@ pragma solidity ^0.8.11;
 
 import "./Dependencies.sol";
 import "./SubwayJesusPamphlets.sol";
+import "hardhat/console.sol";
 
 contract ChurchOfSubwayJesusPamphlets is IERC721Receiver {
   SubwayJesusPamphlets public baseContract;
@@ -48,6 +49,15 @@ contract ChurchOfSubwayJesusPamphlets is IERC721Receiver {
     return uint256(keccak256(abi.encode(target, value, calldata_, nonce)));
   }
 
+  function hashVote(
+    uint256 proposalId,
+    uint256 tokenId,
+    bool vote,
+    uint256 useByTimeStamp
+  ) public pure returns (bytes32) {
+    return keccak256(abi.encodePacked(proposalId, tokenId, vote, useByTimeStamp));
+  }
+
 
   function castVote(uint256 proposalId, uint256 tokenId, bool vote) public {
     require(baseContract.ownerOf(tokenId) == msg.sender, 'Voter must be owner of token');
@@ -68,23 +78,25 @@ contract ChurchOfSubwayJesusPamphlets is IERC721Receiver {
 
   function castVotesBySig(
     uint256 proposalId,
-    bytes[] calldata signatures,
-    address[] calldata owners,
     uint256[] calldata tokenIds,
-    bool[] calldata votes
+    bool[] calldata votes,
+    uint256[] calldata useByTimeStamps,
+    bytes[] calldata signatures
   ) public {
-    require(owners.length == signatures.length);
     require(tokenIds.length == signatures.length);
     require(votes.length == signatures.length);
+    require(useByTimeStamps.length == signatures.length);
 
     for (uint256 i; i < votes.length; i++) {
-      address owner = owners[i];
       uint256 tokenId = tokenIds[i];
       bool vote = votes[i];
-      // TODO verify votes are valid
+
+      verifySignature(proposalId, tokenId, vote, useByTimeStamps[i], signatures[i]);
       _castVote(proposalId, tokenId, vote);
     }
   }
+
+
 
   function delegate(uint256[] calldata tokenIds, address delegator) public {
     for (uint256 i; i < tokenIds.length; i++) {
@@ -135,6 +147,41 @@ contract ChurchOfSubwayJesusPamphlets is IERC721Receiver {
     return proposalId;
   }
 
+  function verifySignature(
+    uint256 proposalId,
+    uint256 tokenId,
+    bool vote,
+    uint256 useByTimeStamp,
+    bytes calldata signature
+  ) public view returns (address) {
+    bytes32 messageHash = keccak256(abi.encodePacked(
+      "\x19Ethereum Signed Message:\n32",
+      hashVote(proposalId, tokenId, vote, useByTimeStamp)
+    ));
+
+    console.logBytes(abi.encodePacked(hashVote(proposalId, tokenId, vote, useByTimeStamp)));
+    address signer = recoverSigner(messageHash, signature);
+
+    // require(useByTimeStamp > block.timestamp, 'Vote has expired');
+    // require(baseContract.ownerOf(tokenId) == signer, 'Token must be owned by signer');
+
+    return signer;
+  }
+
+
+  function recoverSigner(bytes32 messageHash, bytes memory signature) public pure returns (address) {
+    require(signature.length == 65, "invalid signature length");
+    bytes32 r;
+    bytes32 s;
+    uint8 v;
+    assembly {
+      r := mload(add(signature, 32))
+      s := mload(add(signature, 64))
+      v := byte(0, mload(add(signature, 96)))
+    }
+    return ecrecover(messageHash, v, r, s);
+  }
+
 
   modifier onlyChurch {
     require(address(this) == msg.sender, 'Can only be called by the church');
@@ -154,13 +201,21 @@ contract ChurchOfSubwayJesusPamphlets is IERC721Receiver {
     return this.onERC721Received.selector;
   }
 
-  function onERC1155Received(address, address, uint256, uint256, bytes calldata) external returns (bytes4) {
+  function onERC1155Received(address, address, uint256, uint256, bytes calldata) external pure returns (bytes4) {
     return this.onERC1155Received.selector;
   }
 
-  function onERC1155BatchReceived(address, address, uint256[] calldata, uint256[] calldata, bytes calldata) external returns (bytes4) {
+  function onERC1155BatchReceived(address, address, uint256[] calldata, uint256[] calldata, bytes calldata) external pure returns (bytes4) {
     return this.onERC1155BatchReceived.selector;
   }
+
+
+
+
+
+
+
+
 
   receive() external payable {}
   fallback() external payable {}
