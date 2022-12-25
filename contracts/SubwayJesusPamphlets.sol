@@ -29,7 +29,7 @@ import "./ChurchOfSubwayJesusPamphlets.sol";
 
 pragma solidity ^0.8.11;
 
-interface IOSOpenStorefront {
+interface IOSSharedStorefront {
   function safeTransferFrom(
     address from,
     address to,
@@ -51,7 +51,7 @@ contract SubwayJesusPamphlets is ERC721 {
   uint256 private _totalSupply = 76;
   Metadata private _metadataContract;
   address public church;
-  IOSOpenStorefront private _purgatory;
+  IOSSharedStorefront private _purgatory;
 
 
   address private royaltyBenificiary;
@@ -60,7 +60,7 @@ contract SubwayJesusPamphlets is ERC721 {
   constructor(address _os) ERC721("Subway Jesus Pamphlets", 'JESUS') {
     royaltyBenificiary = msg.sender;
     _metadataContract = new Metadata();
-    _purgatory = IOSOpenStorefront(_os);
+    _purgatory = IOSSharedStorefront(_os);
     church = address(new ChurchOfSubwayJesusPamphlets(this, msg.sender));
 
     // mint tokens 0 - 75

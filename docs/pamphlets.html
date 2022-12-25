@@ -57,6 +57,9 @@
     .title {
       padding: 1em;
       margin-bottom: 0.75em;
+
+      text-decoration: none;
+      color: #8a3d08;
     }
 
 
@@ -103,7 +106,7 @@
 
     .pamphlet {
       width: 350px;
-      height: 650px;
+      height: 700px;
       color: #8a3d08;
       text-align: center;
       background-color: #fff;
@@ -159,9 +162,8 @@
 </head>
 <body>
 
-  <div class="title">
-    <h1>The Church of Subway Jesus Pamphlets</h1>
-  </div>
+  <a class="title" href="./home.html"><h1>The Church of Subway Jesus Pamphlets</h1></a>
+
 
   <dl id="filterer">
     <div>
@@ -216,6 +218,8 @@
 
   </main>
 
+  <footer style="padding: 1em; text-align: center; margin: 5em 0;">Website by <a href="https://steviep.xyz">steviep (2022)</a></footer>
+
 
 </body>
 
@@ -250,7 +254,7 @@
         })
         .map(d => `
           <div class="pamphlet">
-            <img src="./assets/${d.token_id}.jpg">
+            <a href="./assets/${d.token_id}.jpg"><img src="./assets/${d.token_id}.jpg"></a>
             <div>
               <h3>${d.name}</h3>
               <div># ${d.token_id}</div>
@@ -259,6 +263,7 @@
               <div>Type: ${d.attributes.find(a => a.trait_type === 'Type').value}</div>
               <div>Content: ${d.attributes.find(a => a.trait_type === 'Content').value}</div>
               <div>Condition: ${d.attributes.find(a => a.trait_type === 'Condition').value}</div>
+              <div><a href="https://opensea.io/assets/ethereum/0x4f9e2e709895cc8ae62be86c6289f7081ba048a6/${d.tokan_id}" target="_blank">Open Sea</a></div>
             </div>
           </div>
         `).join('\n')

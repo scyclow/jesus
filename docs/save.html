@@ -51,6 +51,11 @@
       margin: 0.75em 0;
     }
 
+    .title {
+      text-decoration: none;
+      color: #8a3d08;
+    }
+
     li {
       display: inline-block;
     }
@@ -118,7 +123,7 @@
       justify-content: space-around;
     }
 
-    .acceptJesus {
+    .acceptJesus, #connectWallet {
       font-size: 1.5em;
       padding: 0.5em;
       border: 2px solid;
@@ -126,10 +131,16 @@
       cursor: pointer;
       margin: 0.7em;
     }
+
+    .center {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
   </style>
 </head>
 <body>
-  <h1>The Church of Subway Jesus Pamphlets</h1>
+  <a class="title" href="./home.html"><h1>The Church of Subway Jesus Pamphlets</h1></a>
 
   <div id="walletConnected" style="display: none;">
     <div id="savePamphlets"></div>
@@ -137,6 +148,8 @@
 
   <div id="walletNotConnected" style="display: none;">
     <div class="center"><button id="connectWallet">CONNECT WALLET</button></div>
+    <div class="center"><h2>OR</h2></div>
+    <div class="center"><h2>Save your token by safe-transferring it to <a href="https://etherscan.io/address/0x4f9e2E709895CC8ae62be86c6289F7081Ba048A6" target="_blank">0x4f9e2E709895CC8ae62be86c6289F7081Ba048A6</a></h2></div>
   </div>
 
   <div id="noWeb3Browser" style="display: none; color: red;">
@@ -224,6 +237,8 @@
   </section>
 
   <button>Submit</button> -->
+  <footer style="padding: 1em; text-align: center; margin: 5em 0;">Website by <a href="https://steviep.xyz">steviep (2022)</a></footer>
+
 
 </body>
 
@@ -252,7 +267,7 @@ const OS_CONTRACT = {
 }[env];
 
 const SJP_CONTRACT = {
-  mainnet: '0x0000000000000000000000000000000000000001'
+  mainnet: '0x4f9e2E709895CC8ae62be86c6289F7081Ba048A6'
 }[env];
 
 const osABI = [
@@ -286,11 +301,12 @@ const osABI = [
 
   const OSContract = new ethers.Contract(OS_CONTRACT, osABI, provider)
 
-  const isConnected = async () => {
+  const isConnected = async (givenAccount) => {
     if (!isEthBrowser) return false
 
     try {
       console.log('connecting')
+      window.signer = provider.getSigner(givenAccount)
       return await signer.getAddress()
     } catch (e) {
       console.log('cannot connect', e)
@@ -302,12 +318,13 @@ const osABI = [
     $connectWallet.innerHTML = 'Connecting...'
     try {
       const accounts = await window.ethereum.request({ method: 'eth_requestAccounts' }, []);
-      const address = await isConnected()
+
+      const address = await isConnected(accounts[0])
       onWalletConnected(address)
+      location.reload()
 
     } catch (e) {
       alert(`Error Connecting Wallet: ${e.message}`)
-      debugger
       console.error(e)
     }
   }
@@ -351,7 +368,7 @@ const osABI = [
 
     if (ownedTokenIds.length) {
       $savePamphlets.innerHTML = `
-        <h2>Do you accept ${SJP_CONTRACT} as the one, true contract of Subway Jesus Pamphlets for the following tokens?</h2>
+        <h2>Do you accept <a href="https://etherscan.io/address/${SJP_CONTRACT}" target="_blank">${SJP_CONTRACT}</a> as the one, true contract of Subway Jesus Pamphlets for the following tokens?</h2>
         <div class="pamphlets">
           ${
             ownedTokenIds.map(id => {
