@@ -1,0 +1,30 @@
+{
+  "name": "The True Image of Christ",
+  "token_id": "3",
+  "os_token_id": "56149969866452300878143827841099029158054578672514359653557300802197846491137",
+  "description": "Photograph by Steve Pikelny (2022) | Published by Israel United in Christ | Content: Informational | Condition: Okay | Type: Flyer",
+  "external_url": "https://steviep.xyz/jesus/3",
+  "attributes": [
+    {
+      "trait_type": "Publisher",
+      "value": "Israel United in Christ"
+    },
+    {
+      "trait_type": "Content",
+      "value": "Informational"
+    },
+    {
+      "trait_type": "Condition",
+      "value": "Okay"
+    },
+    {
+      "trait_type": "Type",
+      "value": "Flyer"
+    },
+    {
+      "trait_type": "Year",
+      "value": "2021"
+    }
+  ],
+  "image": "ipfs://bafybeihcypukbriaakry5zhk4bpa3huscpe5ywfqrasavi43c2l3aweofa/3.jpg"
+}

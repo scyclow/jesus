@@ -1,0 +1,29 @@
+{
+  "name": "Disappointed?",
+  "token_id": "78",
+  "description": "Photograph by Steve Pikelny (2022) | Published by Old Paths Tract Society, Inc. | Content: Informational | Condition: Poor | Type: Flyer",
+  "external_url": "https://steviep.xyz/jesus/78",
+  "attributes": [
+    {
+      "trait_type": "Type",
+      "value": "Flyer"
+    },
+    {
+      "trait_type": "Condition",
+      "value": "Poor"
+    },
+    {
+      "trait_type": "Content",
+      "value": "Informational"
+    },
+    {
+      "trait_type": "Publisher",
+      "value": "Old Paths Tract Society, Inc."
+    },
+    {
+      "trait_type": "Year",
+      "value": "2022"
+    }
+  ],
+  "image": "ipfs://bafybeihcypukbriaakry5zhk4bpa3huscpe5ywfqrasavi43c2l3aweofa/78.jpg"
+}

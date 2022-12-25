@@ -1,0 +1,30 @@
+{
+  "name": "I'm a Pretty Good Person",
+  "token_id": "2",
+  "os_token_id": "56149969866452300878143827841099029158054578672514359653557300801098334863361",
+  "description": "Photograph by Steve Pikelny (2022) | Published by Fellowship Tract League | Content: Informational | Condition: Poor | Type: Pamphlet",
+  "external_url": "https://steviep.xyz/jesus/2",
+  "attributes": [
+    {
+      "trait_type": "Content",
+      "value": "Informational"
+    },
+    {
+      "trait_type": "Type",
+      "value": "Pamphlet"
+    },
+    {
+      "trait_type": "Publisher",
+      "value": "Fellowship Tract League"
+    },
+    {
+      "trait_type": "Condition",
+      "value": "Poor"
+    },
+    {
+      "trait_type": "Year",
+      "value": "2021"
+    }
+  ],
+  "image": "ipfs://bafybeihcypukbriaakry5zhk4bpa3huscpe5ywfqrasavi43c2l3aweofa/2.jpg"
+}

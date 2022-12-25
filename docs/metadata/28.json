@@ -1,0 +1,30 @@
+{
+  "name": "No More Timeouts!",
+  "token_id": "28",
+  "os_token_id": "56149969866452300878143827841099029158054578672514359653557300829685637185537",
+  "description": "Photograph by Steve Pikelny (2022) | Published by Evangelical Tract Distributions | Content: Story | Condition: Good | Type: Pamphlet",
+  "external_url": "https://steviep.xyz/jesus/28",
+  "attributes": [
+    {
+      "trait_type": "Type",
+      "value": "Pamphlet"
+    },
+    {
+      "trait_type": "Content",
+      "value": "Story"
+    },
+    {
+      "trait_type": "Publisher",
+      "value": "Evangelical Tract Distributions"
+    },
+    {
+      "trait_type": "Condition",
+      "value": "Good"
+    },
+    {
+      "trait_type": "Year",
+      "value": "2021"
+    }
+  ],
+  "image": "ipfs://bafybeihcypukbriaakry5zhk4bpa3huscpe5ywfqrasavi43c2l3aweofa/28.jpg"
+}

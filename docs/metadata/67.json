@@ -1,0 +1,30 @@
+{
+  "name": "God Loves you!",
+  "token_id": "67",
+  "os_token_id": "32150014705918146096138927293761864425970273519802704166038767673570270117889",
+  "description": "Photograph by Steve Pikelny (2022) | Published by Good News Publishers | Content: Infographic | Condition: Good | Type: Leaflet",
+  "external_url": "https://steviep.xyz/jesus/67",
+  "attributes": [
+    {
+      "trait_type": "Type",
+      "value": "Leaflet"
+    },
+    {
+      "trait_type": "Publisher",
+      "value": "Good News Publishers"
+    },
+    {
+      "trait_type": "Condition",
+      "value": "Good"
+    },
+    {
+      "trait_type": "Content",
+      "value": "Infographic"
+    },
+    {
+      "trait_type": "Year",
+      "value": "2021"
+    }
+  ],
+  "image": "ipfs://bafybeihcypukbriaakry5zhk4bpa3huscpe5ywfqrasavi43c2l3aweofa/67.jpg"
+}

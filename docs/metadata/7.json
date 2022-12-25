@@ -1,0 +1,30 @@
+{
+  "name": "Who Am I that a KING Would Die in My Place",
+  "token_id": "7",
+  "os_token_id": "56149969866452300878143827841099029158054578672514359653557300806595893002241",
+  "description": "Photograph by Steve Pikelny (2022) | Published by World Missionary Press | Content: Philosophy | Condition: Very Good | Type: Tract",
+  "external_url": "https://steviep.xyz/jesus/7",
+  "attributes": [
+    {
+      "trait_type": "Publisher",
+      "value": "World Missionary Press"
+    },
+    {
+      "trait_type": "Condition",
+      "value": "Very Good"
+    },
+    {
+      "trait_type": "Content",
+      "value": "Philosophy"
+    },
+    {
+      "trait_type": "Type",
+      "value": "Tract"
+    },
+    {
+      "trait_type": "Year",
+      "value": "2021"
+    }
+  ],
+  "image": "ipfs://bafybeihcypukbriaakry5zhk4bpa3huscpe5ywfqrasavi43c2l3aweofa/7.jpg"
+}

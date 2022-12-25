@@ -1,4 +1,4 @@
-[
+const pamphletData = [
   {
     "name": "Jesus Is Coming!",
     "token_id": "0",
@@ -2433,7 +2433,7 @@
   {
     "name": "The SHOCKING TRUTH about YOU",
     "token_id": "84",
-    "description": "Photograph by Steve Pikelny (2022) | Published by Bible Baptist Publications | Content: Informational | Condition: Very Good | Type: Leaflet",
+    "description": "Photograph by Steve Pikelny (2022) | Published by Bible Baptist Publications | Content: Self-Help | Condition: Very Good | Type: Leaflet",
     "external_url": "https://steviep.xyz/jesus/84",
     "attributes": [
       {
@@ -2446,7 +2446,7 @@
       },
       {
         "trait_type": "Content",
-        "value": "Informational"
+        "value": "Self-Help"
       },
       {
         "trait_type": "Publisher",
@@ -2601,7 +2601,7 @@
   {
     "name": "God, I Need to Talk to You about PAYING ATTENTION",
     "token_id": "90",
-    "description": "Photograph by Steve Pikelny (2022) | Published by Concordia Publishing House | Content: Comic | Condition: Good | Type: Booklet",
+    "description": "Photograph by Steve Pikelny (2022) | Published by Concordia Publishing House | Content: Comic | Condition: Very Good | Type: Booklet",
     "external_url": "https://steviep.xyz/jesus/90",
     "attributes": [
       {
@@ -2610,7 +2610,7 @@
       },
       {
         "trait_type": "Condition",
-        "value": "Good"
+        "value": "Very Good"
       },
       {
         "trait_type": "Content",

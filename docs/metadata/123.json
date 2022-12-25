@@ -1,0 +1,29 @@
+{
+  "name": "You have an appointment",
+  "token_id": "123",
+  "description": "Photograph by Steve Pikelny (2022) | Published by Hope Tract Ministry | Content: Informational | Condition: Very Good | Type: Pamphlet",
+  "external_url": "https://steviep.xyz/jesus/123",
+  "attributes": [
+    {
+      "trait_type": "Type",
+      "value": "Pamphlet"
+    },
+    {
+      "trait_type": "Condition",
+      "value": "Very Good"
+    },
+    {
+      "trait_type": "Content",
+      "value": "Informational"
+    },
+    {
+      "trait_type": "Publisher",
+      "value": "Hope Tract Ministry"
+    },
+    {
+      "trait_type": "Year",
+      "value": "2022"
+    }
+  ],
+  "image": "ipfs://bafybeihcypukbriaakry5zhk4bpa3huscpe5ywfqrasavi43c2l3aweofa/123.jpg"
+}

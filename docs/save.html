@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>The Church of Subway Jesus Pamphlets - SAVE PAMPHLET</title>
+
+  <link rel="shortcut icon" type="image/x-icon" href="./favicon.ico">
+
+  <meta name="description" content="Welcome to The Church of Subway jesus Pamphlets">
+  <meta name="keywords" content="subway jesus pamphlets, subway, jesus, pamphlets, art, crypto, cryptocurrency, nft, eth, ethereum, steve, pikelny, steve pikelny, steviep">
+
+  <meta name="twitter:image" content="https://steviep.xyz/jesus/promo/banner.jpg">
+  <meta name="twitter:image:alt" content="The Church of Subway Jesus Pamphlets">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:creator" content="@steviepxyz">
+  <meta name="twitter:site" content="@steviepxyz">
+  <meta property="twitter:description" content="Welcome to The Church of Subway jesus Pamphlets">
+
+  <meta name="og:image" property="og:image" content="https://steviep.xyz/jesus/promo/banner.jpg">
+  <meta name="og:image:alt" content="The Church of Subway Jesus Pamphlets">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://steviep.xyz/jesus">
+  <meta property="og:title" content="The Church of Subway Jesus Pamphlets">
+  <meta property="og:site_name" content="The Church of Subway Jesus Pamphlets">
+  <meta property="og:description" content="Welcome to The Church of Subway jesus Pamphlets">
+
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Merienda:wght@700&display=swap" rel="stylesheet">
+
+  <style type="text/css">
+    * {
+      margin: 0;
+      padding: 0;
+    }
+    body {
+      background-image: url(./tan.jpeg);
+      margin: 0.5em;
+    }
+
+    h1, h2 {
+      color: #8a3d08;
+    }
+    h1 {
+      font-family: 'Merienda', cursive;
+      text-align: center;
+      background-color: #fff;
+      border:  2px solid;
+      padding: 0.25em;
+      margin: 0.75em 0;
+    }
+
+    li {
+      display: inline-block;
+    }
+
+    section {
+      border: 2px solid #8a3d08;
+      background-color: #fff;
+      padding: 1em;
+      margin: 1em 0;
+    }
+
+    .pamphlet {
+      width: 350px;
+      height: 600px;
+      color: #8a3d08;
+      text-align: center;
+      padding: 1em;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-around;
+    }
+
+    .pamphlet img {
+      width: 100%;
+    }
+
+    #savePamphlets {
+      background-color: #fff;
+      border:  2px solid;
+      border-radius: 15px;
+      padding: 1em;
+      width: 1200px;
+      margin: auto;
+    }
+
+    #savePamphlets h2 {
+      text-align: center;
+      margin: 0.5em;
+    }
+
+    #savePamphlets .pamphlets{
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-column-gap: 1.5em;
+      grid-row-gap: 2em;
+      max-width: 1200px;
+      margin: auto;
+      justify-items: center;
+    }
+
+    #acceptPane {
+      margin: auto;
+      margin-top: 1em;
+      width: 500px;
+      color: #8a3d08;
+      text-align: center;
+      background-color: #fff;
+      border:  2px solid;
+      border-radius: 15px;
+      padding: 1em;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-around;
+    }
+
+    .acceptJesus {
+      font-size: 1.5em;
+      padding: 0.5em;
+      border: 2px solid;
+      border-radius: 6px;
+      cursor: pointer;
+      margin: 0.7em;
+    }
+  </style>
+</head>
+<body>
+  <h1>The Church of Subway Jesus Pamphlets</h1>
+
+  <div id="walletConnected" style="display: none;">
+    <div id="savePamphlets"></div>
+  </div>
+
+  <div id="walletNotConnected" style="display: none;">
+    <div class="center"><button id="connectWallet">CONNECT WALLET</button></div>
+  </div>
+
+  <div id="noWeb3Browser" style="display: none; color: red;">
+    <h3>Please visit this page with a web3-enabled browser.</h3>
+  </div>
+
+
+<!--   <section>
+    <h2>Vote</h2>
+
+    <div>
+      <label>Your Token ID</label>
+      <input type="number" name="" placeholder="27">
+    </div>
+
+    <div>
+      <h3>Your Vote</h3>
+      <input type="radio" name="vote" id="vote-yay" value="yay"> <label for="vote-yay">Yay</label>
+      <input type="radio" name="vote" id="vote-nay" value="nay"> <label for="vote-nay">Nay</label>
+    </div>
+
+
+    <div>
+      <label>Proposal Target Address</label>
+      <input type="text" name="" placeholder="0x1234567890...">
+    </div>
+
+    <div>
+      <label>Proposal Amount (ETH)</label>
+      <input type="number" name="" placeholder="0">
+    </div>
+
+    <div>
+      <label>Proposal Function Name</label>
+      <input type="text" name="" placeholder="safeTransfer">
+    </div>
+
+    <div>
+      <label>Proposal Function Signature</label>
+      <input type="text" name="" placeholder="address,address,uint256">
+    </div>
+
+    <div>
+      <label>Proposal Function Arguments</label>
+      <input type="text" name="" placeholder="0x1234...,0x5678...,27">
+    </div>
+
+    <button>Submit</button>
+
+  </section>
+
+  <section>
+    <h2>Make Proposal</h2>
+
+    <div>
+      <label>Your Token ID</label>
+      <input type="number" name="" placeholder="27">
+    </div>
+
+
+    <div>
+      <label>Proposal Target Address</label>
+      <input type="text" name="" placeholder="0x1234567890...">
+    </div>
+
+    <div>
+      <label>Proposal Amount (ETH)</label>
+      <input type="number" name="" placeholder="0">
+    </div>
+
+    <div>
+      <label>Proposal Function Name</label>
+      <input type="text" name="" placeholder="safeTransfer">
+    </div>
+
+    <div>
+      <label>Proposal Function Signature</label>
+      <input type="text" name="" placeholder="address,address,uint256">
+    </div>
+
+    <div>
+      <label>Proposal Function Arguments</label>
+      <input type="text" name="" placeholder="0x1234...,0x5678...,27">
+    </div>
+  </section>
+
+  <button>Submit</button> -->
+
+</body>
+
+<script src="./min.ethers.js"></script>
+<script src="./pamphletData.js"></script>
+
+<script type="text/javascript">
+// const encodeWithSignature = (functionName, argTypes, params) => {
+//   const iface = new ethers.utils.Interface([`function ${functionName}(${argTypes.join(',')})`])
+//   return iface.encodeFunctionData(functionName, params)
+// }
+
+
+const $connectWallet = document.getElementById('connectWallet')
+const $walletNotConnected = document.getElementById('walletNotConnected')
+const $walletConnected = document.getElementById('walletConnected')
+const $noWeb3Browser = document.getElementById('noWeb3Browser')
+const $savePamphlets = document.getElementById('savePamphlets')
+
+
+
+
+const env = 'mainnet'
+const OS_CONTRACT = {
+  mainnet: '0x495f947276749ce646f68ac8c248420045cb7b5e'
+}[env];
+
+const SJP_CONTRACT = {
+  mainnet: '0x0000000000000000000000000000000000000001'
+}[env];
+
+const osABI = [
+  'function balanceOfBatch(address[] calldata, uint256[] calldata) external view returns (uint256[] memory)',
+  'function safeBatchTransferFrom(address, address, uint256[] calldata, uint256[] calldata, bytes calldata) external',
+  'function safeTransferFrom(address from, address to, uint256 id, uint256 amount, bytes memory data) external',
+  'function balanceOf(address, uint256) external view returns (uint256)'
+]
+
+
+
+;(async () => {
+
+  let isEthBrowser
+  let ownedTokenIds = []
+
+  if (window.ethereum) {
+    console.log('web3')
+    window.provider = new ethers.providers.Web3Provider(window.ethereum, 'any')
+    window.signer = provider.getSigner()
+    isEthBrowser = true
+
+  } else {
+    console.log('no Web3 detected')
+    isEthBrowser = false
+
+    $noWeb3Browser.style.display = 'initial'
+
+    return
+  }
+
+  const OSContract = new ethers.Contract(OS_CONTRACT, osABI, provider)
+
+  const isConnected = async () => {
+    if (!isEthBrowser) return false
+
+    try {
+      console.log('connecting')
+      return await signer.getAddress()
+    } catch (e) {
+      console.log('cannot connect', e)
+      return false
+    }
+  }
+
+  $connectWallet.onclick = async () => {
+    $connectWallet.innerHTML = 'Connecting...'
+    try {
+      const accounts = await window.ethereum.request({ method: 'eth_requestAccounts' }, []);
+      const address = await isConnected()
+      onWalletConnected(address)
+
+    } catch (e) {
+      alert(`Error Connecting Wallet: ${e.message}`)
+      debugger
+      console.error(e)
+    }
+  }
+  const connectedWallet = await isConnected()
+  if (connectedWallet) {
+    console.log(`Wallet connected: ${connectedWallet}`)
+    onWalletConnected(connectedWallet)
+  } else {
+    $walletNotConnected.style.display = 'initial'
+
+  }
+
+  async function onWalletConnected(wallet) {
+    $walletNotConnected.style.display = 'none'
+    $walletConnected.style.display = 'initial'
+
+    $savePamphlets.innerHTML = `Loading...`
+
+
+    const oldIds = pamphletData.map(d => d.os_token_id).filter(d => !!d)
+
+    // const tokenBalances1 = await OSContract.connect(signer).balanceOfBatch(
+    //   times(oldIds.length, () => connectedWallet),
+    //   oldIds
+    // )
+
+    const tokenBalances2 = []
+
+    for (let i = 0; i < oldIds.length; i++) {
+      tokenBalances2.push(await OSContract.connect(signer).balanceOf(
+        connectedWallet,
+        oldIds[i]
+      ))
+    }
+
+
+    ownedTokenIds = tokenBalances2
+      .map((balance, i) => Number(balance) === 1 ? oldIds[i] : false)
+      .filter(b => !!b)
+
+
+    if (ownedTokenIds.length) {
+      $savePamphlets.innerHTML = `
+        <h2>Do you accept ${SJP_CONTRACT} as the one, true contract of Subway Jesus Pamphlets for the following tokens?</h2>
+        <div class="pamphlets">
+          ${
+            ownedTokenIds.map(id => {
+              const pamphlet = pamphletData.find(d => d.os_token_id === id)
+
+              return `
+                <div class="pamphlet">
+                  <img src="./assets/${pamphlet.token_id}.jpg"></img>
+                  <div>${pamphlet.name}</div>
+                  <div><button id="acceptJesus-${pamphlet.os_token_id}" class="acceptJesus" onclick="upgradeToken('${pamphlet.os_token_id}')">I Accept</button></div>
+                  <div id="acceptJesus-${pamphlet.os_token_id}-error" style="color: red"></div>
+                </div>
+              `
+            }).join('')
+          }
+        </div>
+      `
+
+    } else {
+      $savePamphlets.innerHTML = `To save a pamphlet, safe transfer the token to ${SJP_CONTRACT}`
+    }
+  }
+
+
+
+  window.upgradeToken = async (osTokenId, newToken) => {
+    document.getElementById(`acceptJesus-${osTokenId}`).innerHTML = 'Loading...'
+
+    try {
+      await OSContract.connect(signer).safeTransferFrom(
+        connectedWallet,
+        SJP_CONTRACT,
+        osTokenId,
+        1,
+        []
+      )
+    } catch (e) {
+      console.log(e)
+
+      const message = e.message.includes('Please enable Blind signing or Contract data in the Ethereum app Settings')
+        ? e.message += ' -- If you are using a Ledger device, you may need to open "Settings" and enable "Debug data", as well as "Blind signing"'
+        : e.message
+
+      document.getElementById(`acceptJesus-${osTokenId}-error`).innerHTML = message
+    }
+  }
+
+})()
+
+
+
+function times(t, fn) {
+  const out = []
+  for (let i = 0; i < t; i++) out.push(fn(i))
+  return out
+}
+
+</script>
+</html>

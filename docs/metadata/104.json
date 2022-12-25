@@ -1,0 +1,29 @@
+{
+  "name": "God Wants Change Your Life",
+  "token_id": "104",
+  "description": "Photograph by Steve Pikelny (2022) | Published by Liberia Bethel | Content: Informational | Condition: Very Good | Type: Flyer",
+  "external_url": "https://steviep.xyz/jesus/104",
+  "attributes": [
+    {
+      "trait_type": "Type",
+      "value": "Flyer"
+    },
+    {
+      "trait_type": "Condition",
+      "value": "Very Good"
+    },
+    {
+      "trait_type": "Content",
+      "value": "Informational"
+    },
+    {
+      "trait_type": "Publisher",
+      "value": "Liberia Bethel"
+    },
+    {
+      "trait_type": "Year",
+      "value": "2022"
+    }
+  ],
+  "image": "ipfs://bafybeihcypukbriaakry5zhk4bpa3huscpe5ywfqrasavi43c2l3aweofa/104.jpg"
+}

@@ -1,0 +1,29 @@
+{
+  "name": "The SHOCKING TRUTH about YOU",
+  "token_id": "84",
+  "description": "Photograph by Steve Pikelny (2022) | Published by Bible Baptist Publications | Content: Self-Help | Condition: Very Good | Type: Leaflet",
+  "external_url": "https://steviep.xyz/jesus/84",
+  "attributes": [
+    {
+      "trait_type": "Type",
+      "value": "Leaflet"
+    },
+    {
+      "trait_type": "Condition",
+      "value": "Very Good"
+    },
+    {
+      "trait_type": "Content",
+      "value": "Self-Help"
+    },
+    {
+      "trait_type": "Publisher",
+      "value": "Bible Baptist Publications"
+    },
+    {
+      "trait_type": "Year",
+      "value": "2022"
+    }
+  ],
+  "image": "ipfs://bafybeihcypukbriaakry5zhk4bpa3huscpe5ywfqrasavi43c2l3aweofa/84.jpg"
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Have a Good Day!",
+  "token_id": "106",
+  "description": "Photograph by Steve Pikelny (2022) | Published by Moments With The Book | Content: Instructional | Condition: Very Good | Type: Pamphlet",
+  "external_url": "https://steviep.xyz/jesus/106",
+  "attributes": [
+    {
+      "trait_type": "Type",
+      "value": "Pamphlet"
+    },
+    {
+      "trait_type": "Condition",
+      "value": "Very Good"
+    },
+    {
+      "trait_type": "Content",
+      "value": "Instructional"
+    },
+    {
+      "trait_type": "Publisher",
+      "value": "Moments With The Book"
+    },
+    {
+      "trait_type": "Year",
+      "value": "2022"
+    }
+  ],
+  "image": "ipfs://bafybeihcypukbriaakry5zhk4bpa3huscpe5ywfqrasavi43c2l3aweofa/106.jpg"
+}

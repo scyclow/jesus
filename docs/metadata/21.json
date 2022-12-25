@@ -1,0 +1,30 @@
+{
+  "name": "Death It Happens Every Day",
+  "token_id": "21",
+  "os_token_id": "56149969866452300878143827841099029158054578672514359653557300821989055791105",
+  "description": "Photograph by Steve Pikelny (2022) | Published by Fellowship Tract League | Content: Philosophy | Condition: Very Good | Type: Pamphlet",
+  "external_url": "https://steviep.xyz/jesus/21",
+  "attributes": [
+    {
+      "trait_type": "Type",
+      "value": "Pamphlet"
+    },
+    {
+      "trait_type": "Content",
+      "value": "Philosophy"
+    },
+    {
+      "trait_type": "Condition",
+      "value": "Very Good"
+    },
+    {
+      "trait_type": "Publisher",
+      "value": "Fellowship Tract League"
+    },
+    {
+      "trait_type": "Year",
+      "value": "2021"
+    }
+  ],
+  "image": "ipfs://bafybeihcypukbriaakry5zhk4bpa3huscpe5ywfqrasavi43c2l3aweofa/21.jpg"
+}

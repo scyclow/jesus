@@ -1,0 +1,29 @@
+{
+  "name": "Assemblies of God",
+  "token_id": "112",
+  "description": "Photograph by Steve Pikelny (2022) | Published by Philadelphia Pentecostal Church, Inc. | Content: Program | Condition: Okay | Type: Leaflet",
+  "external_url": "https://steviep.xyz/jesus/112",
+  "attributes": [
+    {
+      "trait_type": "Type",
+      "value": "Leaflet"
+    },
+    {
+      "trait_type": "Condition",
+      "value": "Okay"
+    },
+    {
+      "trait_type": "Content",
+      "value": "Program"
+    },
+    {
+      "trait_type": "Publisher",
+      "value": "Philadelphia Pentecostal Church, Inc."
+    },
+    {
+      "trait_type": "Year",
+      "value": "2022"
+    }
+  ],
+  "image": "ipfs://bafybeihcypukbriaakry5zhk4bpa3huscpe5ywfqrasavi43c2l3aweofa/112.jpg"
+}

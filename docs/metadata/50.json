@@ -1,0 +1,30 @@
+{
+  "name": "Where is your Destination?",
+  "token_id": "50",
+  "os_token_id": "56149969866452300878143827841099029158054578672514359653557300853874892996609",
+  "description": "Photograph by Steve Pikelny (2022) | Published by Fellowship Tract League | Content: Professional Development | Condition: Poor | Type: Pamphlet",
+  "external_url": "https://steviep.xyz/jesus/50",
+  "attributes": [
+    {
+      "trait_type": "Type",
+      "value": "Pamphlet"
+    },
+    {
+      "trait_type": "Content",
+      "value": "Professional Development"
+    },
+    {
+      "trait_type": "Publisher",
+      "value": "Fellowship Tract League"
+    },
+    {
+      "trait_type": "Condition",
+      "value": "Poor"
+    },
+    {
+      "trait_type": "Year",
+      "value": "2021"
+    }
+  ],
+  "image": "ipfs://bafybeihcypukbriaakry5zhk4bpa3huscpe5ywfqrasavi43c2l3aweofa/50.jpg"
+}

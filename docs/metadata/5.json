@@ -1,0 +1,30 @@
+{
+  "name": "The Long Trip",
+  "token_id": "5",
+  "os_token_id": "56149969866452300878143827841099029158054578672514359653557300804396869746689",
+  "description": "Photograph by Steve Pikelny (2022) | Published by Chick Tracts | Content: Comic | Condition: Very Good | Type: Tract",
+  "external_url": "https://steviep.xyz/jesus/5",
+  "attributes": [
+    {
+      "trait_type": "Publisher",
+      "value": "Chick Tracts"
+    },
+    {
+      "trait_type": "Type",
+      "value": "Tract"
+    },
+    {
+      "trait_type": "Condition",
+      "value": "Very Good"
+    },
+    {
+      "trait_type": "Content",
+      "value": "Comic"
+    },
+    {
+      "trait_type": "Year",
+      "value": "2021"
+    }
+  ],
+  "image": "ipfs://bafybeihcypukbriaakry5zhk4bpa3huscpe5ywfqrasavi43c2l3aweofa/5.jpg"
+}

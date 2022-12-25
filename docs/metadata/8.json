@@ -1,0 +1,30 @@
+{
+  "name": "Christ Loves You",
+  "token_id": "8",
+  "os_token_id": "32150014705918146096138927293761864425970273519802704166038767607599572451329",
+  "description": "Photograph by Steve Pikelny (2022) | Published by Unknown | Content: Informational | Condition: Okay | Type: Flyer",
+  "external_url": "https://steviep.xyz/jesus/8",
+  "attributes": [
+    {
+      "trait_type": "Content",
+      "value": "Informational"
+    },
+    {
+      "trait_type": "Type",
+      "value": "Flyer"
+    },
+    {
+      "trait_type": "Publisher",
+      "value": "Unknown"
+    },
+    {
+      "trait_type": "Condition",
+      "value": "Okay"
+    },
+    {
+      "trait_type": "Year",
+      "value": "2021"
+    }
+  ],
+  "image": "ipfs://bafybeihcypukbriaakry5zhk4bpa3huscpe5ywfqrasavi43c2l3aweofa/8.jpg"
+}

@@ -1,0 +1,30 @@
+{
+  "name": "3 Things God Cannot Do",
+  "token_id": "33",
+  "os_token_id": "56149969866452300878143827841099029158054578672514359653557300835183195324417",
+  "description": "Photograph by Steve Pikelny (2022) | Published by Moments With The Book | Content: Informational | Condition: Okay | Type: Card",
+  "external_url": "https://steviep.xyz/jesus/33",
+  "attributes": [
+    {
+      "trait_type": "Content",
+      "value": "Informational"
+    },
+    {
+      "trait_type": "Publisher",
+      "value": "Moments With The Book"
+    },
+    {
+      "trait_type": "Type",
+      "value": "Card"
+    },
+    {
+      "trait_type": "Condition",
+      "value": "Okay"
+    },
+    {
+      "trait_type": "Year",
+      "value": "2021"
+    }
+  ],
+  "image": "ipfs://bafybeihcypukbriaakry5zhk4bpa3huscpe5ywfqrasavi43c2l3aweofa/33.jpg"
+}

@@ -1,0 +1,30 @@
+{
+  "name": "Holy Joe",
+  "token_id": "12",
+  "os_token_id": "56149969866452300878143827841099029158054578672514359653557300812093451141121",
+  "description": "Photograph by Steve Pikelny (2022) | Published by Chick Tracts | Content: Comic | Condition: Poor | Type: Tract",
+  "external_url": "https://steviep.xyz/jesus/12",
+  "attributes": [
+    {
+      "trait_type": "Type",
+      "value": "Tract"
+    },
+    {
+      "trait_type": "Content",
+      "value": "Comic"
+    },
+    {
+      "trait_type": "Publisher",
+      "value": "Chick Tracts"
+    },
+    {
+      "trait_type": "Condition",
+      "value": "Poor"
+    },
+    {
+      "trait_type": "Year",
+      "value": "2021"
+    }
+  ],
+  "image": "ipfs://bafybeihcypukbriaakry5zhk4bpa3huscpe5ywfqrasavi43c2l3aweofa/12.jpg"
+}

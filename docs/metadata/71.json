@@ -1,0 +1,30 @@
+{
+  "name": "National Sunday Law",
+  "token_id": "71",
+  "os_token_id": "32150014705918146096138927293761864425970273519802704166038767677968316628993",
+  "description": "Photograph by Steve Pikelny (2022) | Published by AT Publications | Content: Story | Condition: Mint | Type: Book",
+  "external_url": "https://steviep.xyz/jesus/71",
+  "attributes": [
+    {
+      "trait_type": "Condition",
+      "value": "Mint"
+    },
+    {
+      "trait_type": "Type",
+      "value": "Book"
+    },
+    {
+      "trait_type": "Content",
+      "value": "Story"
+    },
+    {
+      "trait_type": "Publisher",
+      "value": "AT Publications"
+    },
+    {
+      "trait_type": "Year",
+      "value": "2021"
+    }
+  ],
+  "image": "ipfs://bafybeihcypukbriaakry5zhk4bpa3huscpe5ywfqrasavi43c2l3aweofa/71.jpg"
+}

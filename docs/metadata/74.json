@@ -1,0 +1,30 @@
+{
+  "name": "The Veri-Chip is 666",
+  "token_id": "74",
+  "os_token_id": "32150014705918146096138927293761864425970273519802704166038767681266851512321",
+  "description": "Photograph by Steve Pikelny (2022) | Published by Unknown | Content: Educational | Condition: Good | Type: Pamphlet",
+  "external_url": "https://steviep.xyz/jesus/74",
+  "attributes": [
+    {
+      "trait_type": "Type",
+      "value": "Pamphlet"
+    },
+    {
+      "trait_type": "Content",
+      "value": "Educational"
+    },
+    {
+      "trait_type": "Publisher",
+      "value": "Unknown"
+    },
+    {
+      "trait_type": "Condition",
+      "value": "Good"
+    },
+    {
+      "trait_type": "Year",
+      "value": "2021"
+    }
+  ],
+  "image": "ipfs://bafybeihcypukbriaakry5zhk4bpa3huscpe5ywfqrasavi43c2l3aweofa/74.jpg"
+}

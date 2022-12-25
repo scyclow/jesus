@@ -1,0 +1,30 @@
+{
+  "name": "Destination - Success",
+  "token_id": "48",
+  "os_token_id": "56149969866452300878143827841099029158054578672514359653557300851675869741057",
+  "description": "Photograph by Steve Pikelny (2022) | Published by Universal Calvary Church | Content: Contact | Condition: Mint | Type: Card",
+  "external_url": "https://steviep.xyz/jesus/48",
+  "attributes": [
+    {
+      "trait_type": "Publisher",
+      "value": "Universal Calvary Church"
+    },
+    {
+      "trait_type": "Condition",
+      "value": "Mint"
+    },
+    {
+      "trait_type": "Content",
+      "value": "Contact"
+    },
+    {
+      "trait_type": "Type",
+      "value": "Card"
+    },
+    {
+      "trait_type": "Year",
+      "value": "2021"
+    }
+  ],
+  "image": "ipfs://bafybeihcypukbriaakry5zhk4bpa3huscpe5ywfqrasavi43c2l3aweofa/48.jpg"
+}

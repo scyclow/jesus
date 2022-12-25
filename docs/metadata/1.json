@@ -1,0 +1,30 @@
+{
+  "name": "God's Medicine Bottle",
+  "token_id": "1",
+  "os_token_id": "56149969866452300878143827841099029158054578672514359653557300799998823235585",
+  "description": "Photograph by Steve Pikelny (2022) | Published by Mountain of Fire and Miracles Ministries Ark of Safety Safety Branch | Content: Self-Help | Condition: Okay | Type: Pamphlet",
+  "external_url": "https://steviep.xyz/jesus/1",
+  "attributes": [
+    {
+      "trait_type": "Type",
+      "value": "Pamphlet"
+    },
+    {
+      "trait_type": "Condition",
+      "value": "Okay"
+    },
+    {
+      "trait_type": "Content",
+      "value": "Self-Help"
+    },
+    {
+      "trait_type": "Publisher",
+      "value": "Mountain of Fire and Miracles Ministries Ark of Safety Safety Branch"
+    },
+    {
+      "trait_type": "Year",
+      "value": "2021"
+    }
+  ],
+  "image": "ipfs://bafybeihcypukbriaakry5zhk4bpa3huscpe5ywfqrasavi43c2l3aweofa/1.jpg"
+}

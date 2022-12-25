@@ -1,0 +1,30 @@
+{
+  "name": "Rite of Anointing and Pastoral Care of the Sick",
+  "token_id": "46",
+  "os_token_id": "56149969866452300878143827841099029158054578672514359653557300849476846485505",
+  "description": "Photograph by Steve Pikelny (2022) | Published by Radio Rosary | Content: Educational | Condition: Good | Type: Book",
+  "external_url": "https://steviep.xyz/jesus/46",
+  "attributes": [
+    {
+      "trait_type": "Publisher",
+      "value": "Radio Rosary"
+    },
+    {
+      "trait_type": "Type",
+      "value": "Book"
+    },
+    {
+      "trait_type": "Content",
+      "value": "Educational"
+    },
+    {
+      "trait_type": "Condition",
+      "value": "Good"
+    },
+    {
+      "trait_type": "Year",
+      "value": "2021"
+    }
+  ],
+  "image": "ipfs://bafybeihcypukbriaakry5zhk4bpa3huscpe5ywfqrasavi43c2l3aweofa/46.jpg"
+}

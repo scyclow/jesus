@@ -1,0 +1,30 @@
+{
+  "name": "For He Wrote of Me",
+  "token_id": "53",
+  "os_token_id": "32150014705918146096138927293761864425970273519802704166038767657077595701249",
+  "description": "Photograph by Steve Pikelny (2022) | Published by Christian Revolutionary Brotherhood | Content: History | Condition: Okay | Type: Flyer",
+  "external_url": "https://steviep.xyz/jesus/53",
+  "attributes": [
+    {
+      "trait_type": "Content",
+      "value": "History"
+    },
+    {
+      "trait_type": "Type",
+      "value": "Flyer"
+    },
+    {
+      "trait_type": "Publisher",
+      "value": "Christian Revolutionary Brotherhood"
+    },
+    {
+      "trait_type": "Condition",
+      "value": "Okay"
+    },
+    {
+      "trait_type": "Year",
+      "value": "2021"
+    }
+  ],
+  "image": "ipfs://bafybeihcypukbriaakry5zhk4bpa3huscpe5ywfqrasavi43c2l3aweofa/53.jpg"
+}

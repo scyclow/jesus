@@ -1,0 +1,30 @@
+{
+  "name": "A Biblical Guide to Salvation",
+  "token_id": "59",
+  "os_token_id": "56149969866452300878143827841099029158054578672514359653557300863770497646593",
+  "description": "Photograph by Steve Pikelny (2022) | Published by Gospel Tract and Bible Society | Content: Informational | Condition: Mint | Type: Pamphlet",
+  "external_url": "https://steviep.xyz/jesus/59",
+  "attributes": [
+    {
+      "trait_type": "Content",
+      "value": "Informational"
+    },
+    {
+      "trait_type": "Type",
+      "value": "Pamphlet"
+    },
+    {
+      "trait_type": "Publisher",
+      "value": "Gospel Tract and Bible Society"
+    },
+    {
+      "trait_type": "Condition",
+      "value": "Mint"
+    },
+    {
+      "trait_type": "Year",
+      "value": "2021"
+    }
+  ],
+  "image": "ipfs://bafybeihcypukbriaakry5zhk4bpa3huscpe5ywfqrasavi43c2l3aweofa/59.jpg"
+}

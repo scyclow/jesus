@@ -1,0 +1,29 @@
+{
+  "name": "Someone Cares... Foy You!",
+  "token_id": "120",
+  "description": "Photograph by Steve Pikelny (2022) | Published by Good News Tracts | Content: Informational | Condition: Poor | Type: Pamphlet",
+  "external_url": "https://steviep.xyz/jesus/120",
+  "attributes": [
+    {
+      "trait_type": "Type",
+      "value": "Pamphlet"
+    },
+    {
+      "trait_type": "Condition",
+      "value": "Poor"
+    },
+    {
+      "trait_type": "Content",
+      "value": "Informational"
+    },
+    {
+      "trait_type": "Publisher",
+      "value": "Good News Tracts"
+    },
+    {
+      "trait_type": "Year",
+      "value": "2022"
+    }
+  ],
+  "image": "ipfs://bafybeihcypukbriaakry5zhk4bpa3huscpe5ywfqrasavi43c2l3aweofa/120.jpg"
+}

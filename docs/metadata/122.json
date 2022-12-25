@@ -1,0 +1,29 @@
+{
+  "name": "Sanat Claus - The Greay Imposter",
+  "token_id": "122",
+  "description": "Photograph by Steve Pikelny (2022) | Published by Dial-The-Truth Ministries | Content: Informational | Condition: Mint | Type: Booklet",
+  "external_url": "https://steviep.xyz/jesus/122",
+  "attributes": [
+    {
+      "trait_type": "Type",
+      "value": "Booklet"
+    },
+    {
+      "trait_type": "Condition",
+      "value": "Mint"
+    },
+    {
+      "trait_type": "Content",
+      "value": "Informational"
+    },
+    {
+      "trait_type": "Publisher",
+      "value": "Dial-The-Truth Ministries"
+    },
+    {
+      "trait_type": "Year",
+      "value": "2022"
+    }
+  ],
+  "image": "ipfs://bafybeihcypukbriaakry5zhk4bpa3huscpe5ywfqrasavi43c2l3aweofa/122.jpg"
+}

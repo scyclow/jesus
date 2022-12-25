@@ -1,0 +1,29 @@
+{
+  "name": "Rock Music IT KILLS",
+  "token_id": "113",
+  "description": "Photograph by Steve Pikelny (2022) | Published by Dial-The-Truth Ministries | Content: Industry Analysis | Condition: Very Good | Type: Leaflet",
+  "external_url": "https://steviep.xyz/jesus/113",
+  "attributes": [
+    {
+      "trait_type": "Type",
+      "value": "Leaflet"
+    },
+    {
+      "trait_type": "Condition",
+      "value": "Very Good"
+    },
+    {
+      "trait_type": "Content",
+      "value": "Industry Analysis"
+    },
+    {
+      "trait_type": "Publisher",
+      "value": "Dial-The-Truth Ministries"
+    },
+    {
+      "trait_type": "Year",
+      "value": "2022"
+    }
+  ],
+  "image": "ipfs://bafybeihcypukbriaakry5zhk4bpa3huscpe5ywfqrasavi43c2l3aweofa/113.jpg"
+}

@@ -1,0 +1,29 @@
+{
+  "name": "How to Get God's Attention",
+  "token_id": "91",
+  "description": "Photograph by Steve Pikelny (2022) | Published by Harrison House, Inc | Content: Educational | Condition: Good | Type: Booklet",
+  "external_url": "https://steviep.xyz/jesus/91",
+  "attributes": [
+    {
+      "trait_type": "Type",
+      "value": "Booklet"
+    },
+    {
+      "trait_type": "Condition",
+      "value": "Good"
+    },
+    {
+      "trait_type": "Content",
+      "value": "Educational"
+    },
+    {
+      "trait_type": "Publisher",
+      "value": "Harrison House, Inc"
+    },
+    {
+      "trait_type": "Year",
+      "value": "2022"
+    }
+  ],
+  "image": "ipfs://bafybeihcypukbriaakry5zhk4bpa3huscpe5ywfqrasavi43c2l3aweofa/91.jpg"
+}

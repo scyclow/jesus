@@ -1,0 +1,29 @@
+{
+  "name": "Wie heef de macht over de wereld?",
+  "token_id": "98",
+  "description": "Photograph by Steve Pikelny (2022) | Published by Jehovah's Witnesses | Content: Dutch | Condition: Good | Type: Pamphlet",
+  "external_url": "https://steviep.xyz/jesus/98",
+  "attributes": [
+    {
+      "trait_type": "Type",
+      "value": "Pamphlet"
+    },
+    {
+      "trait_type": "Condition",
+      "value": "Good"
+    },
+    {
+      "trait_type": "Content",
+      "value": "Dutch"
+    },
+    {
+      "trait_type": "Publisher",
+      "value": "Jehovah's Witnesses"
+    },
+    {
+      "trait_type": "Year",
+      "value": "2022"
+    }
+  ],
+  "image": "ipfs://bafybeihcypukbriaakry5zhk4bpa3huscpe5ywfqrasavi43c2l3aweofa/98.jpg"
+}

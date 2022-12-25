@@ -1,0 +1,29 @@
+{
+  "name": "How to Get Rich (And Keep It)",
+  "token_id": "88",
+  "description": "Photograph by Steve Pikelny (2022) | Published by Chick Tracts | Content: Educational | Condition: Mint | Type: Tract",
+  "external_url": "https://steviep.xyz/jesus/88",
+  "attributes": [
+    {
+      "trait_type": "Type",
+      "value": "Tract"
+    },
+    {
+      "trait_type": "Condition",
+      "value": "Mint"
+    },
+    {
+      "trait_type": "Content",
+      "value": "Educational"
+    },
+    {
+      "trait_type": "Publisher",
+      "value": "Chick Tracts"
+    },
+    {
+      "trait_type": "Year",
+      "value": "2022"
+    }
+  ],
+  "image": "ipfs://bafybeihcypukbriaakry5zhk4bpa3huscpe5ywfqrasavi43c2l3aweofa/88.jpg"
+}

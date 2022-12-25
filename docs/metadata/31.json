@@ -1,0 +1,30 @@
+{
+  "name": "Get Connected to Christ",
+  "token_id": "31",
+  "os_token_id": "56149969866452300878143827841099029158054578672514359653557300832984172068865",
+  "description": "Photograph by Steve Pikelny (2022) | Published by Rev. Stephen Owusu Bempah | Content: Infographic | Condition: Good | Type: Tract",
+  "external_url": "https://steviep.xyz/jesus/31",
+  "attributes": [
+    {
+      "trait_type": "Type",
+      "value": "Tract"
+    },
+    {
+      "trait_type": "Publisher",
+      "value": "Rev. Stephen Owusu Bempah"
+    },
+    {
+      "trait_type": "Condition",
+      "value": "Good"
+    },
+    {
+      "trait_type": "Content",
+      "value": "Infographic"
+    },
+    {
+      "trait_type": "Year",
+      "value": "2021"
+    }
+  ],
+  "image": "ipfs://bafybeihcypukbriaakry5zhk4bpa3huscpe5ywfqrasavi43c2l3aweofa/31.jpg"
+}

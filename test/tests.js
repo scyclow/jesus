@@ -51,6 +51,42 @@ async function setup () {
   )
 }
 
+let OSOpenStorefront
+async function mainnetForkSetup() {
+  await network.provider.send("hardhat_reset", [
+    {
+      forking: {
+        jsonRpcUrl: config.networks.hardhat.forking.url,
+        blockNumber: config.networks.hardhat.forking.blockNumber,
+      },
+    },
+  ]);
+
+  signers = await ethers.getSigners()
+  cardinal = signers[0]
+  priest1 = signers[1]
+  priest2 = signers[2]
+  disciple1 = signers[3]
+  disciple2 = signers[4]
+  disciple3 = signers[5]
+
+  MockERC1155Factory = await ethers.getContractFactory('MockERC1155', cardinal)
+  OSOpenStorefront = await MockERC1155Factory.attach('0x495f947276749Ce646f68AC8c248420045cb7b5e')
+
+  JesusFactory = await ethers.getContractFactory('SubwayJesusPamphlets', cardinal)
+  Jesus = await JesusFactory.deploy(OSOpenStorefront.address)
+  await Jesus.deployed()
+
+  JesusDAOFactory = await ethers.getContractFactory('ChurchOfSubwayJesusPamphlets')
+  JesusDAO = await JesusDAOFactory.attach(
+    await Jesus.connect(cardinal).church()
+  )
+
+  MetadataFactory = await ethers.getContractFactory('Metadata')
+  Metadata = await MetadataFactory.attach(
+    await Jesus.connect(cardinal).metadataContract()
+  )
+}
 
 describe('SubwayJesusPamphlets', () => {
   beforeEach(setup)
@@ -380,6 +416,41 @@ describe('SubwayJesusPamphlets', () => {
 
   })
 })
+
+describe('SubwayJesusPamphlets Metadata', () => {
+  beforeEach(setup)
+
+  it('should work', async () => {
+    expect(await Jesus.connect(cardinal).tokenURI(0)).to.equal('ipfs://bafybeib5wqab3uj7zcoajmmykwqiglqgdkb5dnuc2fecdaxx6tkwfhlrse/0.json')
+  })
+})
+
+describe('SubwayJesusPamphlets mainnet fork', () => {
+  beforeEach(mainnetForkSetup)
+
+  describe('onERC1155Received', () => {
+    it('should work for SJP tokens', async () => {
+      const steviepETH = await ethers.getImpersonatedSigner("0x47144372eb383466D18FC91DB9Cd0396Aa6c87A4");
+
+      await OSOpenStorefront.connect(steviepETH).safeTransferFrom(steviepETH.address, Jesus.address, '32150014705918146096138927293761864425970273519802704166038767682366363140097', 1, [])
+      await OSOpenStorefront.connect(steviepETH).safeTransferFrom(steviepETH.address, Jesus.address, '32150014705918146096138927293761864425970273519802704166038767671371246862337', 1, [])
+      await OSOpenStorefront.connect(steviepETH).safeTransferFrom(steviepETH.address, Jesus.address, '32150014705918146096138927293761864425970273519802704166038767657077595701249', 1, [])
+
+      expect(await Jesus.connect(cardinal).balanceOf(steviepETH.address)).to.equal(3)
+
+      expect(await Jesus.connect(cardinal).ownerOf(53)).to.equal(steviepETH.address)
+      expect(await Jesus.connect(cardinal).ownerOf(65)).to.equal(steviepETH.address)
+      expect(await Jesus.connect(cardinal).ownerOf(75)).to.equal(steviepETH.address)
+
+      // should forward old tokens to DAO
+
+      expect(await OSOpenStorefront.connect(cardinal).balanceOf(JesusDAO.address, '32150014705918146096138927293761864425970273519802704166038767682366363140097')).to.equal(1)
+      expect(await OSOpenStorefront.connect(cardinal).balanceOf(JesusDAO.address, '32150014705918146096138927293761864425970273519802704166038767671371246862337')).to.equal(1)
+      expect(await OSOpenStorefront.connect(cardinal).balanceOf(JesusDAO.address, '32150014705918146096138927293761864425970273519802704166038767657077595701249')).to.equal(1)
+    })
+  })
+})
+
 
 describe('ChurchOfSubwayJesusPamphlets', () => {
   beforeEach(async () => {
@@ -728,7 +799,7 @@ describe('ChurchOfSubwayJesusPamphlets', () => {
     })
   })
 
-  describe.only('hashVote/verifySignature', () => {
+  describe.skip('hashVote/verifySignature', () => {
     it('should work', async () => {
 
       console.log('cardinal', cardinal.address)

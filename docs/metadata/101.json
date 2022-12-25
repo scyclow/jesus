@@ -1,0 +1,29 @@
+{
+  "name": "The Best is yet to come!",
+  "token_id": "101",
+  "description": "Photograph by Steve Pikelny (2022) | Published by Hope Tract Ministry | Content: Informational | Condition: Mint | Type: Pamphlet",
+  "external_url": "https://steviep.xyz/jesus/101",
+  "attributes": [
+    {
+      "trait_type": "Type",
+      "value": "Pamphlet"
+    },
+    {
+      "trait_type": "Condition",
+      "value": "Mint"
+    },
+    {
+      "trait_type": "Content",
+      "value": "Informational"
+    },
+    {
+      "trait_type": "Publisher",
+      "value": "Hope Tract Ministry"
+    },
+    {
+      "trait_type": "Year",
+      "value": "2022"
+    }
+  ],
+  "image": "ipfs://bafybeihcypukbriaakry5zhk4bpa3huscpe5ywfqrasavi43c2l3aweofa/101.jpg"
+}

@@ -1,0 +1,29 @@
+{
+  "name": "How Honest Are You?",
+  "token_id": "81",
+  "description": "Photograph by Steve Pikelny (2022) | Published by Gospel Tract and Bible Society | Content: Philosophy | Condition: Mint | Type: Leaflet",
+  "external_url": "https://steviep.xyz/jesus/81",
+  "attributes": [
+    {
+      "trait_type": "Type",
+      "value": "Leaflet"
+    },
+    {
+      "trait_type": "Condition",
+      "value": "Mint"
+    },
+    {
+      "trait_type": "Content",
+      "value": "Philosophy"
+    },
+    {
+      "trait_type": "Publisher",
+      "value": "Gospel Tract and Bible Society"
+    },
+    {
+      "trait_type": "Year",
+      "value": "2022"
+    }
+  ],
+  "image": "ipfs://bafybeihcypukbriaakry5zhk4bpa3huscpe5ywfqrasavi43c2l3aweofa/81.jpg"
+}

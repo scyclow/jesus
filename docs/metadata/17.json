@@ -1,0 +1,30 @@
+{
+  "name": "Who do YOU say that I AM?",
+  "token_id": "17",
+  "os_token_id": "56149969866452300878143827841099029158054578672514359653557300817591009280001",
+  "description": "Photograph by Steve Pikelny (2022) | Published by World Missionary Press | Content: History | Condition: Okay | Type: Booklet",
+  "external_url": "https://steviep.xyz/jesus/17",
+  "attributes": [
+    {
+      "trait_type": "Content",
+      "value": "History"
+    },
+    {
+      "trait_type": "Type",
+      "value": "Booklet"
+    },
+    {
+      "trait_type": "Publisher",
+      "value": "World Missionary Press"
+    },
+    {
+      "trait_type": "Condition",
+      "value": "Okay"
+    },
+    {
+      "trait_type": "Year",
+      "value": "2021"
+    }
+  ],
+  "image": "ipfs://bafybeihcypukbriaakry5zhk4bpa3huscpe5ywfqrasavi43c2l3aweofa/17.jpg"
+}

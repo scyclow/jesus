@@ -1,0 +1,29 @@
+{
+  "name": "PRAY",
+  "token_id": "100",
+  "description": "Photograph by Steve Pikelny (2022) | Published by Billy Graham Evangelistic Association | Content: Advice | Condition: Very Good | Type: Flyer",
+  "external_url": "https://steviep.xyz/jesus/100",
+  "attributes": [
+    {
+      "trait_type": "Type",
+      "value": "Flyer"
+    },
+    {
+      "trait_type": "Condition",
+      "value": "Very Good"
+    },
+    {
+      "trait_type": "Content",
+      "value": "Advice"
+    },
+    {
+      "trait_type": "Publisher",
+      "value": "Billy Graham Evangelistic Association"
+    },
+    {
+      "trait_type": "Year",
+      "value": "2022"
+    }
+  ],
+  "image": "ipfs://bafybeihcypukbriaakry5zhk4bpa3huscpe5ywfqrasavi43c2l3aweofa/100.jpg"
+}
