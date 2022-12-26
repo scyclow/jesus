@@ -329,6 +329,9 @@ describe('SubwayJesusPamphlets', () => {
   })
 
   describe('batchMint', () => {
+    // it.only('should give me a mintBatch tx', async () => {
+    //   console.log(encodeWithSignature('mintBatch', ['address[]'], [times(49, i => '0x8D55ccAb57f3Cba220AB3e3F3b7C9F59529e5a65')]))
+    // })
     it('should revert if not called by the church', async () => {
       await expectRevert(
         Jesus.connect(cardinal).mintBatch([disciple1.address]),
