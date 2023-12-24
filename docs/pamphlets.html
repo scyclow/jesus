@@ -234,6 +234,47 @@
   let filterContent = 'all'
   let filterCondition = 'all'
 
+  const yearSelect = document.getElementById('year-select')
+  const publisherSelect = document.getElementById('publisher-select')
+  const typeSelect = document.getElementById('type-select')
+  const contentSelect = document.getElementById('content-select')
+  const conditionSelect = document.getElementById('condition-select')
+
+  const urlParams = new URLSearchParams(window.location.search)
+
+  for (let [param, value] of urlParams) {
+    console.log(param, value)
+    if (param === 'year'){
+      filterYear = value
+      yearSelect.value = value
+    }
+    if (param === 'publisher') {
+      filterPublisher = value
+      setTimeout(() => {
+        publisherSelect.value = value
+      })
+    }
+    if (param === 'type') {
+      filterType = value
+      setTimeout(() => {
+        typeSelect.value = value
+      })
+    }
+    if (param === 'content') {
+      filterContent = value
+      setTimeout(() => {
+        contentSelect.value = value
+      })
+    }
+    if (param === 'condition') {
+      filterCondition = value
+      setTimeout(() => {
+        conditionSelect.value = value
+      })
+    }
+  }
+
+
 
   function renderPamphlets() {
     document.getElementById('main').innerHTML = `
@@ -275,11 +316,7 @@
 
   renderPamphlets()
 
-  const yearSelect = document.getElementById('year-select')
-  const publisherSelect = document.getElementById('publisher-select')
-  const typeSelect = document.getElementById('type-select')
-  const contentSelect = document.getElementById('content-select')
-  const conditionSelect = document.getElementById('condition-select')
+
 
   publisherSelect.innerHTML = `
     <option value="all">All</option>
@@ -310,27 +347,37 @@
 
   yearSelect.onchange = e => {
     filterYear = e.target.value
-    renderPamphlets()
+    urlParams.set('year', e.target.value)
+    window.location.search = urlParams.toString()
+    // renderPamphlets()
   }
 
   publisherSelect.onchange = e => {
     filterPublisher = e.target.value
-    renderPamphlets()
+    urlParams.set('publisher', e.target.value)
+    window.location.search = urlParams.toString()
+    // renderPamphlets()
   }
 
   typeSelect.onchange = e => {
     filterType = e.target.value
-    renderPamphlets()
+    urlParams.set('type', e.target.value)
+    window.location.search = urlParams.toString()
+    // renderPamphlets()
   }
 
   contentSelect.onchange = e => {
     filterContent = e.target.value
-    renderPamphlets()
+    urlParams.set('content', e.target.value)
+    window.location.search = urlParams.toString()
+    // renderPamphlets()
   }
 
   conditionSelect.onchange = e => {
     filterCondition = e.target.value
-    renderPamphlets()
+    urlParams.set('condition', e.target.value)
+    window.location.search = urlParams.toString()
+    // renderPamphlets()
   }
 
 
