@@ -149,7 +149,7 @@ module.exports = [
   {
     name: 'A Load Too Great For The Engineer\'s Scale!',
     type: 'Leaflet',
-    condition: 'Very',
+    condition: 'Very Good',
     content: 'Story',
     publisher: 'Liberty Gospel Tracts',
   },

@@ -4175,7 +4175,7 @@ const pamphletData = [
       },
       {
         "trait_type": "Condition",
-        "value": "Very"
+        "value": "Very Good"
       },
       {
         "trait_type": "Content",
