@@ -1,0 +1,29 @@
+{
+  "name": "What Does The FUTURE Hold For You?",
+  "attributes": [
+    {
+      "trait_type": "Type",
+      "value": "Leaflet"
+    },
+    {
+      "trait_type": "Condition",
+      "value": "Very Good"
+    },
+    {
+      "trait_type": "Content",
+      "value": "Professional Development"
+    },
+    {
+      "trait_type": "Publisher",
+      "value": "Liberty Gospel Tracts"
+    },
+    {
+      "trait_type": "Year",
+      "value": "2023"
+    }
+  ],
+  "token_id": "151",
+  "external_url": "https://steviep.xyz/jesus/pamphlets/151",
+  "description": "Photograph by Steve Pikelny (2023) | Published by Liberty Gospel Tracts | Content: Professional Development | Condition: Very Good | Type: Leaflet",
+  "image": "ipfs://bafybeiftatedjxcq66jvsjmvhviurqczvgt23ukeubhchlcqgvjgke7wua/151.jpg"
+}

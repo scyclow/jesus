@@ -1,0 +1,29 @@
+{
+  "name": "Out Of The Blue",
+  "attributes": [
+    {
+      "trait_type": "Type",
+      "value": "Leaflet"
+    },
+    {
+      "trait_type": "Condition",
+      "value": "Very Good"
+    },
+    {
+      "trait_type": "Content",
+      "value": "Story"
+    },
+    {
+      "trait_type": "Publisher",
+      "value": "American Tract Society"
+    },
+    {
+      "trait_type": "Year",
+      "value": "2023"
+    }
+  ],
+  "token_id": "136",
+  "external_url": "https://steviep.xyz/jesus/pamphlets/136",
+  "description": "Photograph by Steve Pikelny (2023) | Published by American Tract Society | Content: Story | Condition: Very Good | Type: Leaflet",
+  "image": "ipfs://bafybeiftatedjxcq66jvsjmvhviurqczvgt23ukeubhchlcqgvjgke7wua/136.jpg"
+}

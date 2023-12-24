@@ -1,0 +1,29 @@
+{
+  "name": "Jesus Loves You!",
+  "attributes": [
+    {
+      "trait_type": "Type",
+      "value": "Card"
+    },
+    {
+      "trait_type": "Condition",
+      "value": "Okay"
+    },
+    {
+      "trait_type": "Content",
+      "value": "Informational"
+    },
+    {
+      "trait_type": "Publisher",
+      "value": "Moments With The Book"
+    },
+    {
+      "trait_type": "Year",
+      "value": "2023"
+    }
+  ],
+  "token_id": "166",
+  "external_url": "https://steviep.xyz/jesus/pamphlets/166",
+  "description": "Photograph by Steve Pikelny (2023) | Published by Moments With The Book | Content: Informational | Condition: Okay | Type: Card",
+  "image": "ipfs://bafybeiftatedjxcq66jvsjmvhviurqczvgt23ukeubhchlcqgvjgke7wua/166.jpg"
+}

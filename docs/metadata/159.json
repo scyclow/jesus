@@ -1,0 +1,29 @@
+{
+  "name": "HOT LINE TO HELL",
+  "attributes": [
+    {
+      "trait_type": "Type",
+      "value": "Leaflet"
+    },
+    {
+      "trait_type": "Condition",
+      "value": "Very Good"
+    },
+    {
+      "trait_type": "Content",
+      "value": "History"
+    },
+    {
+      "trait_type": "Publisher",
+      "value": "Liberty Gospel Tracts"
+    },
+    {
+      "trait_type": "Year",
+      "value": "2023"
+    }
+  ],
+  "token_id": "159",
+  "external_url": "https://steviep.xyz/jesus/pamphlets/159",
+  "description": "Photograph by Steve Pikelny (2023) | Published by Liberty Gospel Tracts | Content: History | Condition: Very Good | Type: Leaflet",
+  "image": "ipfs://bafybeiftatedjxcq66jvsjmvhviurqczvgt23ukeubhchlcqgvjgke7wua/159.jpg"
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Good News for All Ages!",
+  "attributes": [
+    {
+      "trait_type": "Type",
+      "value": "Leaflet"
+    },
+    {
+      "trait_type": "Condition",
+      "value": "Very Good"
+    },
+    {
+      "trait_type": "Content",
+      "value": "Comic"
+    },
+    {
+      "trait_type": "Publisher",
+      "value": "Liberty Gospel Tracts"
+    },
+    {
+      "trait_type": "Year",
+      "value": "2023"
+    }
+  ],
+  "token_id": "163",
+  "external_url": "https://steviep.xyz/jesus/pamphlets/163",
+  "description": "Photograph by Steve Pikelny (2023) | Published by Liberty Gospel Tracts | Content: Comic | Condition: Very Good | Type: Leaflet",
+  "image": "ipfs://bafybeiftatedjxcq66jvsjmvhviurqczvgt23ukeubhchlcqgvjgke7wua/163.jpg"
+}

@@ -1,0 +1,29 @@
+{
+  "name": "A Load Too Great For The Engineer's Scale!",
+  "attributes": [
+    {
+      "trait_type": "Type",
+      "value": "Leaflet"
+    },
+    {
+      "trait_type": "Condition",
+      "value": "Very"
+    },
+    {
+      "trait_type": "Content",
+      "value": "Story"
+    },
+    {
+      "trait_type": "Publisher",
+      "value": "Liberty Gospel Tracts"
+    },
+    {
+      "trait_type": "Year",
+      "value": "2023"
+    }
+  ],
+  "token_id": "146",
+  "external_url": "https://steviep.xyz/jesus/pamphlets/146",
+  "description": "Photograph by Steve Pikelny (2023) | Published by Liberty Gospel Tracts | Content: Story | Condition: Very | Type: Leaflet",
+  "image": "ipfs://bafybeiftatedjxcq66jvsjmvhviurqczvgt23ukeubhchlcqgvjgke7wua/146.jpg"
+}

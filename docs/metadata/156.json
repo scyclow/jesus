@@ -1,0 +1,29 @@
+{
+  "name": "Time Alone With God",
+  "attributes": [
+    {
+      "trait_type": "Type",
+      "value": "Tract"
+    },
+    {
+      "trait_type": "Condition",
+      "value": "Mint"
+    },
+    {
+      "trait_type": "Content",
+      "value": "Informational"
+    },
+    {
+      "trait_type": "Publisher",
+      "value": "Billy Graham Evangelistic Association"
+    },
+    {
+      "trait_type": "Year",
+      "value": "2023"
+    }
+  ],
+  "token_id": "156",
+  "external_url": "https://steviep.xyz/jesus/pamphlets/156",
+  "description": "Photograph by Steve Pikelny (2023) | Published by Billy Graham Evangelistic Association | Content: Informational | Condition: Mint | Type: Tract",
+  "image": "ipfs://bafybeiftatedjxcq66jvsjmvhviurqczvgt23ukeubhchlcqgvjgke7wua/156.jpg"
+}

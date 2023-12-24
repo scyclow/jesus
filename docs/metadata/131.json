@@ -1,0 +1,29 @@
+{
+  "name": "Are YOU good Enough?",
+  "attributes": [
+    {
+      "trait_type": "Type",
+      "value": "Leaflet"
+    },
+    {
+      "trait_type": "Condition",
+      "value": "Okay"
+    },
+    {
+      "trait_type": "Content",
+      "value": "History"
+    },
+    {
+      "trait_type": "Publisher",
+      "value": "Israel Restoration Ministries"
+    },
+    {
+      "trait_type": "Year",
+      "value": "2023"
+    }
+  ],
+  "token_id": "131",
+  "external_url": "https://steviep.xyz/jesus/pamphlets/131",
+  "description": "Photograph by Steve Pikelny (2023) | Published by Israel Restoration Ministries | Content: History | Condition: Okay | Type: Leaflet",
+  "image": "ipfs://bafybeiftatedjxcq66jvsjmvhviurqczvgt23ukeubhchlcqgvjgke7wua/131.jpg"
+}
