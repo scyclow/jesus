@@ -156,6 +156,15 @@
       width: 180px;
     }
 
+    .claimable {
+      position: absolute;
+      background-color: #e31e66;
+      border-radius: 50%;
+      width: 2em;
+      height: 2em;
+      margin: 0.5em;
+    }
+
 
     @media (max-width: 565px) {}
   </style>
@@ -275,6 +284,30 @@
   }
 
 
+  const claimable = [
+    '125',
+    '131',
+    '132',
+    '134',
+    '135',
+    '137',
+    '138',
+    '140',
+    '143',
+    '145',
+    '148',
+    '149',
+    '150',
+    '157',
+    '161',
+    '163',
+    '165',
+    '168',
+    '169',
+    '170',
+    '174',
+  ]
+
 
   function renderPamphlets() {
     document.getElementById('main').innerHTML = `
@@ -297,7 +330,10 @@
         })
         .map(d => `
           <div class="pamphlet">
-            <a href="./assets/${d.token_id}.jpg"><img src="./assets/${d.token_id}.jpg"></a>
+            <a href="./assets/${d.token_id}.jpg">
+              ${claimable.includes(d.token_id) ? `<div class="claimable"></div>` : ''}
+              <img src="./assets/${d.token_id}.jpg">
+            </a>
             <div>
               <h3>${d.name}</h3>
               <div># ${d.token_id}</div>

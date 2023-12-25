@@ -210,7 +210,7 @@ module.exports = [
     publisher: 'Bezeugen',
   },
   {
-    name: 'It\'s About Tim!',
+    name: 'It\'s About Time!',
     type: 'Leaflet',
     condition: 'Very Good',
     content: 'Educational',

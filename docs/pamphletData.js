@@ -4419,7 +4419,7 @@ const pamphletData = [
     "description": "Photograph by Steve Pikelny (2023) | Published by Bezeugen | Content: Informational | Condition: Mint | Type: Card"
   },
   {
-    "name": "It's About Tim!",
+    "name": "It's About Time!",
     "attributes": [
       {
         "trait_type": "Type",
