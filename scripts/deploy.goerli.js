@@ -35,6 +35,20 @@ async function main() {
   console.log(`DAO:`, await Jesus.connect(cardinal).church())
 }
 
+// async function main() {
+//   const [artist, collector1, collector2, collector3] = await ethers.getSigners()
+
+//   signers = await ethers.getSigners()
+//   cardinal = signers[0]
+//   console.log('Deploying Metadata2Test')
+//   Metadata2TestFactory = await ethers.getContractFactory('Metadata2Test', artist)
+//   Metadata2Test = await Metadata2TestFactory.deploy()
+//   await Metadata2Test.deployed()
+
+//   console.log(`Metadata2Test:`, Metadata2Test.address)
+
+// }
+
 
 main()
   .then(() => process.exit(0))

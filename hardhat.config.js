@@ -11,13 +11,14 @@ module.exports = {
     compilers: [
       {version: "0.8.0"},
       {version: "0.8.11"},
+      {version: "0.8.23"},
     ]
   },
   networks: {
     hardhat: {
       forking: {
         url: `https://mainnet.infura.io/v3/${STUFF.INFURA_KEY}`,
-        blockNumber: 15077148,
+        blockNumber: 18815078,
       },
     },
 
