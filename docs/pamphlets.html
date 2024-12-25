@@ -243,6 +243,7 @@
   let filterType = 'all'
   let filterContent = 'all'
   let filterCondition = 'all'
+  let giftsOnly = false
 
   const yearSelect = document.getElementById('year-select')
   const publisherSelect = document.getElementById('publisher-select')
@@ -281,6 +282,9 @@
       setTimeout(() => {
         conditionSelect.value = value
       })
+    }
+    if (param === 'gifts' && value === 'true') {
+      giftsOnly = true
     }
   }
 
@@ -361,7 +365,8 @@
             (filterPublisher === 'all' || publisher === filterPublisher) &&
             (filterType === 'all' || _type === filterType) &&
             (filterContent === 'all' || content === filterContent) &&
-            (filterCondition === 'all' || condition === filterCondition)
+            (filterCondition === 'all' || condition === filterCondition) &&
+            (!giftsOnly || claimable.includes(d.token_id))
           )
         })
         .map(d => `
