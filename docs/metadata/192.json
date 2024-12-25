@@ -1,0 +1,29 @@
+{
+  "name": "Do You Know ??",
+  "attributes": [
+    {
+      "trait_type": "Type",
+      "value": "Tract"
+    },
+    {
+      "trait_type": "Condition",
+      "value": "Good"
+    },
+    {
+      "trait_type": "Content",
+      "value": "Infographic"
+    },
+    {
+      "trait_type": "Publisher",
+      "value": "Evangelism Explosion International"
+    },
+    {
+      "trait_type": "Year",
+      "value": "2024"
+    }
+  ],
+  "token_id": "192",
+  "external_url": "https://steviep.xyz/jesus/pamphlets/192",
+  "description": "Photograph by Steve Pikelny (2024) | Published by Evangelism Explosion International | Content: Infographic | Condition: Good | Type: Tract",
+  "image": "ipfs://bafybeiftatedjxcq66jvsjmvhviurqczvgt23ukeubhchlcqgvjgke7wua/192.jpg"
+}

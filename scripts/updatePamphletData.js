@@ -1,5 +1,5 @@
 const fs = require('fs')
-const newData = require('../newData')
+const newData = require('../newData2024')
 
 
 

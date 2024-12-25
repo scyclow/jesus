@@ -1,0 +1,29 @@
+{
+  "name": "Jesus Loves You",
+  "attributes": [
+    {
+      "trait_type": "Type",
+      "value": "Flyer"
+    },
+    {
+      "trait_type": "Condition",
+      "value": "Good"
+    },
+    {
+      "trait_type": "Content",
+      "value": "Informational"
+    },
+    {
+      "trait_type": "Publisher",
+      "value": "Unknown"
+    },
+    {
+      "trait_type": "Year",
+      "value": "2024"
+    }
+  ],
+  "token_id": "193",
+  "external_url": "https://steviep.xyz/jesus/pamphlets/193",
+  "description": "Photograph by Steve Pikelny (2024) | Published by Unknown | Content: Informational | Condition: Good | Type: Flyer",
+  "image": "ipfs://bafybeiftatedjxcq66jvsjmvhviurqczvgt23ukeubhchlcqgvjgke7wua/193.jpg"
+}

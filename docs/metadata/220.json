@@ -1,0 +1,29 @@
+{
+  "name": "The Silent Bell",
+  "attributes": [
+    {
+      "trait_type": "Type",
+      "value": "Pamphlet"
+    },
+    {
+      "trait_type": "Condition",
+      "value": "Good"
+    },
+    {
+      "trait_type": "Content",
+      "value": "Story"
+    },
+    {
+      "trait_type": "Publisher",
+      "value": "Good News Publishers"
+    },
+    {
+      "trait_type": "Year",
+      "value": "2024"
+    }
+  ],
+  "token_id": "220",
+  "external_url": "https://steviep.xyz/jesus/pamphlets/220",
+  "description": "Photograph by Steve Pikelny (2024) | Published by Good News Publishers | Content: Story | Condition: Good | Type: Pamphlet",
+  "image": "ipfs://bafybeiftatedjxcq66jvsjmvhviurqczvgt23ukeubhchlcqgvjgke7wua/220.jpg"
+}

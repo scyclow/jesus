@@ -1,0 +1,29 @@
+{
+  "name": "Love An essential need in the world today",
+  "attributes": [
+    {
+      "trait_type": "Type",
+      "value": "Leaflet"
+    },
+    {
+      "trait_type": "Condition",
+      "value": "Good"
+    },
+    {
+      "trait_type": "Content",
+      "value": "Educational"
+    },
+    {
+      "trait_type": "Publisher",
+      "value": "Gospel Tract and Bible Society"
+    },
+    {
+      "trait_type": "Year",
+      "value": "2024"
+    }
+  ],
+  "token_id": "186",
+  "external_url": "https://steviep.xyz/jesus/pamphlets/186",
+  "description": "Photograph by Steve Pikelny (2024) | Published by Gospel Tract and Bible Society | Content: Educational | Condition: Good | Type: Leaflet",
+  "image": "ipfs://bafybeiftatedjxcq66jvsjmvhviurqczvgt23ukeubhchlcqgvjgke7wua/186.jpg"
+}

@@ -1,0 +1,29 @@
+{
+  "name": "I found it! Here's how you can find it too!",
+  "attributes": [
+    {
+      "trait_type": "Type",
+      "value": "Tract"
+    },
+    {
+      "trait_type": "Condition",
+      "value": "Good"
+    },
+    {
+      "trait_type": "Content",
+      "value": "Educational"
+    },
+    {
+      "trait_type": "Publisher",
+      "value": "Here's Life America!"
+    },
+    {
+      "trait_type": "Year",
+      "value": "2024"
+    }
+  ],
+  "token_id": "212",
+  "external_url": "https://steviep.xyz/jesus/pamphlets/212",
+  "description": "Photograph by Steve Pikelny (2024) | Published by Here's Life America! | Content: Educational | Condition: Good | Type: Tract",
+  "image": "ipfs://bafybeiftatedjxcq66jvsjmvhviurqczvgt23ukeubhchlcqgvjgke7wua/212.jpg"
+}

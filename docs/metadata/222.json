@@ -1,0 +1,29 @@
+{
+  "name": "WHEN YOU ARE tempted",
+  "attributes": [
+    {
+      "trait_type": "Type",
+      "value": "Pamphlet"
+    },
+    {
+      "trait_type": "Condition",
+      "value": "Good"
+    },
+    {
+      "trait_type": "Content",
+      "value": "Self-Help"
+    },
+    {
+      "trait_type": "Publisher",
+      "value": "Church Art , Inc."
+    },
+    {
+      "trait_type": "Year",
+      "value": "2024"
+    }
+  ],
+  "token_id": "222",
+  "external_url": "https://steviep.xyz/jesus/pamphlets/222",
+  "description": "Photograph by Steve Pikelny (2024) | Published by Church Art , Inc. | Content: Self-Help | Condition: Good | Type: Pamphlet",
+  "image": "ipfs://bafybeiftatedjxcq66jvsjmvhviurqczvgt23ukeubhchlcqgvjgke7wua/222.jpg"
+}

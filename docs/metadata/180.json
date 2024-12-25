@@ -1,0 +1,29 @@
+{
+  "name": "Where Will You Spend Eternity",
+  "attributes": [
+    {
+      "trait_type": "Type",
+      "value": "Pamphlet"
+    },
+    {
+      "trait_type": "Condition",
+      "value": "Terrible"
+    },
+    {
+      "trait_type": "Content",
+      "value": "Informational"
+    },
+    {
+      "trait_type": "Publisher",
+      "value": "Faith In God (ZION GLORIOUS CITY)"
+    },
+    {
+      "trait_type": "Year",
+      "value": "2024"
+    }
+  ],
+  "token_id": "180",
+  "external_url": "https://steviep.xyz/jesus/pamphlets/180",
+  "description": "Photograph by Steve Pikelny (2024) | Published by Faith In God (ZION GLORIOUS CITY) | Content: Informational | Condition: Terrible | Type: Pamphlet",
+  "image": "ipfs://bafybeiftatedjxcq66jvsjmvhviurqczvgt23ukeubhchlcqgvjgke7wua/180.jpg"
+}

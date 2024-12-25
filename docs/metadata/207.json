@@ -1,0 +1,29 @@
+{
+  "name": "Just For You!",
+  "attributes": [
+    {
+      "trait_type": "Type",
+      "value": "Pamphlet"
+    },
+    {
+      "trait_type": "Condition",
+      "value": "Very Good"
+    },
+    {
+      "trait_type": "Content",
+      "value": "Informational"
+    },
+    {
+      "trait_type": "Publisher",
+      "value": "Good News Publishers"
+    },
+    {
+      "trait_type": "Year",
+      "value": "2024"
+    }
+  ],
+  "token_id": "207",
+  "external_url": "https://steviep.xyz/jesus/pamphlets/207",
+  "description": "Photograph by Steve Pikelny (2024) | Published by Good News Publishers | Content: Informational | Condition: Very Good | Type: Pamphlet",
+  "image": "ipfs://bafybeiftatedjxcq66jvsjmvhviurqczvgt23ukeubhchlcqgvjgke7wua/207.jpg"
+}

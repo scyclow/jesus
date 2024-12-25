@@ -1,0 +1,29 @@
+{
+  "name": "Eternal Lifs is a Free Gift",
+  "attributes": [
+    {
+      "trait_type": "Type",
+      "value": "Pamphlet"
+    },
+    {
+      "trait_type": "Condition",
+      "value": "Okay"
+    },
+    {
+      "trait_type": "Content",
+      "value": "Informational"
+    },
+    {
+      "trait_type": "Publisher",
+      "value": "Fellowship Tract League"
+    },
+    {
+      "trait_type": "Year",
+      "value": "2024"
+    }
+  ],
+  "token_id": "209",
+  "external_url": "https://steviep.xyz/jesus/pamphlets/209",
+  "description": "Photograph by Steve Pikelny (2024) | Published by Fellowship Tract League | Content: Informational | Condition: Okay | Type: Pamphlet",
+  "image": "ipfs://bafybeiftatedjxcq66jvsjmvhviurqczvgt23ukeubhchlcqgvjgke7wua/209.jpg"
+}
