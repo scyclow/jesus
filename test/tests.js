@@ -863,8 +863,8 @@ describe.only('update metadata + mint', () => {
 
   it('all fucking works', async () => {
     const recipients = [
-      '0x8D55ccAb57f3Cba220AB3e3F3b7C9F59529e5a65', // 175*
-      '0x8D55ccAb57f3Cba220AB3e3F3b7C9F59529e5a65', // 176
+      '', // 175*
+      '0x6B67623ff56c10d9dcFc2152425f90285fC74DDD', // 176
       '0x8D55ccAb57f3Cba220AB3e3F3b7C9F59529e5a65', // 177
       '0xf3670541e816d539c2500cc0de8bc27ed5bb1ed9', // 178*
       '0x8D55ccAb57f3Cba220AB3e3F3b7C9F59529e5a65', // 179
@@ -872,7 +872,7 @@ describe.only('update metadata + mint', () => {
       '0xfF5F8228D003705D1668079a9DBF23DbA5209E8C', // 181
       '0x8D55ccAb57f3Cba220AB3e3F3b7C9F59529e5a65', // 182
       '0x06dc474Fb14f4B0521FACd61beAd1ebFa5BcF7Ce', // 183*
-      '0x8D55ccAb57f3Cba220AB3e3F3b7C9F59529e5a65', // 184
+      '0xF565d79c35758c752d3DebFdD380D4Eb16A3c6E3', // 184*
       '0x8D55ccAb57f3Cba220AB3e3F3b7C9F59529e5a65', // 185
       '0x8D55ccAb57f3Cba220AB3e3F3b7C9F59529e5a65', // 186
       '0x8D55ccAb57f3Cba220AB3e3F3b7C9F59529e5a65', // 187
