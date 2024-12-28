@@ -2,7 +2,7 @@
   "name": "Which Way?",
   "token_id": "83",
   "description": "Photograph by Steve Pikelny (2022) | Published by Hope Tract Ministry | Content: Informational | Condition: Mint | Type: Pamphlet",
-  "external_url": "https://steviep.xyz/jesus/83",
+  "external_url": "https://steviep.xyz/jesus/pamphlets/83",
   "attributes": [
     {
       "trait_type": "Type",
@@ -25,5 +25,5 @@
       "value": "2022"
     }
   ],
-  "image": "ipfs://bafybeiftatedjxcq66jvsjmvhviurqczvgt23ukeubhchlcqgvjgke7wua/83.jpg"
+  "image": "ipfs://QmVzZeYrKjjKL65G6NJt1qQR5cvE8wyJDo283CkiYCbzva/83.jpg"
 }

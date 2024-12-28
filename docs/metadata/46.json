@@ -3,7 +3,7 @@
   "token_id": "46",
   "os_token_id": "56149969866452300878143827841099029158054578672514359653557300849476846485505",
   "description": "Photograph by Steve Pikelny (2022) | Published by Radio Rosary | Content: Educational | Condition: Good | Type: Book",
-  "external_url": "https://steviep.xyz/jesus/46",
+  "external_url": "https://steviep.xyz/jesus/pamphlets/46",
   "attributes": [
     {
       "trait_type": "Publisher",
@@ -26,5 +26,5 @@
       "value": "2021"
     }
   ],
-  "image": "ipfs://bafybeiftatedjxcq66jvsjmvhviurqczvgt23ukeubhchlcqgvjgke7wua/46.jpg"
+  "image": "ipfs://QmVzZeYrKjjKL65G6NJt1qQR5cvE8wyJDo283CkiYCbzva/46.jpg"
 }

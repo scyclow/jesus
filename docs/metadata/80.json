@@ -2,7 +2,7 @@
   "name": "The Biggest Lie Ever Told",
   "token_id": "80",
   "description": "Photograph by Steve Pikelny (2022) | Published by Bible Baptist Publications | Content: Informational | Condition: Very Good | Type: Leaflet",
-  "external_url": "https://steviep.xyz/jesus/80",
+  "external_url": "https://steviep.xyz/jesus/pamphlets/80",
   "attributes": [
     {
       "trait_type": "Type",
@@ -25,5 +25,5 @@
       "value": "2022"
     }
   ],
-  "image": "ipfs://bafybeiftatedjxcq66jvsjmvhviurqczvgt23ukeubhchlcqgvjgke7wua/80.jpg"
+  "image": "ipfs://QmVzZeYrKjjKL65G6NJt1qQR5cvE8wyJDo283CkiYCbzva/80.jpg"
 }

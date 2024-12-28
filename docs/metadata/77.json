@@ -2,7 +2,7 @@
   "name": "What Do I Have To Lose?",
   "token_id": "77",
   "description": "Photograph by Steve Pikelny (2022) | Published by Hope Tract Ministry | Content: Self-Help | Condition: Mint | Type: Pamphlet",
-  "external_url": "https://steviep.xyz/jesus/77",
+  "external_url": "https://steviep.xyz/jesus/pamphlets/77",
   "attributes": [
     {
       "trait_type": "Type",
@@ -25,5 +25,5 @@
       "value": "2022"
     }
   ],
-  "image": "ipfs://bafybeiftatedjxcq66jvsjmvhviurqczvgt23ukeubhchlcqgvjgke7wua/77.jpg"
+  "image": "ipfs://QmVzZeYrKjjKL65G6NJt1qQR5cvE8wyJDo283CkiYCbzva/77.jpg"
 }

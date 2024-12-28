@@ -3,7 +3,7 @@
   "token_id": "64",
   "os_token_id": "56149969866452300878143827841099029158054578672514359653557300869268055785473",
   "description": "Photograph by Steve Pikelny (2022) | Published by Jehovah's Witnesses | Content: Informational | Condition: Okay | Type: Pamphlet",
-  "external_url": "https://steviep.xyz/jesus/64",
+  "external_url": "https://steviep.xyz/jesus/pamphlets/64",
   "attributes": [
     {
       "trait_type": "Content",
@@ -26,5 +26,5 @@
       "value": "2021"
     }
   ],
-  "image": "ipfs://bafybeiftatedjxcq66jvsjmvhviurqczvgt23ukeubhchlcqgvjgke7wua/64.jpg"
+  "image": "ipfs://QmVzZeYrKjjKL65G6NJt1qQR5cvE8wyJDo283CkiYCbzva/64.jpg"
 }

@@ -3,7 +3,7 @@
   "token_id": "42",
   "os_token_id": "56149969866452300878143827841099029158054578672514359653557300845078799974401",
   "description": "Photograph by Steve Pikelny (2022) | Published by Review and Herald Publishing Association | Content: Philosophy | Condition: Okay | Type: Leaflet",
-  "external_url": "https://steviep.xyz/jesus/42",
+  "external_url": "https://steviep.xyz/jesus/pamphlets/42",
   "attributes": [
     {
       "trait_type": "Publisher",
@@ -26,5 +26,5 @@
       "value": "2021"
     }
   ],
-  "image": "ipfs://bafybeiftatedjxcq66jvsjmvhviurqczvgt23ukeubhchlcqgvjgke7wua/42.jpg"
+  "image": "ipfs://QmVzZeYrKjjKL65G6NJt1qQR5cvE8wyJDo283CkiYCbzva/42.jpg"
 }

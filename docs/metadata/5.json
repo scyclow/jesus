@@ -3,7 +3,7 @@
   "token_id": "5",
   "os_token_id": "56149969866452300878143827841099029158054578672514359653557300804396869746689",
   "description": "Photograph by Steve Pikelny (2022) | Published by Chick Tracts | Content: Comic | Condition: Very Good | Type: Tract",
-  "external_url": "https://steviep.xyz/jesus/5",
+  "external_url": "https://steviep.xyz/jesus/pamphlets/5",
   "attributes": [
     {
       "trait_type": "Publisher",
@@ -26,5 +26,5 @@
       "value": "2021"
     }
   ],
-  "image": "ipfs://bafybeiftatedjxcq66jvsjmvhviurqczvgt23ukeubhchlcqgvjgke7wua/5.jpg"
+  "image": "ipfs://QmVzZeYrKjjKL65G6NJt1qQR5cvE8wyJDo283CkiYCbzva/5.jpg"
 }

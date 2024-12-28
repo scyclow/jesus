@@ -3,7 +3,7 @@
   "token_id": "44",
   "os_token_id": "56149969866452300878143827841099029158054578672514359653557300847277823229953",
   "description": "Photograph by Steve Pikelny (2022) | Published by Jehovah's Witnesses | Content: Contact | Condition: Okay | Type: Card",
-  "external_url": "https://steviep.xyz/jesus/44",
+  "external_url": "https://steviep.xyz/jesus/pamphlets/44",
   "attributes": [
     {
       "trait_type": "Publisher",
@@ -26,5 +26,5 @@
       "value": "2021"
     }
   ],
-  "image": "ipfs://bafybeiftatedjxcq66jvsjmvhviurqczvgt23ukeubhchlcqgvjgke7wua/44.jpg"
+  "image": "ipfs://QmVzZeYrKjjKL65G6NJt1qQR5cvE8wyJDo283CkiYCbzva/44.jpg"
 }

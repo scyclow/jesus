@@ -3,7 +3,7 @@
   "token_id": "53",
   "os_token_id": "32150014705918146096138927293761864425970273519802704166038767657077595701249",
   "description": "Photograph by Steve Pikelny (2022) | Published by Christian Revolutionary Brotherhood | Content: History | Condition: Okay | Type: Flyer",
-  "external_url": "https://steviep.xyz/jesus/53",
+  "external_url": "https://steviep.xyz/jesus/pamphlets/53",
   "attributes": [
     {
       "trait_type": "Content",
@@ -26,5 +26,5 @@
       "value": "2021"
     }
   ],
-  "image": "ipfs://bafybeiftatedjxcq66jvsjmvhviurqczvgt23ukeubhchlcqgvjgke7wua/53.jpg"
+  "image": "ipfs://QmVzZeYrKjjKL65G6NJt1qQR5cvE8wyJDo283CkiYCbzva/53.jpg"
 }

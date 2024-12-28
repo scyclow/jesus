@@ -3,7 +3,7 @@
   "token_id": "47",
   "os_token_id": "56149969866452300878143827841099029158054578672514359653557300850576358113281",
   "description": "Photograph by Steve Pikelny (2022) | Published by Remnant Publications | Content: History | Condition: Good | Type: Book",
-  "external_url": "https://steviep.xyz/jesus/47",
+  "external_url": "https://steviep.xyz/jesus/pamphlets/47",
   "attributes": [
     {
       "trait_type": "Content",
@@ -26,5 +26,5 @@
       "value": "2021"
     }
   ],
-  "image": "ipfs://bafybeiftatedjxcq66jvsjmvhviurqczvgt23ukeubhchlcqgvjgke7wua/47.jpg"
+  "image": "ipfs://QmVzZeYrKjjKL65G6NJt1qQR5cvE8wyJDo283CkiYCbzva/47.jpg"
 }

@@ -2,7 +2,7 @@
   "name": "You Can Be Debt Free! #2",
   "token_id": "76",
   "description": "Photograph by Steve Pikelny (2022) | Published by Fellowship Tract League | Content: Advice | Condition: Poor | Type: Pamphlet",
-  "external_url": "https://steviep.xyz/jesus/76",
+  "external_url": "https://steviep.xyz/jesus/pamphlets/76",
   "attributes": [
     {
       "trait_type": "Type",
@@ -25,5 +25,5 @@
       "value": "2022"
     }
   ],
-  "image": "ipfs://bafybeiftatedjxcq66jvsjmvhviurqczvgt23ukeubhchlcqgvjgke7wua/76.jpg"
+  "image": "ipfs://QmVzZeYrKjjKL65G6NJt1qQR5cvE8wyJDo283CkiYCbzva/76.jpg"
 }

@@ -2,7 +2,7 @@
   "name": "Grief",
   "token_id": "105",
   "description": "Photograph by Steve Pikelny (2022) | Published by Hope Tract Ministry | Content: Self-Help | Condition: Very Good | Type: Pamphlet",
-  "external_url": "https://steviep.xyz/jesus/105",
+  "external_url": "https://steviep.xyz/jesus/pamphlets/105",
   "attributes": [
     {
       "trait_type": "Type",
@@ -25,5 +25,5 @@
       "value": "2022"
     }
   ],
-  "image": "ipfs://bafybeiftatedjxcq66jvsjmvhviurqczvgt23ukeubhchlcqgvjgke7wua/105.jpg"
+  "image": "ipfs://QmVzZeYrKjjKL65G6NJt1qQR5cvE8wyJDo283CkiYCbzva/105.jpg"
 }

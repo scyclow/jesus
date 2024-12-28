@@ -2,7 +2,7 @@
   "name": "4 Informationen ...die Sie haben müssen",
   "token_id": "121",
   "description": "Photograph by Steve Pikelny (2022) | Published by Verbreitung der Heiligen Schrift | Content: German | Condition: Very Good | Type: Leaflet",
-  "external_url": "https://steviep.xyz/jesus/121",
+  "external_url": "https://steviep.xyz/jesus/pamphlets/121",
   "attributes": [
     {
       "trait_type": "Type",
@@ -25,5 +25,5 @@
       "value": "2022"
     }
   ],
-  "image": "ipfs://bafybeiftatedjxcq66jvsjmvhviurqczvgt23ukeubhchlcqgvjgke7wua/121.jpg"
+  "image": "ipfs://QmVzZeYrKjjKL65G6NJt1qQR5cvE8wyJDo283CkiYCbzva/121.jpg"
 }

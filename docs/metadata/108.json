@@ -2,7 +2,7 @@
   "name": "Is Hell a Real Place?",
   "token_id": "108",
   "description": "Photograph by Steve Pikelny (2022) | Published by Hope Tract Ministry | Content: Informational | Condition: Very Good | Type: Pamphlet",
-  "external_url": "https://steviep.xyz/jesus/108",
+  "external_url": "https://steviep.xyz/jesus/pamphlets/108",
   "attributes": [
     {
       "trait_type": "Type",
@@ -25,5 +25,5 @@
       "value": "2022"
     }
   ],
-  "image": "ipfs://bafybeiftatedjxcq66jvsjmvhviurqczvgt23ukeubhchlcqgvjgke7wua/108.jpg"
+  "image": "ipfs://QmVzZeYrKjjKL65G6NJt1qQR5cvE8wyJDo283CkiYCbzva/108.jpg"
 }

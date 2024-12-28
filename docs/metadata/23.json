@@ -3,7 +3,7 @@
   "token_id": "23",
   "os_token_id": "56149969866452300878143827841099029158054578672514359653557300824188079046657",
   "description": "Photograph by Steve Pikelny (2022) | Published by Fellowship Tract League | Content: Philosophy | Condition: Very Good | Type: Pamphlet",
-  "external_url": "https://steviep.xyz/jesus/23",
+  "external_url": "https://steviep.xyz/jesus/pamphlets/23",
   "attributes": [
     {
       "trait_type": "Type",
@@ -26,5 +26,5 @@
       "value": "2021"
     }
   ],
-  "image": "ipfs://bafybeiftatedjxcq66jvsjmvhviurqczvgt23ukeubhchlcqgvjgke7wua/23.jpg"
+  "image": "ipfs://QmVzZeYrKjjKL65G6NJt1qQR5cvE8wyJDo283CkiYCbzva/23.jpg"
 }

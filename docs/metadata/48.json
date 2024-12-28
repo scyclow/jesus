@@ -3,7 +3,7 @@
   "token_id": "48",
   "os_token_id": "56149969866452300878143827841099029158054578672514359653557300851675869741057",
   "description": "Photograph by Steve Pikelny (2022) | Published by Universal Calvary Church | Content: Contact | Condition: Mint | Type: Card",
-  "external_url": "https://steviep.xyz/jesus/48",
+  "external_url": "https://steviep.xyz/jesus/pamphlets/48",
   "attributes": [
     {
       "trait_type": "Publisher",
@@ -26,5 +26,5 @@
       "value": "2021"
     }
   ],
-  "image": "ipfs://bafybeiftatedjxcq66jvsjmvhviurqczvgt23ukeubhchlcqgvjgke7wua/48.jpg"
+  "image": "ipfs://QmVzZeYrKjjKL65G6NJt1qQR5cvE8wyJDo283CkiYCbzva/48.jpg"
 }

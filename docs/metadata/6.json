@@ -3,7 +3,7 @@
   "token_id": "6",
   "os_token_id": "56149969866452300878143827841099029158054578672514359653557300805496381374465",
   "description": "Photograph by Steve Pikelny (2022) | Published by Christian Light Publications | Content: Infographic | Condition: Very Good | Type: Tract",
-  "external_url": "https://steviep.xyz/jesus/6",
+  "external_url": "https://steviep.xyz/jesus/pamphlets/6",
   "attributes": [
     {
       "trait_type": "Type",
@@ -26,5 +26,5 @@
       "value": "2021"
     }
   ],
-  "image": "ipfs://bafybeiftatedjxcq66jvsjmvhviurqczvgt23ukeubhchlcqgvjgke7wua/6.jpg"
+  "image": "ipfs://QmVzZeYrKjjKL65G6NJt1qQR5cvE8wyJDo283CkiYCbzva/6.jpg"
 }

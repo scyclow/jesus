@@ -2,7 +2,7 @@
   "name": "World's Deadliest Drug",
   "token_id": "97",
   "description": "Photograph by Steve Pikelny (2022) | Published by Dial-The-Truth Ministries | Content: Industry Analysis | Condition: Very Good | Type: Leaflet",
-  "external_url": "https://steviep.xyz/jesus/97",
+  "external_url": "https://steviep.xyz/jesus/pamphlets/97",
   "attributes": [
     {
       "trait_type": "Type",
@@ -25,5 +25,5 @@
       "value": "2022"
     }
   ],
-  "image": "ipfs://bafybeiftatedjxcq66jvsjmvhviurqczvgt23ukeubhchlcqgvjgke7wua/97.jpg"
+  "image": "ipfs://QmVzZeYrKjjKL65G6NJt1qQR5cvE8wyJDo283CkiYCbzva/97.jpg"
 }

@@ -2,7 +2,7 @@
   "name": "Jesus Is Coming!",
   "token_id": "0",
   "description": "Photograph by Steve Pikelny (2022) | Published by Dial-The-Truth Ministries | Content: Informational | Condition: Mint | Type: Leaflet",
-  "external_url": "https://steviep.xyz/jesus/0",
+  "external_url": "https://steviep.xyz/jesus/pamphlets/0",
   "attributes": [
     {
       "trait_type": "Type",
@@ -25,5 +25,5 @@
       "value": "2022"
     }
   ],
-  "image": "ipfs://bafybeiftatedjxcq66jvsjmvhviurqczvgt23ukeubhchlcqgvjgke7wua/0.jpg"
+  "image": "ipfs://QmVzZeYrKjjKL65G6NJt1qQR5cvE8wyJDo283CkiYCbzva/0.jpg"
 }

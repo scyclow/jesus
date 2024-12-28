@@ -3,7 +3,7 @@
   "token_id": "71",
   "os_token_id": "32150014705918146096138927293761864425970273519802704166038767677968316628993",
   "description": "Photograph by Steve Pikelny (2022) | Published by AT Publications | Content: Story | Condition: Mint | Type: Book",
-  "external_url": "https://steviep.xyz/jesus/71",
+  "external_url": "https://steviep.xyz/jesus/pamphlets/71",
   "attributes": [
     {
       "trait_type": "Condition",
@@ -26,5 +26,5 @@
       "value": "2021"
     }
   ],
-  "image": "ipfs://bafybeiftatedjxcq66jvsjmvhviurqczvgt23ukeubhchlcqgvjgke7wua/71.jpg"
+  "image": "ipfs://QmVzZeYrKjjKL65G6NJt1qQR5cvE8wyJDo283CkiYCbzva/71.jpg"
 }

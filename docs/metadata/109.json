@@ -2,7 +2,7 @@
   "name": "Am I Going to Heaven?",
   "token_id": "109",
   "description": "Photograph by Steve Pikelny (2022) | Published by Macedonia Gospel Publications International | Content: Informational | Condition: Very Good | Type: Leaflet",
-  "external_url": "https://steviep.xyz/jesus/109",
+  "external_url": "https://steviep.xyz/jesus/pamphlets/109",
   "attributes": [
     {
       "trait_type": "Type",
@@ -25,5 +25,5 @@
       "value": "2022"
     }
   ],
-  "image": "ipfs://bafybeiftatedjxcq66jvsjmvhviurqczvgt23ukeubhchlcqgvjgke7wua/109.jpg"
+  "image": "ipfs://QmVzZeYrKjjKL65G6NJt1qQR5cvE8wyJDo283CkiYCbzva/109.jpg"
 }

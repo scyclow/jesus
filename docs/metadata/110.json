@@ -2,7 +2,7 @@
   "name": "Calling Things That Are Not",
   "token_id": "110",
   "description": "Photograph by Steve Pikelny (2022) | Published by Capps Publishing | Content: Philosophy | Condition: Good | Type: Booklet",
-  "external_url": "https://steviep.xyz/jesus/110",
+  "external_url": "https://steviep.xyz/jesus/pamphlets/110",
   "attributes": [
     {
       "trait_type": "Type",
@@ -25,5 +25,5 @@
       "value": "2022"
     }
   ],
-  "image": "ipfs://bafybeiftatedjxcq66jvsjmvhviurqczvgt23ukeubhchlcqgvjgke7wua/110.jpg"
+  "image": "ipfs://QmVzZeYrKjjKL65G6NJt1qQR5cvE8wyJDo283CkiYCbzva/110.jpg"
 }

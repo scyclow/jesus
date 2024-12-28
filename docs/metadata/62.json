@@ -3,7 +3,7 @@
   "token_id": "62",
   "os_token_id": "56149969866452300878143827841099029158054578672514359653557300867069032529921",
   "description": "Photograph by Steve Pikelny (2022) | Published by Gospel Tract and Bible Society | Content: Informational | Condition: Mint | Type: Pamphlet",
-  "external_url": "https://steviep.xyz/jesus/62",
+  "external_url": "https://steviep.xyz/jesus/pamphlets/62",
   "attributes": [
     {
       "trait_type": "Content",
@@ -26,5 +26,5 @@
       "value": "2021"
     }
   ],
-  "image": "ipfs://bafybeiftatedjxcq66jvsjmvhviurqczvgt23ukeubhchlcqgvjgke7wua/62.jpg"
+  "image": "ipfs://QmVzZeYrKjjKL65G6NJt1qQR5cvE8wyJDo283CkiYCbzva/62.jpg"
 }

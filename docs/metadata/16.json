@@ -3,7 +3,7 @@
   "token_id": "16",
   "os_token_id": "56149969866452300878143827841099029158054578672514359653557300816491497652225",
   "description": "Photograph by Steve Pikelny (2022) | Published by Deer Run Amish Church | Content: Self-Help | Condition: Very Good | Type: Leaflet",
-  "external_url": "https://steviep.xyz/jesus/16",
+  "external_url": "https://steviep.xyz/jesus/pamphlets/16",
   "attributes": [
     {
       "trait_type": "Type",
@@ -26,5 +26,5 @@
       "value": "2021"
     }
   ],
-  "image": "ipfs://bafybeiftatedjxcq66jvsjmvhviurqczvgt23ukeubhchlcqgvjgke7wua/16.jpg"
+  "image": "ipfs://QmVzZeYrKjjKL65G6NJt1qQR5cvE8wyJDo283CkiYCbzva/16.jpg"
 }

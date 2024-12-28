@@ -2,7 +2,7 @@
   "name": "In God We Trust",
   "token_id": "114",
   "description": "Photograph by Steve Pikelny (2022) | Published by FULLYFREEFILMS.COM | Content: Self-Help | Condition: Very Good | Type: Flyer",
-  "external_url": "https://steviep.xyz/jesus/114",
+  "external_url": "https://steviep.xyz/jesus/pamphlets/114",
   "attributes": [
     {
       "trait_type": "Type",
@@ -25,5 +25,5 @@
       "value": "2022"
     }
   ],
-  "image": "ipfs://bafybeiftatedjxcq66jvsjmvhviurqczvgt23ukeubhchlcqgvjgke7wua/114.jpg"
+  "image": "ipfs://QmVzZeYrKjjKL65G6NJt1qQR5cvE8wyJDo283CkiYCbzva/114.jpg"
 }

@@ -3,7 +3,7 @@
   "token_id": "67",
   "os_token_id": "32150014705918146096138927293761864425970273519802704166038767673570270117889",
   "description": "Photograph by Steve Pikelny (2022) | Published by Good News Publishers | Content: Infographic | Condition: Good | Type: Leaflet",
-  "external_url": "https://steviep.xyz/jesus/67",
+  "external_url": "https://steviep.xyz/jesus/pamphlets/67",
   "attributes": [
     {
       "trait_type": "Type",
@@ -26,5 +26,5 @@
       "value": "2021"
     }
   ],
-  "image": "ipfs://bafybeiftatedjxcq66jvsjmvhviurqczvgt23ukeubhchlcqgvjgke7wua/67.jpg"
+  "image": "ipfs://QmVzZeYrKjjKL65G6NJt1qQR5cvE8wyJDo283CkiYCbzva/67.jpg"
 }

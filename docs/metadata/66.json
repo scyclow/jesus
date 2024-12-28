@@ -3,7 +3,7 @@
   "token_id": "66",
   "os_token_id": "32150014705918146096138927293761864425970273519802704166038767672470758490113",
   "description": "Photograph by Steve Pikelny (2022) | Published by Unknown | Content: Informational | Condition: Good | Type: Flyer",
-  "external_url": "https://steviep.xyz/jesus/66",
+  "external_url": "https://steviep.xyz/jesus/pamphlets/66",
   "attributes": [
     {
       "trait_type": "Content",
@@ -26,5 +26,5 @@
       "value": "2021"
     }
   ],
-  "image": "ipfs://bafybeiftatedjxcq66jvsjmvhviurqczvgt23ukeubhchlcqgvjgke7wua/66.jpg"
+  "image": "ipfs://QmVzZeYrKjjKL65G6NJt1qQR5cvE8wyJDo283CkiYCbzva/66.jpg"
 }

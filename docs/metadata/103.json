@@ -2,7 +2,7 @@
   "name": "Are You Washed in the BLOOD?",
   "token_id": "103",
   "description": "Photograph by Steve Pikelny (2022) | Published by Bible Baptist Publications | Content: Educational | Condition: Very Good | Type: Leaflet",
-  "external_url": "https://steviep.xyz/jesus/103",
+  "external_url": "https://steviep.xyz/jesus/pamphlets/103",
   "attributes": [
     {
       "trait_type": "Type",
@@ -25,5 +25,5 @@
       "value": "2022"
     }
   ],
-  "image": "ipfs://bafybeiftatedjxcq66jvsjmvhviurqczvgt23ukeubhchlcqgvjgke7wua/103.jpg"
+  "image": "ipfs://QmVzZeYrKjjKL65G6NJt1qQR5cvE8wyJDo283CkiYCbzva/103.jpg"
 }

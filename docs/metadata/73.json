@@ -3,7 +3,7 @@
   "token_id": "73",
   "os_token_id": "32150014705918146096138927293761864425970273519802704166038767680167339884545",
   "description": "Photograph by Steve Pikelny (2022) | Published by Moody Press | Content: Philosophy | Condition: Good | Type: Pamphlet",
-  "external_url": "https://steviep.xyz/jesus/73",
+  "external_url": "https://steviep.xyz/jesus/pamphlets/73",
   "attributes": [
     {
       "trait_type": "Type",
@@ -26,5 +26,5 @@
       "value": "2021"
     }
   ],
-  "image": "ipfs://bafybeiftatedjxcq66jvsjmvhviurqczvgt23ukeubhchlcqgvjgke7wua/73.jpg"
+  "image": "ipfs://QmVzZeYrKjjKL65G6NJt1qQR5cvE8wyJDo283CkiYCbzva/73.jpg"
 }

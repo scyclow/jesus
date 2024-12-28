@@ -2,7 +2,7 @@
   "name": "I've Got my own Religion",
   "token_id": "117",
   "description": "Photograph by Steve Pikelny (2022) | Published by Moments With The Book | Content: Informational | Condition: Good | Type: Pamphlet",
-  "external_url": "https://steviep.xyz/jesus/117",
+  "external_url": "https://steviep.xyz/jesus/pamphlets/117",
   "attributes": [
     {
       "trait_type": "Type",
@@ -25,5 +25,5 @@
       "value": "2022"
     }
   ],
-  "image": "ipfs://bafybeiftatedjxcq66jvsjmvhviurqczvgt23ukeubhchlcqgvjgke7wua/117.jpg"
+  "image": "ipfs://QmVzZeYrKjjKL65G6NJt1qQR5cvE8wyJDo283CkiYCbzva/117.jpg"
 }

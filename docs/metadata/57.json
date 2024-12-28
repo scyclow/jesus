@@ -3,7 +3,7 @@
   "token_id": "57",
   "os_token_id": "56149969866452300878143827841099029158054578672514359653557300861571474391041",
   "description": "Photograph by Steve Pikelny (2022) | Published by Gospel Tract and Bible Society | Content: Spanish | Condition: Good | Type: Leaflet",
-  "external_url": "https://steviep.xyz/jesus/57",
+  "external_url": "https://steviep.xyz/jesus/pamphlets/57",
   "attributes": [
     {
       "trait_type": "Publisher",
@@ -26,5 +26,5 @@
       "value": "2021"
     }
   ],
-  "image": "ipfs://bafybeiftatedjxcq66jvsjmvhviurqczvgt23ukeubhchlcqgvjgke7wua/57.jpg"
+  "image": "ipfs://QmVzZeYrKjjKL65G6NJt1qQR5cvE8wyJDo283CkiYCbzva/57.jpg"
 }

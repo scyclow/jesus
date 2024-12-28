@@ -3,7 +3,7 @@
   "token_id": "75",
   "os_token_id": "32150014705918146096138927293761864425970273519802704166038767682366363140097",
   "description": "Photograph by Steve Pikelny (2022) | Published by Fellowship Tract League | Content: Advice | Condition: Very Good | Type: Pamphlet",
-  "external_url": "https://steviep.xyz/jesus/75",
+  "external_url": "https://steviep.xyz/jesus/pamphlets/75",
   "attributes": [
     {
       "trait_type": "Type",
@@ -26,5 +26,5 @@
       "value": "2021"
     }
   ],
-  "image": "ipfs://bafybeiftatedjxcq66jvsjmvhviurqczvgt23ukeubhchlcqgvjgke7wua/75.jpg"
+  "image": "ipfs://QmVzZeYrKjjKL65G6NJt1qQR5cvE8wyJDo283CkiYCbzva/75.jpg"
 }

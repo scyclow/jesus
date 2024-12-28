@@ -2,7 +2,7 @@
   "name": "Your Life Can Have A New Beginning",
   "token_id": "115",
   "description": "Photograph by Steve Pikelny (2022) | Published by Hope Tract Ministry | Content: Informational | Condition: Very Good | Type: Pamphlet",
-  "external_url": "https://steviep.xyz/jesus/115",
+  "external_url": "https://steviep.xyz/jesus/pamphlets/115",
   "attributes": [
     {
       "trait_type": "Type",
@@ -25,5 +25,5 @@
       "value": "2022"
     }
   ],
-  "image": "ipfs://bafybeiftatedjxcq66jvsjmvhviurqczvgt23ukeubhchlcqgvjgke7wua/115.jpg"
+  "image": "ipfs://QmVzZeYrKjjKL65G6NJt1qQR5cvE8wyJDo283CkiYCbzva/115.jpg"
 }

@@ -2,7 +2,7 @@
   "name": "The Room",
   "token_id": "79",
   "description": "Photograph by Steve Pikelny (2022) | Published by Gospel Tract and Bible Society | Content: Story | Condition: Mint | Type: Tract",
-  "external_url": "https://steviep.xyz/jesus/79",
+  "external_url": "https://steviep.xyz/jesus/pamphlets/79",
   "attributes": [
     {
       "trait_type": "Type",
@@ -25,5 +25,5 @@
       "value": "2022"
     }
   ],
-  "image": "ipfs://bafybeiftatedjxcq66jvsjmvhviurqczvgt23ukeubhchlcqgvjgke7wua/79.jpg"
+  "image": "ipfs://QmVzZeYrKjjKL65G6NJt1qQR5cvE8wyJDo283CkiYCbzva/79.jpg"
 }

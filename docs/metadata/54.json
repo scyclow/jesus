@@ -3,7 +3,7 @@
   "token_id": "54",
   "os_token_id": "56149969866452300878143827841099029158054578672514359653557300858272939507713",
   "description": "Photograph by Steve Pikelny (2022) | Published by Jews For Jesus | Content: Comic | Condition: Poor | Type: Leaflet",
-  "external_url": "https://steviep.xyz/jesus/54",
+  "external_url": "https://steviep.xyz/jesus/pamphlets/54",
   "attributes": [
     {
       "trait_type": "Condition",
@@ -26,5 +26,5 @@
       "value": "2021"
     }
   ],
-  "image": "ipfs://bafybeiftatedjxcq66jvsjmvhviurqczvgt23ukeubhchlcqgvjgke7wua/54.jpg"
+  "image": "ipfs://QmVzZeYrKjjKL65G6NJt1qQR5cvE8wyJDo283CkiYCbzva/54.jpg"
 }

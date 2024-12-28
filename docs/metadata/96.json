@@ -2,7 +2,7 @@
   "name": "Is Jesus Christ YOUR Saviour?",
   "token_id": "96",
   "description": "Photograph by Steve Pikelny (2022) | Published by Fellowship Tract League | Content: Informational | Condition: Okay | Type: Pamphlet",
-  "external_url": "https://steviep.xyz/jesus/96",
+  "external_url": "https://steviep.xyz/jesus/pamphlets/96",
   "attributes": [
     {
       "trait_type": "Type",
@@ -25,5 +25,5 @@
       "value": "2022"
     }
   ],
-  "image": "ipfs://bafybeiftatedjxcq66jvsjmvhviurqczvgt23ukeubhchlcqgvjgke7wua/96.jpg"
+  "image": "ipfs://QmVzZeYrKjjKL65G6NJt1qQR5cvE8wyJDo283CkiYCbzva/96.jpg"
 }

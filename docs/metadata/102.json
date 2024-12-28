@@ -2,7 +2,7 @@
   "name": "GOD'S MEDiCiNE",
   "token_id": "102",
   "description": "Photograph by Steve Pikelny (2022) | Published by Rhema Bible Church | Content: Informational | Condition: Very Good | Type: Booklet",
-  "external_url": "https://steviep.xyz/jesus/102",
+  "external_url": "https://steviep.xyz/jesus/pamphlets/102",
   "attributes": [
     {
       "trait_type": "Type",
@@ -25,5 +25,5 @@
       "value": "2022"
     }
   ],
-  "image": "ipfs://bafybeiftatedjxcq66jvsjmvhviurqczvgt23ukeubhchlcqgvjgke7wua/102.jpg"
+  "image": "ipfs://QmVzZeYrKjjKL65G6NJt1qQR5cvE8wyJDo283CkiYCbzva/102.jpg"
 }

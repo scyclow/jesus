@@ -3,7 +3,7 @@
   "token_id": "33",
   "os_token_id": "56149969866452300878143827841099029158054578672514359653557300835183195324417",
   "description": "Photograph by Steve Pikelny (2022) | Published by Moments With The Book | Content: Informational | Condition: Okay | Type: Card",
-  "external_url": "https://steviep.xyz/jesus/33",
+  "external_url": "https://steviep.xyz/jesus/pamphlets/33",
   "attributes": [
     {
       "trait_type": "Content",
@@ -26,5 +26,5 @@
       "value": "2021"
     }
   ],
-  "image": "ipfs://bafybeiftatedjxcq66jvsjmvhviurqczvgt23ukeubhchlcqgvjgke7wua/33.jpg"
+  "image": "ipfs://QmVzZeYrKjjKL65G6NJt1qQR5cvE8wyJDo283CkiYCbzva/33.jpg"
 }

@@ -3,7 +3,7 @@
   "token_id": "68",
   "os_token_id": "32150014705918146096138927293761864425970273519802704166038767674669781745665",
   "description": "Photograph by Steve Pikelny (2022) | Published by Campus Crusade for Christ International | Content: Educational | Condition: Good | Type: Tract",
-  "external_url": "https://steviep.xyz/jesus/68",
+  "external_url": "https://steviep.xyz/jesus/pamphlets/68",
   "attributes": [
     {
       "trait_type": "Content",
@@ -26,5 +26,5 @@
       "value": "2021"
     }
   ],
-  "image": "ipfs://bafybeiftatedjxcq66jvsjmvhviurqczvgt23ukeubhchlcqgvjgke7wua/68.jpg"
+  "image": "ipfs://QmVzZeYrKjjKL65G6NJt1qQR5cvE8wyJDo283CkiYCbzva/68.jpg"
 }

@@ -3,7 +3,7 @@
   "token_id": "11",
   "os_token_id": "56149969866452300878143827841099029158054578672514359653557300810993939513345",
   "description": "Photograph by Steve Pikelny (2022) | Published by World Missionary Press | Content: History | Condition: Very Good | Type: Tract",
-  "external_url": "https://steviep.xyz/jesus/11",
+  "external_url": "https://steviep.xyz/jesus/pamphlets/11",
   "attributes": [
     {
       "trait_type": "Publisher",
@@ -26,5 +26,5 @@
       "value": "2021"
     }
   ],
-  "image": "ipfs://bafybeiftatedjxcq66jvsjmvhviurqczvgt23ukeubhchlcqgvjgke7wua/11.jpg"
+  "image": "ipfs://QmVzZeYrKjjKL65G6NJt1qQR5cvE8wyJDo283CkiYCbzva/11.jpg"
 }

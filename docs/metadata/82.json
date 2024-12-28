@@ -2,7 +2,7 @@
   "name": "Listen! Who Is That Calling You? #2",
   "token_id": "82",
   "description": "Photograph by Steve Pikelny (2022) | Published by Gospel Tract and Bible Society | Content: History | Condition: Mint | Type: Tract",
-  "external_url": "https://steviep.xyz/jesus/82",
+  "external_url": "https://steviep.xyz/jesus/pamphlets/82",
   "attributes": [
     {
       "trait_type": "Type",
@@ -25,5 +25,5 @@
       "value": "2022"
     }
   ],
-  "image": "ipfs://bafybeiftatedjxcq66jvsjmvhviurqczvgt23ukeubhchlcqgvjgke7wua/82.jpg"
+  "image": "ipfs://QmVzZeYrKjjKL65G6NJt1qQR5cvE8wyJDo283CkiYCbzva/82.jpg"
 }

@@ -2,7 +2,7 @@
   "name": "Expect a Move of God... SUDDENLY",
   "token_id": "85",
   "description": "Photograph by Steve Pikelny (2022) | Published by Harrison House, Inc | Content: Advice | Condition: Good | Type: Booklet",
-  "external_url": "https://steviep.xyz/jesus/85",
+  "external_url": "https://steviep.xyz/jesus/pamphlets/85",
   "attributes": [
     {
       "trait_type": "Type",
@@ -25,5 +25,5 @@
       "value": "2022"
     }
   ],
-  "image": "ipfs://bafybeiftatedjxcq66jvsjmvhviurqczvgt23ukeubhchlcqgvjgke7wua/85.jpg"
+  "image": "ipfs://QmVzZeYrKjjKL65G6NJt1qQR5cvE8wyJDo283CkiYCbzva/85.jpg"
 }

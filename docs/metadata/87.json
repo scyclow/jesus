@@ -2,7 +2,7 @@
   "name": "Characteristics of the SELF LIFE",
   "token_id": "87",
   "description": "Photograph by Steve Pikelny (2022) | Published by Gospel Tract and Bible Society | Content: Self-Help | Condition: Good | Type: Pamphlet",
-  "external_url": "https://steviep.xyz/jesus/87",
+  "external_url": "https://steviep.xyz/jesus/pamphlets/87",
   "attributes": [
     {
       "trait_type": "Type",
@@ -25,5 +25,5 @@
       "value": "2022"
     }
   ],
-  "image": "ipfs://bafybeiftatedjxcq66jvsjmvhviurqczvgt23ukeubhchlcqgvjgke7wua/87.jpg"
+  "image": "ipfs://QmVzZeYrKjjKL65G6NJt1qQR5cvE8wyJDo283CkiYCbzva/87.jpg"
 }

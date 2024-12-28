@@ -863,7 +863,7 @@ describe.only('update metadata + mint', () => {
 
   it('all fucking works', async () => {
     const recipients = [
-      '', // 175*
+      '0x02D78c75532A490daE2596E6b07A75857815Cd70', // 175*
       '0x6B67623ff56c10d9dcFc2152425f90285fC74DDD', // 176
       '0x8D55ccAb57f3Cba220AB3e3F3b7C9F59529e5a65', // 177
       '0xf3670541e816d539c2500cc0de8bc27ed5bb1ed9', // 178*
