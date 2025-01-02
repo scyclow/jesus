@@ -259,13 +259,12 @@ module.exports = [
   },
 
   {
-    name: 'Just For You!',
-    type: 'Pamphlet',
+    name: `Have You Heard - It's For You!`,
+    type: 'Leaflet',
     condition: 'Very Good',
     content: 'Informational',
-    publisher: 'Good News Publishers',
+    publisher: 'Gospel Tract and Bible Society',
   },
-
   {
     name: 'The Gift',
     type: 'Pamphlet',
@@ -282,12 +281,13 @@ module.exports = [
     publisher: 'Fellowship Tract League',
   },
 
+
   {
-    name: `Have You Heard - It's For You!`,
-    type: 'Leaflet',
+    name: 'Just For You!',
+    type: 'Pamphlet',
     condition: 'Very Good',
     content: 'Informational',
-    publisher: 'Gospel Tract and Bible Society',
+    publisher: 'Good News Publishers',
   },
 
   {
@@ -372,7 +372,7 @@ module.exports = [
   },
 
   {
-    name: 'Sincere Byt Mistaken',
+    name: 'Sincere But Mistaken',
     type: 'Pamphlet',
     condition: 'Good',
     content: 'Educational',
