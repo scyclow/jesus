@@ -1,9 +1,9 @@
 {
-  "name": "Have You Heard - It's For You!",
+  "name": "Just For You!",
   "attributes": [
     {
       "trait_type": "Type",
-      "value": "Leaflet"
+      "value": "Pamphlet"
     },
     {
       "trait_type": "Condition",
@@ -15,7 +15,7 @@
     },
     {
       "trait_type": "Publisher",
-      "value": "Gospel Tract and Bible Society"
+      "value": "Good News Publishers"
     },
     {
       "trait_type": "Year",
@@ -24,6 +24,6 @@
   ],
   "token_id": "210",
   "external_url": "https://steviep.xyz/jesus/pamphlets/210",
-  "description": "Photograph by Steve Pikelny (2024) | Published by Gospel Tract and Bible Society | Content: Informational | Condition: Very Good | Type: Leaflet",
-  "image": "ipfs://QmVzZeYrKjjKL65G6NJt1qQR5cvE8wyJDo283CkiYCbzva/210.jpg"
+  "description": "Photograph by Steve Pikelny (2024) | Published by Good News Publishers | Content: Informational | Condition: Very Good | Type: Pamphlet",
+  "image": "ipfs://QmTkz7vhnMQr2jj1yXMA272fZY3LgfKj7aBAPdgBsYjnTL/210.jpg"
 }

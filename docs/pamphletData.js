@@ -5875,11 +5875,11 @@ const pamphletData = [
     "description": "Photograph by Steve Pikelny (2024) | Published by Gospel Tract and Bible Society | Content: Story | Condition: Very Good | Type: Leaflet"
   },
   {
-    "name": "Just For You!",
+    "name": "Have You Heard - It's For You!",
     "attributes": [
       {
         "trait_type": "Type",
-        "value": "Pamphlet"
+        "value": "Leaflet"
       },
       {
         "trait_type": "Condition",
@@ -5891,7 +5891,7 @@ const pamphletData = [
       },
       {
         "trait_type": "Publisher",
-        "value": "Good News Publishers"
+        "value": "Gospel Tract and Bible Society"
       },
       {
         "trait_type": "Year",
@@ -5900,7 +5900,7 @@ const pamphletData = [
     ],
     "token_id": "207",
     "external_url": "https://steviep.xyz/jesus/pamphlets/207",
-    "description": "Photograph by Steve Pikelny (2024) | Published by Good News Publishers | Content: Informational | Condition: Very Good | Type: Pamphlet"
+    "description": "Photograph by Steve Pikelny (2024) | Published by Gospel Tract and Bible Society | Content: Informational | Condition: Very Good | Type: Leaflet"
   },
   {
     "name": "The Gift",
@@ -5959,11 +5959,11 @@ const pamphletData = [
     "description": "Photograph by Steve Pikelny (2024) | Published by Fellowship Tract League | Content: Informational | Condition: Okay | Type: Pamphlet"
   },
   {
-    "name": "Have You Heard - It's For You!",
+    "name": "Just For You!",
     "attributes": [
       {
         "trait_type": "Type",
-        "value": "Leaflet"
+        "value": "Pamphlet"
       },
       {
         "trait_type": "Condition",
@@ -5975,7 +5975,7 @@ const pamphletData = [
       },
       {
         "trait_type": "Publisher",
-        "value": "Gospel Tract and Bible Society"
+        "value": "Good News Publishers"
       },
       {
         "trait_type": "Year",
@@ -5984,7 +5984,7 @@ const pamphletData = [
     ],
     "token_id": "210",
     "external_url": "https://steviep.xyz/jesus/pamphlets/210",
-    "description": "Photograph by Steve Pikelny (2024) | Published by Gospel Tract and Bible Society | Content: Informational | Condition: Very Good | Type: Leaflet"
+    "description": "Photograph by Steve Pikelny (2024) | Published by Good News Publishers | Content: Informational | Condition: Very Good | Type: Pamphlet"
   },
   {
     "name": "Can You Lose It?",
@@ -6267,7 +6267,7 @@ const pamphletData = [
     "description": "Photograph by Steve Pikelny (2024) | Published by Good News Publishers | Content: Story | Condition: Good | Type: Pamphlet"
   },
   {
-    "name": "Sincere Byt Mistaken",
+    "name": "Sincere But Mistaken",
     "attributes": [
       {
         "trait_type": "Type",
