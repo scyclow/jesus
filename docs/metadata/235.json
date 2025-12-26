@@ -1,0 +1,29 @@
+{
+  "name": "Hell Eternal Life or Eternal Destruction?",
+  "attributes": [
+    {
+      "trait_type": "Type",
+      "value": "Leaflet"
+    },
+    {
+      "trait_type": "Condition",
+      "value": "Good"
+    },
+    {
+      "trait_type": "Content",
+      "value": "Informational"
+    },
+    {
+      "trait_type": "Publisher",
+      "value": "Amazing Facts International"
+    },
+    {
+      "trait_type": "Year",
+      "value": "2025"
+    }
+  ],
+  "token_id": "235",
+  "external_url": "https://steviep.xyz/jesus/pamphlets/235",
+  "description": "Photograph by Steve Pikelny (2025) | Published by Amazing Facts International | Content: Informational | Condition: Good | Type: Leaflet",
+  "image": "ipfs://bafybeidzlc5mqicwcuak6b3b2frqcmv4bcttdlmodicczlx3yj6oxzvilm/235.jpg"
+}

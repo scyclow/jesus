@@ -3495,7 +3495,7 @@ const pamphletData = [
     ]
   },
   {
-    "name": "Sanat Claus - The Greay Imposter",
+    "name": "Santa Claus - The Greay Imposter",
     "token_id": "122",
     "description": "Photograph by Steve Pikelny (2022) | Published by Dial-The-Truth Ministries | Content: Informational | Condition: Mint | Type: Booklet",
     "external_url": "https://steviep.xyz/jesus/pamphlets/122",
@@ -6377,5 +6377,1405 @@ const pamphletData = [
     "token_id": "224",
     "external_url": "https://steviep.xyz/jesus/pamphlets/224",
     "description": "Photograph by Steve Pikelny (2024) | Published by Fellowship Tract League | Content: Informational | Condition: Okay | Type: Pamphlet"
+  },
+  {
+    "name": "You Are Invited",
+    "attributes": [
+      {
+        "trait_type": "Type",
+        "value": "Pamphlet"
+      },
+      {
+        "trait_type": "Condition",
+        "value": "Very Good"
+      },
+      {
+        "trait_type": "Content",
+        "value": "Informational"
+      },
+      {
+        "trait_type": "Publisher",
+        "value": "Jehovah's Witnesses"
+      },
+      {
+        "trait_type": "Year",
+        "value": "2025"
+      }
+    ],
+    "token_id": "225",
+    "external_url": "https://steviep.xyz/jesus/pamphlets/225",
+    "description": "Photograph by Steve Pikelny (2025) | Published by Jehovah's Witnesses | Content: Informational | Condition: Very Good | Type: Pamphlet"
+  },
+  {
+    "name": "Business As Usual",
+    "attributes": [
+      {
+        "trait_type": "Type",
+        "value": "Flyer"
+      },
+      {
+        "trait_type": "Condition",
+        "value": "Poor"
+      },
+      {
+        "trait_type": "Content",
+        "value": "Informational"
+      },
+      {
+        "trait_type": "Publisher",
+        "value": "Evangelistic Ministry"
+      },
+      {
+        "trait_type": "Year",
+        "value": "2025"
+      }
+    ],
+    "token_id": "226",
+    "external_url": "https://steviep.xyz/jesus/pamphlets/226",
+    "description": "Photograph by Steve Pikelny (2025) | Published by Evangelistic Ministry | Content: Informational | Condition: Poor | Type: Flyer"
+  },
+  {
+    "name": "We Want Lower Taxes!",
+    "attributes": [
+      {
+        "trait_type": "Type",
+        "value": "Leaflet"
+      },
+      {
+        "trait_type": "Condition",
+        "value": "Very Good"
+      },
+      {
+        "trait_type": "Content",
+        "value": "Economics"
+      },
+      {
+        "trait_type": "Publisher",
+        "value": "Liberty Gospel Tracts"
+      },
+      {
+        "trait_type": "Year",
+        "value": "2025"
+      }
+    ],
+    "token_id": "227",
+    "external_url": "https://steviep.xyz/jesus/pamphlets/227",
+    "description": "Photograph by Steve Pikelny (2025) | Published by Liberty Gospel Tracts | Content: Economics | Condition: Very Good | Type: Leaflet"
+  },
+  {
+    "name": "The American Dream",
+    "attributes": [
+      {
+        "trait_type": "Type",
+        "value": "Leaflet"
+      },
+      {
+        "trait_type": "Condition",
+        "value": "Very Good"
+      },
+      {
+        "trait_type": "Content",
+        "value": "Economics"
+      },
+      {
+        "trait_type": "Publisher",
+        "value": "Liberty Gospel Tracts"
+      },
+      {
+        "trait_type": "Year",
+        "value": "2025"
+      }
+    ],
+    "token_id": "228",
+    "external_url": "https://steviep.xyz/jesus/pamphlets/228",
+    "description": "Photograph by Steve Pikelny (2025) | Published by Liberty Gospel Tracts | Content: Economics | Condition: Very Good | Type: Leaflet"
+  },
+  {
+    "name": "The State of Michigan's Stimulus Package",
+    "attributes": [
+      {
+        "trait_type": "Type",
+        "value": "Leaflet"
+      },
+      {
+        "trait_type": "Condition",
+        "value": "Very Good"
+      },
+      {
+        "trait_type": "Content",
+        "value": "Economics"
+      },
+      {
+        "trait_type": "Publisher",
+        "value": "Liberty Gospel Tracts"
+      },
+      {
+        "trait_type": "Year",
+        "value": "2025"
+      }
+    ],
+    "token_id": "229",
+    "external_url": "https://steviep.xyz/jesus/pamphlets/229",
+    "description": "Photograph by Steve Pikelny (2025) | Published by Liberty Gospel Tracts | Content: Economics | Condition: Very Good | Type: Leaflet"
+  },
+  {
+    "name": "Celebrate Freedom!",
+    "attributes": [
+      {
+        "trait_type": "Type",
+        "value": "Leaflet"
+      },
+      {
+        "trait_type": "Condition",
+        "value": "Very Good"
+      },
+      {
+        "trait_type": "Content",
+        "value": "Instructional"
+      },
+      {
+        "trait_type": "Publisher",
+        "value": "Liberty Gospel Tracts"
+      },
+      {
+        "trait_type": "Year",
+        "value": "2025"
+      }
+    ],
+    "token_id": "230",
+    "external_url": "https://steviep.xyz/jesus/pamphlets/230",
+    "description": "Photograph by Steve Pikelny (2025) | Published by Liberty Gospel Tracts | Content: Instructional | Condition: Very Good | Type: Leaflet"
+  },
+  {
+    "name": "What If You Had Been Here",
+    "attributes": [
+      {
+        "trait_type": "Type",
+        "value": "Pamphlet"
+      },
+      {
+        "trait_type": "Condition",
+        "value": "Good"
+      },
+      {
+        "trait_type": "Content",
+        "value": "History"
+      },
+      {
+        "trait_type": "Publisher",
+        "value": "Fellowship Tract League"
+      },
+      {
+        "trait_type": "Year",
+        "value": "2025"
+      }
+    ],
+    "token_id": "231",
+    "external_url": "https://steviep.xyz/jesus/pamphlets/231",
+    "description": "Photograph by Steve Pikelny (2025) | Published by Fellowship Tract League | Content: History | Condition: Good | Type: Pamphlet"
+  },
+  {
+    "name": "The Coming Plagues",
+    "attributes": [
+      {
+        "trait_type": "Type",
+        "value": "Pamphlet"
+      },
+      {
+        "trait_type": "Condition",
+        "value": "Okay"
+      },
+      {
+        "trait_type": "Content",
+        "value": "Informational"
+      },
+      {
+        "trait_type": "Publisher",
+        "value": "Hope Tract Ministry"
+      },
+      {
+        "trait_type": "Year",
+        "value": "2025"
+      }
+    ],
+    "token_id": "232",
+    "external_url": "https://steviep.xyz/jesus/pamphlets/232",
+    "description": "Photograph by Steve Pikelny (2025) | Published by Hope Tract Ministry | Content: Informational | Condition: Okay | Type: Pamphlet"
+  },
+  {
+    "name": "Pandemic Flu Virus HBLV-1825",
+    "attributes": [
+      {
+        "trait_type": "Type",
+        "value": "Leaflet"
+      },
+      {
+        "trait_type": "Condition",
+        "value": "Very Good"
+      },
+      {
+        "trait_type": "Content",
+        "value": "Informational"
+      },
+      {
+        "trait_type": "Publisher",
+        "value": "Liberty Gospel Tracts"
+      },
+      {
+        "trait_type": "Year",
+        "value": "2025"
+      }
+    ],
+    "token_id": "233",
+    "external_url": "https://steviep.xyz/jesus/pamphlets/233",
+    "description": "Photograph by Steve Pikelny (2025) | Published by Liberty Gospel Tracts | Content: Informational | Condition: Very Good | Type: Leaflet"
+  },
+  {
+    "name": "What's After Death?",
+    "attributes": [
+      {
+        "trait_type": "Type",
+        "value": "Flyer"
+      },
+      {
+        "trait_type": "Condition",
+        "value": "Poor"
+      },
+      {
+        "trait_type": "Content",
+        "value": "Philosophy"
+      },
+      {
+        "trait_type": "Publisher",
+        "value": "Iglesia Uncion Apostolica"
+      },
+      {
+        "trait_type": "Year",
+        "value": "2025"
+      }
+    ],
+    "token_id": "234",
+    "external_url": "https://steviep.xyz/jesus/pamphlets/234",
+    "description": "Photograph by Steve Pikelny (2025) | Published by Iglesia Uncion Apostolica | Content: Philosophy | Condition: Poor | Type: Flyer"
+  },
+  {
+    "name": "Hell Eternal Life or Eternal Destruction?",
+    "attributes": [
+      {
+        "trait_type": "Type",
+        "value": "Leaflet"
+      },
+      {
+        "trait_type": "Condition",
+        "value": "Good"
+      },
+      {
+        "trait_type": "Content",
+        "value": "Informational"
+      },
+      {
+        "trait_type": "Publisher",
+        "value": "Amazing Facts International"
+      },
+      {
+        "trait_type": "Year",
+        "value": "2025"
+      }
+    ],
+    "token_id": "235",
+    "external_url": "https://steviep.xyz/jesus/pamphlets/235",
+    "description": "Photograph by Steve Pikelny (2025) | Published by Amazing Facts International | Content: Informational | Condition: Good | Type: Leaflet"
+  },
+  {
+    "name": "Stay Out Of Hell Free",
+    "attributes": [
+      {
+        "trait_type": "Type",
+        "value": "Card"
+      },
+      {
+        "trait_type": "Condition",
+        "value": "Poor"
+      },
+      {
+        "trait_type": "Content",
+        "value": "Informational"
+      },
+      {
+        "trait_type": "Publisher",
+        "value": "Unknown"
+      },
+      {
+        "trait_type": "Year",
+        "value": "2025"
+      }
+    ],
+    "token_id": "236",
+    "external_url": "https://steviep.xyz/jesus/pamphlets/236",
+    "description": "Photograph by Steve Pikelny (2025) | Published by Unknown | Content: Informational | Condition: Poor | Type: Card"
+  },
+  {
+    "name": "Are Jehovah's Witnesses Really On The Path To Paradise?",
+    "attributes": [
+      {
+        "trait_type": "Type",
+        "value": "Leaflet"
+      },
+      {
+        "trait_type": "Condition",
+        "value": "Very Good"
+      },
+      {
+        "trait_type": "Content",
+        "value": "Informational"
+      },
+      {
+        "trait_type": "Publisher",
+        "value": "Liberty Gospel Tracts"
+      },
+      {
+        "trait_type": "Year",
+        "value": "2025"
+      }
+    ],
+    "token_id": "237",
+    "external_url": "https://steviep.xyz/jesus/pamphlets/237",
+    "description": "Photograph by Steve Pikelny (2025) | Published by Liberty Gospel Tracts | Content: Informational | Condition: Very Good | Type: Leaflet"
+  },
+  {
+    "name": "Salvation Plain and Simple",
+    "attributes": [
+      {
+        "trait_type": "Type",
+        "value": "Booklet"
+      },
+      {
+        "trait_type": "Condition",
+        "value": "Good"
+      },
+      {
+        "trait_type": "Content",
+        "value": "Instructional"
+      },
+      {
+        "trait_type": "Publisher",
+        "value": "Sword of the Lord Publishers"
+      },
+      {
+        "trait_type": "Year",
+        "value": "2025"
+      }
+    ],
+    "token_id": "238",
+    "external_url": "https://steviep.xyz/jesus/pamphlets/238",
+    "description": "Photograph by Steve Pikelny (2025) | Published by Sword of the Lord Publishers | Content: Instructional | Condition: Good | Type: Booklet"
+  },
+  {
+    "name": "how to be SAVED",
+    "attributes": [
+      {
+        "trait_type": "Type",
+        "value": "Pamphlet"
+      },
+      {
+        "trait_type": "Condition",
+        "value": "Good"
+      },
+      {
+        "trait_type": "Content",
+        "value": "Instructional"
+      },
+      {
+        "trait_type": "Publisher",
+        "value": "Moments With The Book"
+      },
+      {
+        "trait_type": "Year",
+        "value": "2025"
+      }
+    ],
+    "token_id": "239",
+    "external_url": "https://steviep.xyz/jesus/pamphlets/239",
+    "description": "Photograph by Steve Pikelny (2025) | Published by Moments With The Book | Content: Instructional | Condition: Good | Type: Pamphlet"
+  },
+  {
+    "name": "Just For YOU",
+    "attributes": [
+      {
+        "trait_type": "Type",
+        "value": "Leaflet"
+      },
+      {
+        "trait_type": "Condition",
+        "value": "Good"
+      },
+      {
+        "trait_type": "Content",
+        "value": "Story"
+      },
+      {
+        "trait_type": "Publisher",
+        "value": "Light of Truth Mennonite Church"
+      },
+      {
+        "trait_type": "Year",
+        "value": "2025"
+      }
+    ],
+    "token_id": "240",
+    "external_url": "https://steviep.xyz/jesus/pamphlets/240",
+    "description": "Photograph by Steve Pikelny (2025) | Published by Light of Truth Mennonite Church | Content: Story | Condition: Good | Type: Leaflet"
+  },
+  {
+    "name": "You Matter To Jesus",
+    "attributes": [
+      {
+        "trait_type": "Type",
+        "value": "Pamphlet"
+      },
+      {
+        "trait_type": "Condition",
+        "value": "Terrible"
+      },
+      {
+        "trait_type": "Content",
+        "value": "Informational"
+      },
+      {
+        "trait_type": "Publisher",
+        "value": "The Brooklyn Tabernacle"
+      },
+      {
+        "trait_type": "Year",
+        "value": "2025"
+      }
+    ],
+    "token_id": "241",
+    "external_url": "https://steviep.xyz/jesus/pamphlets/241",
+    "description": "Photograph by Steve Pikelny (2025) | Published by The Brooklyn Tabernacle | Content: Informational | Condition: Terrible | Type: Pamphlet"
+  },
+  {
+    "name": "Give Thanks!",
+    "attributes": [
+      {
+        "trait_type": "Type",
+        "value": "Card"
+      },
+      {
+        "trait_type": "Condition",
+        "value": "Very Good"
+      },
+      {
+        "trait_type": "Content",
+        "value": "Advice"
+      },
+      {
+        "trait_type": "Publisher",
+        "value": "Bezeugen"
+      },
+      {
+        "trait_type": "Year",
+        "value": "2025"
+      }
+    ],
+    "token_id": "242",
+    "external_url": "https://steviep.xyz/jesus/pamphlets/242",
+    "description": "Photograph by Steve Pikelny (2025) | Published by Bezeugen | Content: Advice | Condition: Very Good | Type: Card"
+  },
+  {
+    "name": "Smile!! God Loves You!!",
+    "attributes": [
+      {
+        "trait_type": "Type",
+        "value": "Card"
+      },
+      {
+        "trait_type": "Condition",
+        "value": "Very Good"
+      },
+      {
+        "trait_type": "Content",
+        "value": "Informational"
+      },
+      {
+        "trait_type": "Publisher",
+        "value": "Repent Or Perish"
+      },
+      {
+        "trait_type": "Year",
+        "value": "2025"
+      }
+    ],
+    "token_id": "243",
+    "external_url": "https://steviep.xyz/jesus/pamphlets/243",
+    "description": "Photograph by Steve Pikelny (2025) | Published by Repent Or Perish | Content: Informational | Condition: Very Good | Type: Card"
+  },
+  {
+    "name": "Sex, Conscience, And The Gospel",
+    "attributes": [
+      {
+        "trait_type": "Type",
+        "value": "Leaflet"
+      },
+      {
+        "trait_type": "Condition",
+        "value": "Good"
+      },
+      {
+        "trait_type": "Content",
+        "value": "Educational"
+      },
+      {
+        "trait_type": "Publisher",
+        "value": "Apologia Church"
+      },
+      {
+        "trait_type": "Year",
+        "value": "2025"
+      }
+    ],
+    "token_id": "244",
+    "external_url": "https://steviep.xyz/jesus/pamphlets/244",
+    "description": "Photograph by Steve Pikelny (2025) | Published by Apologia Church | Content: Educational | Condition: Good | Type: Leaflet"
+  },
+  {
+    "name": "Don't Try And Hide Face It!",
+    "attributes": [
+      {
+        "trait_type": "Type",
+        "value": "Leaflet"
+      },
+      {
+        "trait_type": "Condition",
+        "value": "Very Good"
+      },
+      {
+        "trait_type": "Content",
+        "value": "Self-Help"
+      },
+      {
+        "trait_type": "Publisher",
+        "value": "Liberty Gospel Tracts"
+      },
+      {
+        "trait_type": "Year",
+        "value": "2025"
+      }
+    ],
+    "token_id": "245",
+    "external_url": "https://steviep.xyz/jesus/pamphlets/245",
+    "description": "Photograph by Steve Pikelny (2025) | Published by Liberty Gospel Tracts | Content: Self-Help | Condition: Very Good | Type: Leaflet"
+  },
+  {
+    "name": "Adopted",
+    "attributes": [
+      {
+        "trait_type": "Type",
+        "value": "Tract"
+      },
+      {
+        "trait_type": "Condition",
+        "value": "Very Good"
+      },
+      {
+        "trait_type": "Content",
+        "value": "Comic"
+      },
+      {
+        "trait_type": "Publisher",
+        "value": "Chick Tracts"
+      },
+      {
+        "trait_type": "Year",
+        "value": "2025"
+      }
+    ],
+    "token_id": "246",
+    "external_url": "https://steviep.xyz/jesus/pamphlets/246",
+    "description": "Photograph by Steve Pikelny (2025) | Published by Chick Tracts | Content: Comic | Condition: Very Good | Type: Tract"
+  },
+  {
+    "name": "爱情故事",
+    "attributes": [
+      {
+        "trait_type": "Type",
+        "value": "Tract"
+      },
+      {
+        "trait_type": "Condition",
+        "value": "Good"
+      },
+      {
+        "trait_type": "Content",
+        "value": "Chinese"
+      },
+      {
+        "trait_type": "Publisher",
+        "value": "Chick Tracts"
+      },
+      {
+        "trait_type": "Year",
+        "value": "2025"
+      }
+    ],
+    "token_id": "247",
+    "external_url": "https://steviep.xyz/jesus/pamphlets/247",
+    "description": "Photograph by Steve Pikelny (2025) | Published by Chick Tracts | Content: Chinese | Condition: Good | Type: Tract"
+  },
+  {
+    "name": "영생",
+    "attributes": [
+      {
+        "trait_type": "Type",
+        "value": "Leaflet"
+      },
+      {
+        "trait_type": "Condition",
+        "value": "Good"
+      },
+      {
+        "trait_type": "Content",
+        "value": "Korean"
+      },
+      {
+        "trait_type": "Publisher",
+        "value": "Calvary Baptist Church"
+      },
+      {
+        "trait_type": "Year",
+        "value": "2025"
+      }
+    ],
+    "token_id": "248",
+    "external_url": "https://steviep.xyz/jesus/pamphlets/248",
+    "description": "Photograph by Steve Pikelny (2025) | Published by Calvary Baptist Church | Content: Korean | Condition: Good | Type: Leaflet"
+  },
+  {
+    "name": "Eternal Life",
+    "attributes": [
+      {
+        "trait_type": "Type",
+        "value": "Leaflet"
+      },
+      {
+        "trait_type": "Condition",
+        "value": "Good"
+      },
+      {
+        "trait_type": "Content",
+        "value": "Comic"
+      },
+      {
+        "trait_type": "Publisher",
+        "value": "Calvary Baptist Church"
+      },
+      {
+        "trait_type": "Year",
+        "value": "2025"
+      }
+    ],
+    "token_id": "249",
+    "external_url": "https://steviep.xyz/jesus/pamphlets/249",
+    "description": "Photograph by Steve Pikelny (2025) | Published by Calvary Baptist Church | Content: Comic | Condition: Good | Type: Leaflet"
+  },
+  {
+    "name": "YOLO You Only Live Once",
+    "attributes": [
+      {
+        "trait_type": "Type",
+        "value": "Card"
+      },
+      {
+        "trait_type": "Condition",
+        "value": "Very Good"
+      },
+      {
+        "trait_type": "Content",
+        "value": "Advice"
+      },
+      {
+        "trait_type": "Publisher",
+        "value": "Repent Or Perish"
+      },
+      {
+        "trait_type": "Year",
+        "value": "2025"
+      }
+    ],
+    "token_id": "250",
+    "external_url": "https://steviep.xyz/jesus/pamphlets/250",
+    "description": "Photograph by Steve Pikelny (2025) | Published by Repent Or Perish | Content: Advice | Condition: Very Good | Type: Card"
+  },
+  {
+    "name": "What Will Happen... To You?",
+    "attributes": [
+      {
+        "trait_type": "Type",
+        "value": "Leaflet"
+      },
+      {
+        "trait_type": "Condition",
+        "value": "Very Good"
+      },
+      {
+        "trait_type": "Content",
+        "value": "Philosophy"
+      },
+      {
+        "trait_type": "Publisher",
+        "value": "Liberty Gospel Tracts"
+      },
+      {
+        "trait_type": "Year",
+        "value": "2025"
+      }
+    ],
+    "token_id": "251",
+    "external_url": "https://steviep.xyz/jesus/pamphlets/251",
+    "description": "Photograph by Steve Pikelny (2025) | Published by Liberty Gospel Tracts | Content: Philosophy | Condition: Very Good | Type: Leaflet"
+  },
+  {
+    "name": "Wake Up & Die Right With God",
+    "attributes": [
+      {
+        "trait_type": "Type",
+        "value": "Leaflet"
+      },
+      {
+        "trait_type": "Condition",
+        "value": "Very Good"
+      },
+      {
+        "trait_type": "Content",
+        "value": "Instructional"
+      },
+      {
+        "trait_type": "Publisher",
+        "value": "Liberty Gospel Tracts"
+      },
+      {
+        "trait_type": "Year",
+        "value": "2025"
+      }
+    ],
+    "token_id": "252",
+    "external_url": "https://steviep.xyz/jesus/pamphlets/252",
+    "description": "Photograph by Steve Pikelny (2025) | Published by Liberty Gospel Tracts | Content: Instructional | Condition: Very Good | Type: Leaflet"
+  },
+  {
+    "name": "Soul Survivor",
+    "attributes": [
+      {
+        "trait_type": "Type",
+        "value": "Tract"
+      },
+      {
+        "trait_type": "Condition",
+        "value": "Very Good"
+      },
+      {
+        "trait_type": "Content",
+        "value": "Comic"
+      },
+      {
+        "trait_type": "Publisher",
+        "value": "Chick Tracts"
+      },
+      {
+        "trait_type": "Year",
+        "value": "2025"
+      }
+    ],
+    "token_id": "253",
+    "external_url": "https://steviep.xyz/jesus/pamphlets/253",
+    "description": "Photograph by Steve Pikelny (2025) | Published by Chick Tracts | Content: Comic | Condition: Very Good | Type: Tract"
+  },
+  {
+    "name": "Tsunami!",
+    "attributes": [
+      {
+        "trait_type": "Type",
+        "value": "Leaflet"
+      },
+      {
+        "trait_type": "Condition",
+        "value": "Very Good"
+      },
+      {
+        "trait_type": "Content",
+        "value": "Story"
+      },
+      {
+        "trait_type": "Publisher",
+        "value": "Liberty Gospel Tracts"
+      },
+      {
+        "trait_type": "Year",
+        "value": "2025"
+      }
+    ],
+    "token_id": "254",
+    "external_url": "https://steviep.xyz/jesus/pamphlets/254",
+    "description": "Photograph by Steve Pikelny (2025) | Published by Liberty Gospel Tracts | Content: Story | Condition: Very Good | Type: Leaflet"
+  },
+  {
+    "name": "Living Water",
+    "attributes": [
+      {
+        "trait_type": "Type",
+        "value": "Book"
+      },
+      {
+        "trait_type": "Condition",
+        "value": "Good"
+      },
+      {
+        "trait_type": "Content",
+        "value": "Educational"
+      },
+      {
+        "trait_type": "Publisher",
+        "value": "Absolutely Free Incorporated"
+      },
+      {
+        "trait_type": "Year",
+        "value": "2025"
+      }
+    ],
+    "token_id": "255",
+    "external_url": "https://steviep.xyz/jesus/pamphlets/255",
+    "description": "Photograph by Steve Pikelny (2025) | Published by Absolutely Free Incorporated | Content: Educational | Condition: Good | Type: Book"
+  },
+  {
+    "name": "Trouble Turned To Triumph!",
+    "attributes": [
+      {
+        "trait_type": "Type",
+        "value": "Leaflet"
+      },
+      {
+        "trait_type": "Condition",
+        "value": "Very Good"
+      },
+      {
+        "trait_type": "Content",
+        "value": "Story"
+      },
+      {
+        "trait_type": "Publisher",
+        "value": "Liberty Gospel Tracts"
+      },
+      {
+        "trait_type": "Year",
+        "value": "2025"
+      }
+    ],
+    "token_id": "256",
+    "external_url": "https://steviep.xyz/jesus/pamphlets/256",
+    "description": "Photograph by Steve Pikelny (2025) | Published by Liberty Gospel Tracts | Content: Story | Condition: Very Good | Type: Leaflet"
+  },
+  {
+    "name": "True Victory",
+    "attributes": [
+      {
+        "trait_type": "Type",
+        "value": "Pamphlet"
+      },
+      {
+        "trait_type": "Condition",
+        "value": "Good"
+      },
+      {
+        "trait_type": "Content",
+        "value": "History"
+      },
+      {
+        "trait_type": "Publisher",
+        "value": "Fellowship Tract League"
+      },
+      {
+        "trait_type": "Year",
+        "value": "2025"
+      }
+    ],
+    "token_id": "257",
+    "external_url": "https://steviep.xyz/jesus/pamphlets/257",
+    "description": "Photograph by Steve Pikelny (2025) | Published by Fellowship Tract League | Content: History | Condition: Good | Type: Pamphlet"
+  },
+  {
+    "name": "La Verdadera Victoria",
+    "attributes": [
+      {
+        "trait_type": "Type",
+        "value": "Pamphlet"
+      },
+      {
+        "trait_type": "Condition",
+        "value": "Very Good"
+      },
+      {
+        "trait_type": "Content",
+        "value": "Spanish"
+      },
+      {
+        "trait_type": "Publisher",
+        "value": "Fellowship Tract League"
+      },
+      {
+        "trait_type": "Year",
+        "value": "2025"
+      }
+    ],
+    "token_id": "258",
+    "external_url": "https://steviep.xyz/jesus/pamphlets/258",
+    "description": "Photograph by Steve Pikelny (2025) | Published by Fellowship Tract League | Content: Spanish | Condition: Very Good | Type: Pamphlet"
+  },
+  {
+    "name": "3:16 Los Números de la Esperanza",
+    "attributes": [
+      {
+        "trait_type": "Type",
+        "value": "Leaflet"
+      },
+      {
+        "trait_type": "Condition",
+        "value": "Good"
+      },
+      {
+        "trait_type": "Content",
+        "value": "Spanish"
+      },
+      {
+        "trait_type": "Publisher",
+        "value": "Good News Publishers"
+      },
+      {
+        "trait_type": "Year",
+        "value": "2025"
+      }
+    ],
+    "token_id": "259",
+    "external_url": "https://steviep.xyz/jesus/pamphlets/259",
+    "description": "Photograph by Steve Pikelny (2025) | Published by Good News Publishers | Content: Spanish | Condition: Good | Type: Leaflet"
+  },
+  {
+    "name": "Cuatro Cosas Que Debe Aceptar Para Ir a la Gloria",
+    "attributes": [
+      {
+        "trait_type": "Type",
+        "value": "Pamphlet"
+      },
+      {
+        "trait_type": "Condition",
+        "value": "Good"
+      },
+      {
+        "trait_type": "Content",
+        "value": "Spanish"
+      },
+      {
+        "trait_type": "Publisher",
+        "value": "Sword of the Lord Publishers"
+      },
+      {
+        "trait_type": "Year",
+        "value": "2025"
+      }
+    ],
+    "token_id": "260",
+    "external_url": "https://steviep.xyz/jesus/pamphlets/260",
+    "description": "Photograph by Steve Pikelny (2025) | Published by Sword of the Lord Publishers | Content: Spanish | Condition: Good | Type: Pamphlet"
+  },
+  {
+    "name": "Un Hogar Para Ti",
+    "attributes": [
+      {
+        "trait_type": "Type",
+        "value": "Leaflet"
+      },
+      {
+        "trait_type": "Condition",
+        "value": "Very Good"
+      },
+      {
+        "trait_type": "Content",
+        "value": "Spanish"
+      },
+      {
+        "trait_type": "Publisher",
+        "value": "Gospel Tract and Bible Society"
+      },
+      {
+        "trait_type": "Year",
+        "value": "2025"
+      }
+    ],
+    "token_id": "261",
+    "external_url": "https://steviep.xyz/jesus/pamphlets/261",
+    "description": "Photograph by Steve Pikelny (2025) | Published by Gospel Tract and Bible Society | Content: Spanish | Condition: Very Good | Type: Leaflet"
+  },
+  {
+    "name": "¡Esta Fue To Vida! (Gratis ¡Llévese uno!)",
+    "attributes": [
+      {
+        "trait_type": "Type",
+        "value": "Tract"
+      },
+      {
+        "trait_type": "Condition",
+        "value": "Good"
+      },
+      {
+        "trait_type": "Content",
+        "value": "Spanish"
+      },
+      {
+        "trait_type": "Publisher",
+        "value": "Chick Tracts"
+      },
+      {
+        "trait_type": "Year",
+        "value": "2025"
+      }
+    ],
+    "token_id": "262",
+    "external_url": "https://steviep.xyz/jesus/pamphlets/262",
+    "description": "Photograph by Steve Pikelny (2025) | Published by Chick Tracts | Content: Spanish | Condition: Good | Type: Tract"
+  },
+  {
+    "name": "It's Free",
+    "attributes": [
+      {
+        "trait_type": "Type",
+        "value": "Leaflet"
+      },
+      {
+        "trait_type": "Condition",
+        "value": "Okay"
+      },
+      {
+        "trait_type": "Content",
+        "value": "Informational"
+      },
+      {
+        "trait_type": "Publisher",
+        "value": "Bible Tracts, Inc."
+      },
+      {
+        "trait_type": "Year",
+        "value": "2025"
+      }
+    ],
+    "token_id": "263",
+    "external_url": "https://steviep.xyz/jesus/pamphlets/263",
+    "description": "Photograph by Steve Pikelny (2025) | Published by Bible Tracts, Inc. | Content: Informational | Condition: Okay | Type: Leaflet"
+  },
+  {
+    "name": "Our Daily Bead",
+    "attributes": [
+      {
+        "trait_type": "Type",
+        "value": "Booklet"
+      },
+      {
+        "trait_type": "Condition",
+        "value": "Very Good"
+      },
+      {
+        "trait_type": "Content",
+        "value": "Informational"
+      },
+      {
+        "trait_type": "Publisher",
+        "value": "Our Daily Bread Ministries"
+      },
+      {
+        "trait_type": "Year",
+        "value": "2025"
+      }
+    ],
+    "token_id": "264",
+    "external_url": "https://steviep.xyz/jesus/pamphlets/264",
+    "description": "Photograph by Steve Pikelny (2025) | Published by Our Daily Bread Ministries | Content: Informational | Condition: Very Good | Type: Booklet"
+  },
+  {
+    "name": "Peace of Mind in a Troubled World",
+    "attributes": [
+      {
+        "trait_type": "Type",
+        "value": "Leaflet"
+      },
+      {
+        "trait_type": "Condition",
+        "value": "Very Good"
+      },
+      {
+        "trait_type": "Content",
+        "value": "Informational"
+      },
+      {
+        "trait_type": "Publisher",
+        "value": "Gospel Tract and Bible Society"
+      },
+      {
+        "trait_type": "Year",
+        "value": "2025"
+      }
+    ],
+    "token_id": "265",
+    "external_url": "https://steviep.xyz/jesus/pamphlets/265",
+    "description": "Photograph by Steve Pikelny (2025) | Published by Gospel Tract and Bible Society | Content: Informational | Condition: Very Good | Type: Leaflet"
+  },
+  {
+    "name": "Peace On Earth",
+    "attributes": [
+      {
+        "trait_type": "Type",
+        "value": "Pamphlet"
+      },
+      {
+        "trait_type": "Condition",
+        "value": "Good"
+      },
+      {
+        "trait_type": "Content",
+        "value": "History"
+      },
+      {
+        "trait_type": "Publisher",
+        "value": "American Bible Society"
+      },
+      {
+        "trait_type": "Year",
+        "value": "2025"
+      }
+    ],
+    "token_id": "266",
+    "external_url": "https://steviep.xyz/jesus/pamphlets/266",
+    "description": "Photograph by Steve Pikelny (2025) | Published by American Bible Society | Content: History | Condition: Good | Type: Pamphlet"
+  },
+  {
+    "name": "Israel? Palestine? Who Owns The Land?",
+    "attributes": [
+      {
+        "trait_type": "Type",
+        "value": "Leaflet"
+      },
+      {
+        "trait_type": "Condition",
+        "value": "Very Good"
+      },
+      {
+        "trait_type": "Content",
+        "value": "History"
+      },
+      {
+        "trait_type": "Publisher",
+        "value": "Liberty Gospel Tracts"
+      },
+      {
+        "trait_type": "Year",
+        "value": "2025"
+      }
+    ],
+    "token_id": "267",
+    "external_url": "https://steviep.xyz/jesus/pamphlets/267",
+    "description": "Photograph by Steve Pikelny (2025) | Published by Liberty Gospel Tracts | Content: History | Condition: Very Good | Type: Leaflet"
+  },
+  {
+    "name": "Man's most-asked Question",
+    "attributes": [
+      {
+        "trait_type": "Type",
+        "value": "Pamphlet"
+      },
+      {
+        "trait_type": "Condition",
+        "value": "Okay"
+      },
+      {
+        "trait_type": "Content",
+        "value": "Comic"
+      },
+      {
+        "trait_type": "Publisher",
+        "value": "Unknown"
+      },
+      {
+        "trait_type": "Year",
+        "value": "2025"
+      }
+    ],
+    "token_id": "268",
+    "external_url": "https://steviep.xyz/jesus/pamphlets/268",
+    "description": "Photograph by Steve Pikelny (2025) | Published by Unknown | Content: Comic | Condition: Okay | Type: Pamphlet"
+  },
+  {
+    "name": "Man's Most Asked Question",
+    "attributes": [
+      {
+        "trait_type": "Type",
+        "value": "Pamphlet"
+      },
+      {
+        "trait_type": "Condition",
+        "value": "Poor"
+      },
+      {
+        "trait_type": "Content",
+        "value": "Comic"
+      },
+      {
+        "trait_type": "Publisher",
+        "value": "Fellowship Tract League"
+      },
+      {
+        "trait_type": "Year",
+        "value": "2025"
+      }
+    ],
+    "token_id": "269",
+    "external_url": "https://steviep.xyz/jesus/pamphlets/269",
+    "description": "Photograph by Steve Pikelny (2025) | Published by Fellowship Tract League | Content: Comic | Condition: Poor | Type: Pamphlet"
+  },
+  {
+    "name": "What Does It Mean To Be A Born-Again Christian?",
+    "attributes": [
+      {
+        "trait_type": "Type",
+        "value": "Booklet"
+      },
+      {
+        "trait_type": "Condition",
+        "value": "Very Good"
+      },
+      {
+        "trait_type": "Content",
+        "value": "Educational"
+      },
+      {
+        "trait_type": "Publisher",
+        "value": "Liberty Gospel Tracts"
+      },
+      {
+        "trait_type": "Year",
+        "value": "2025"
+      }
+    ],
+    "token_id": "270",
+    "external_url": "https://steviep.xyz/jesus/pamphlets/270",
+    "description": "Photograph by Steve Pikelny (2025) | Published by Liberty Gospel Tracts | Content: Educational | Condition: Very Good | Type: Booklet"
+  },
+  {
+    "name": "Should Women Preach?",
+    "attributes": [
+      {
+        "trait_type": "Type",
+        "value": "Leaflet"
+      },
+      {
+        "trait_type": "Condition",
+        "value": "Very Good"
+      },
+      {
+        "trait_type": "Content",
+        "value": "Informational"
+      },
+      {
+        "trait_type": "Publisher",
+        "value": "Liberty Gospel Tracts"
+      },
+      {
+        "trait_type": "Year",
+        "value": "2025"
+      }
+    ],
+    "token_id": "271",
+    "external_url": "https://steviep.xyz/jesus/pamphlets/271",
+    "description": "Photograph by Steve Pikelny (2025) | Published by Liberty Gospel Tracts | Content: Informational | Condition: Very Good | Type: Leaflet"
+  },
+  {
+    "name": "Are You A Good Person?",
+    "attributes": [
+      {
+        "trait_type": "Type",
+        "value": "Leaflet"
+      },
+      {
+        "trait_type": "Condition",
+        "value": "Okay"
+      },
+      {
+        "trait_type": "Content",
+        "value": "Comic"
+      },
+      {
+        "trait_type": "Publisher",
+        "value": "No Greater Joy Ministries"
+      },
+      {
+        "trait_type": "Year",
+        "value": "2025"
+      }
+    ],
+    "token_id": "272",
+    "external_url": "https://steviep.xyz/jesus/pamphlets/272",
+    "description": "Photograph by Steve Pikelny (2025) | Published by No Greater Joy Ministries | Content: Comic | Condition: Okay | Type: Leaflet"
+  },
+  {
+    "name": "Bible Answers",
+    "attributes": [
+      {
+        "trait_type": "Type",
+        "value": "Book"
+      },
+      {
+        "trait_type": "Condition",
+        "value": "Good"
+      },
+      {
+        "trait_type": "Content",
+        "value": "Educational"
+      },
+      {
+        "trait_type": "Publisher",
+        "value": "Review and Herald Publishing Association"
+      },
+      {
+        "trait_type": "Year",
+        "value": "2025"
+      }
+    ],
+    "token_id": "273",
+    "external_url": "https://steviep.xyz/jesus/pamphlets/273",
+    "description": "Photograph by Steve Pikelny (2025) | Published by Review and Herald Publishing Association | Content: Educational | Condition: Good | Type: Book"
+  },
+  {
+    "name": "Thou Shalt Not Judge! Only God Can Judge Me!",
+    "attributes": [
+      {
+        "trait_type": "Type",
+        "value": "Card"
+      },
+      {
+        "trait_type": "Condition",
+        "value": "Very Good"
+      },
+      {
+        "trait_type": "Content",
+        "value": "Informational"
+      },
+      {
+        "trait_type": "Publisher",
+        "value": "Repent Or Perish"
+      },
+      {
+        "trait_type": "Year",
+        "value": "2025"
+      }
+    ],
+    "token_id": "274",
+    "external_url": "https://steviep.xyz/jesus/pamphlets/274",
+    "description": "Photograph by Steve Pikelny (2025) | Published by Repent Or Perish | Content: Informational | Condition: Very Good | Type: Card"
   }
 ]

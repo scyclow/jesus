@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset='utf-8'>
+  <title>Cardinal - The Church of Subway Jesus Pamphlets</title>
+
+  <link rel='shortcut icon' type='image/x-icon' href='./favicon.ico'>
+
+  <link rel='preconnect' href='https://fonts.googleapis.com'>
+  <link rel='preconnect' href='https://fonts.gstatic.com' crossorigin>
+  <link href='https://fonts.googleapis.com/css2?family=Merienda:wght@700&display=swap' rel='stylesheet'>
+
+  <style type='text/css'>
+    * {
+      margin: 0;
+      padding: 0;
+      font-family: 'Merienda', cursive;
+    }
+    body {
+      background-image: url(./tan.jpeg);
+      margin: 0.5em;
+    }
+
+    h1 {
+      color: #8a3d08;
+      text-align: center;
+      background-color: #fff;
+      border: 2px solid;
+      padding: 0.25em;
+      width: 525px;
+      margin: auto;
+      border-radius: 15px;
+    }
+
+    .title {
+      padding: 1em;
+      margin-bottom: 0.75em;
+      text-decoration: none;
+      color: #8a3d08;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: 2em auto;
+      background-color: #fff;
+      border: 2px solid #8a3d08;
+      border-radius: 15px;
+      padding: 2em;
+    }
+
+    .section {
+      margin-bottom: 2em;
+      padding-bottom: 2em;
+      border-bottom: 1px solid #ddd;
+    }
+
+    .section:last-child {
+      border-bottom: none;
+    }
+
+    h2 {
+      color: #8a3d08;
+      margin-bottom: 1em;
+      font-size: 1.5em;
+    }
+
+    h3 {
+      color: #5a076b;
+      margin-bottom: 0.5em;
+      font-size: 1.2em;
+    }
+
+    .status {
+      padding: 1em;
+      margin: 1em 0;
+      border-radius: 10px;
+      background-color: #f5f5f5;
+      border: 1px solid #ddd;
+    }
+
+    .error {
+      background-color: #ffebee;
+      border-color: #ef5350;
+      color: #c62828;
+    }
+
+    .success {
+      background-color: #e8f5e9;
+      border-color: #66bb6a;
+      color: #2e7d32;
+    }
+
+    .warning {
+      background-color: #fff3e0;
+      border-color: #ffa726;
+      color: #e65100;
+    }
+
+    button {
+      background-color: #5a076b;
+      color: white;
+      border: none;
+      padding: 0.75em 1.5em;
+      border-radius: 10px;
+      font-size: 1em;
+      font-family: 'Merienda', cursive;
+      cursor: pointer;
+      margin-top: 0.5em;
+    }
+
+    button:hover {
+      background-color: #8a3d08;
+    }
+
+    button:disabled {
+      background-color: #ccc;
+      cursor: not-allowed;
+    }
+
+    input, textarea {
+      width: 100%;
+      padding: 0.5em;
+      margin: 0.5em 0;
+      border: 2px solid #8a3d08;
+      border-radius: 5px;
+      font-family: 'Merienda', cursive;
+      box-sizing: border-box;
+    }
+
+    textarea {
+      min-height: 100px;
+      resize: vertical;
+    }
+
+    label {
+      display: block;
+      color: #8a3d08;
+      margin-top: 1em;
+      margin-bottom: 0.25em;
+      font-weight: bold;
+    }
+
+    .info {
+      font-size: 0.9em;
+      color: #666;
+      margin-top: 0.25em;
+    }
+
+    .hidden {
+      display: none;
+    }
+
+    code {
+      background-color: #f5f5f5;
+      padding: 0.2em 0.4em;
+      border-radius: 3px;
+      font-family: monospace;
+      font-size: 0.9em;
+      word-break: break-all;
+      display: inline-block;
+      max-width: 100%;
+    }
+  </style>
+</head>
+<body>
+  <a class='title' href='./home.html'><h1>The Church of Subway Jesus Pamphlets</h1></a>
+
+  <div class='container'>
+    <h2>Cardinal Administration</h2>
+
+    <div class='section'>
+      <h3>Connection Status</h3>
+      <div id='connectionStatus' class='status'>
+        Not connected
+      </div>
+      <button id='connectButton' onclick='connect()'>Connect Wallet</button>
+    </div>
+
+    <div id='cardinalSection' class='hidden'>
+      <div class='section'>
+        <h3>Update Base URI</h3>
+        <p class='info'>Update the base URI for token metadata on the Metadata2 contract.</p>
+
+        <div class='status'>
+          <strong>Current Base URI:</strong><br>
+          <code id='currentBaseURI'>Loading...</code>
+        </div>
+
+        <label for='baseURIInput'>New Base URI</label>
+        <input
+          type='text'
+          id='baseURIInput'
+          placeholder='ipfs://your-ipfs-hash/'
+        />
+        <p class='info'>Must start with <code>ipfs://</code> and end with <code>/</code></p>
+
+        <button onclick='updateBaseURI()'>Update Base URI</button>
+        <div id='uriStatus' class='status hidden'></div>
+      </div>
+
+      <div class='section'>
+        <h3>Batch Mint Tokens</h3>
+        <p class='info'>Mint new tokens to a list of addresses via the Church contract.</p>
+
+        <label for='addressesInput'>Addresses</label>
+        <textarea
+          id='addressesInput'
+          placeholder='0x1234...&#10;0x5678...&#10;0xabcd...&#10;&#10;Or comma-separated:&#10;0x1234..., 0x5678..., 0xabcd...'
+          oninput='updateEncodedData()'
+        ></textarea>
+        <p class='info'>Enter addresses separated by commas or newlines</p>
+
+        <div id='encodedDataSection' class='hidden'>
+          <label>Encoded Calldata Preview</label>
+          <div class='status'>
+            <div id='encodedInfo' style='margin-bottom: 0.5em; font-size: 0.9em;'></div>
+            <code id='encodedData' style='font-size: 0.75em;'></code>
+          </div>
+        </div>
+
+        <label for='nonceInput'>Nonce</label>
+        <input
+          type='number'
+          id='nonceInput'
+          placeholder='Any unique number'
+        />
+        <p class='info'>Can be any number; ensures the same proposal isn't executed twice</p>
+
+        <button onclick='batchMint()'>Batch Mint</button>
+        <div id='mintStatus' class='status hidden'></div>
+      </div>
+    </div>
+  </div>
+
+  <script src='./min.ethers.js'></script>
+  <script>
+    const CHURCH_ADDRESS = '0x688025e03Dc3359E07773ADC923e01aeC9Af96A1'
+    const URI_CONTRACT_ADDRESS = '0x3B952210588b8eEc376DA58433CdBFB0BE1A1ddf'
+    const NFT_CONTRACT_ADDRESS = '0x4f9e2E709895CC8ae62be86c6289F7081Ba048A6'
+
+    const CHURCH_ABI = [
+      'function cardinal() view returns (address)',
+      'function execute(address target, uint256 value, bytes calldata_, uint256 nonce) payable returns (uint256)'
+    ]
+
+    const URI_ABI = [
+      'function updateBaseURI(string calldata newURI)',
+      'function baseURI() view returns (string)'
+    ]
+
+    let provider
+    let signer
+    let userAddress
+    let isCardinal = false
+
+    window.connect = async function() {
+      try {
+        if (!window.ethereum) {
+          showStatus('connectionStatus', 'Please install MetaMask', 'error')
+          return
+        }
+
+        provider = new ethers.providers.Web3Provider(window.ethereum)
+        await provider.send('eth_requestAccounts', [])
+        signer = provider.getSigner()
+        userAddress = await signer.getAddress()
+
+        const churchContract = new ethers.Contract(CHURCH_ADDRESS, CHURCH_ABI, provider)
+        const cardinalAddress = await churchContract.cardinal()
+
+        isCardinal = userAddress.toLowerCase() === cardinalAddress.toLowerCase()
+
+        if (isCardinal) {
+          showStatus('connectionStatus', `Connected as Cardinal: ${userAddress}`, 'success')
+          document.getElementById('cardinalSection').classList.remove('hidden')
+          document.getElementById('connectButton').textContent = 'Connected'
+          document.getElementById('connectButton').disabled = true
+          await loadBaseURI()
+        } else {
+          showStatus('connectionStatus', `Connected: ${userAddress}<br><br>You are not the Cardinal address.<br>Cardinal: ${cardinalAddress}`, 'warning')
+        }
+      } catch (error) {
+        console.error(error)
+        showStatus('connectionStatus', `Error: ${error.message}`, 'error')
+      }
+    }
+
+    async function loadBaseURI() {
+      try {
+        const uriContract = new ethers.Contract(URI_CONTRACT_ADDRESS, URI_ABI, provider)
+        const currentBaseURI = await uriContract.baseURI()
+        document.getElementById('currentBaseURI').textContent = currentBaseURI
+      } catch (error) {
+        console.error(error)
+        document.getElementById('currentBaseURI').textContent = 'Error loading base URI'
+      }
+    }
+
+    window.updateBaseURI = async function() {
+      if (!isCardinal) {
+        showStatus('uriStatus', 'You are not the Cardinal', 'error')
+        return
+      }
+
+      const newURI = document.getElementById('baseURIInput').value.trim()
+
+      if (!newURI.startsWith('ipfs://')) {
+        showStatus('uriStatus', 'URI must start with ipfs://', 'error')
+        return
+      }
+
+      if (!newURI.endsWith('/')) {
+        showStatus('uriStatus', 'URI must end with /', 'error')
+        return
+      }
+
+      try {
+        showStatus('uriStatus', 'Updating base URI...', 'warning')
+
+        const uriContract = new ethers.Contract(URI_CONTRACT_ADDRESS, URI_ABI, signer)
+        const tx = await uriContract.updateBaseURI(newURI)
+
+        showStatus('uriStatus', `Transaction sent: ${tx.hash}<br>Waiting for confirmation...`, 'warning')
+
+        await tx.wait()
+
+        showStatus('uriStatus', `Base URI updated successfully!<br>Transaction: ${tx.hash}`, 'success')
+        document.getElementById('baseURIInput').value = ''
+        await loadBaseURI()
+      } catch (error) {
+        console.error(error)
+        showStatus('uriStatus', `Error: ${error.message}`, 'error')
+      }
+    }
+
+    window.updateEncodedData = function() {
+      const addressesText = document.getElementById('addressesInput').value.trim()
+      const encodedDataSection = document.getElementById('encodedDataSection')
+      const encodedDataElement = document.getElementById('encodedData')
+      const encodedInfoElement = document.getElementById('encodedInfo')
+
+      if (!addressesText) {
+        encodedDataSection.classList.add('hidden')
+        return
+      }
+
+      try {
+        const addresses = addressesText
+          .split(/[\n,]+/)
+          .map(addr => addr.trim())
+          .filter(addr => addr.length > 0)
+
+        if (addresses.length === 0) {
+          encodedDataSection.classList.add('hidden')
+          return
+        }
+
+        // Validate addresses
+        for (const addr of addresses) {
+          if (!ethers.utils.isAddress(addr)) {
+            encodedInfoElement.innerHTML = ''
+            encodedDataElement.textContent = `Invalid address: ${addr}`
+            encodedDataElement.parentElement.className = 'status error'
+            encodedDataSection.classList.remove('hidden')
+            return
+          }
+        }
+
+        // Encode the data
+        const iface = new ethers.utils.Interface(['function mintBatch(address[] calldata to)'])
+        const calldata = iface.encodeFunctionData('mintBatch', [addresses])
+
+        encodedInfoElement.innerHTML = `<strong>Function:</strong> mintBatch(address[])<br><strong>Recipients:</strong> ${addresses.length} address${addresses.length === 1 ? '' : 'es'}<br><strong>Data Length:</strong> ${calldata.length} characters`
+        encodedDataElement.textContent = calldata
+        encodedDataElement.parentElement.className = 'status success'
+        encodedDataSection.classList.remove('hidden')
+      } catch (error) {
+        encodedInfoElement.innerHTML = ''
+        encodedDataElement.textContent = `Error: ${error.message}`
+        encodedDataElement.parentElement.className = 'status error'
+        encodedDataSection.classList.remove('hidden')
+      }
+    }
+
+    window.batchMint = async function() {
+      if (!isCardinal) {
+        showStatus('mintStatus', 'You are not the Cardinal', 'error')
+        return
+      }
+
+      const addressesText = document.getElementById('addressesInput').value.trim()
+      const nonce = document.getElementById('nonceInput').value.trim()
+
+      if (!addressesText) {
+        showStatus('mintStatus', 'Please enter at least one address', 'error')
+        return
+      }
+
+      if (!nonce) {
+        showStatus('mintStatus', 'Please enter a nonce', 'error')
+        return
+      }
+
+      const addresses = addressesText
+        .split(/[\n,]+/)
+        .map(addr => addr.trim())
+        .filter(addr => addr.length > 0)
+
+      for (const addr of addresses) {
+        if (!ethers.utils.isAddress(addr)) {
+          showStatus('mintStatus', `Invalid address: ${addr}`, 'error')
+          return
+        }
+      }
+
+      try {
+        showStatus('mintStatus', `Preparing to mint ${addresses.length} token(s)...`, 'warning')
+
+        const iface = new ethers.utils.Interface(['function mintBatch(address[] calldata to)'])
+        const calldata = iface.encodeFunctionData('mintBatch', [addresses])
+
+        const churchContract = new ethers.Contract(CHURCH_ADDRESS, CHURCH_ABI, signer)
+
+        const tx = await churchContract.execute(
+          NFT_CONTRACT_ADDRESS,
+          0,
+          calldata,
+          nonce
+        )
+
+        showStatus('mintStatus', `Transaction sent: ${tx.hash}<br>Waiting for confirmation...`, 'warning')
+
+        await tx.wait()
+
+        showStatus('mintStatus', `Batch mint successful!<br>Minted ${addresses.length} token(s)<br>Transaction: ${tx.hash}`, 'success')
+        document.getElementById('addressesInput').value = ''
+        document.getElementById('nonceInput').value = ''
+      } catch (error) {
+        console.error(error)
+        let errorMessage = error.message
+        if (error.reason) {
+          errorMessage = error.reason
+        }
+        showStatus('mintStatus', `Error: ${errorMessage}`, 'error')
+      }
+    }
+
+    function showStatus(elementId, message, type) {
+      const element = document.getElementById(elementId)
+      element.innerHTML = message
+      element.className = 'status'
+      if (type) {
+        element.classList.add(type)
+      }
+      element.classList.remove('hidden')
+    }
+  </script>
+</body>
+</html>

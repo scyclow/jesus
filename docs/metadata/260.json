@@ -1,0 +1,29 @@
+{
+  "name": "Cuatro Cosas Que Debe Aceptar Para Ir a la Gloria",
+  "attributes": [
+    {
+      "trait_type": "Type",
+      "value": "Pamphlet"
+    },
+    {
+      "trait_type": "Condition",
+      "value": "Good"
+    },
+    {
+      "trait_type": "Content",
+      "value": "Spanish"
+    },
+    {
+      "trait_type": "Publisher",
+      "value": "Sword of the Lord Publishers"
+    },
+    {
+      "trait_type": "Year",
+      "value": "2025"
+    }
+  ],
+  "token_id": "260",
+  "external_url": "https://steviep.xyz/jesus/pamphlets/260",
+  "description": "Photograph by Steve Pikelny (2025) | Published by Sword of the Lord Publishers | Content: Spanish | Condition: Good | Type: Pamphlet",
+  "image": "ipfs://bafybeidzlc5mqicwcuak6b3b2frqcmv4bcttdlmodicczlx3yj6oxzvilm/260.jpg"
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Israel? Palestine? Who Owns The Land?",
+  "attributes": [
+    {
+      "trait_type": "Type",
+      "value": "Leaflet"
+    },
+    {
+      "trait_type": "Condition",
+      "value": "Very Good"
+    },
+    {
+      "trait_type": "Content",
+      "value": "History"
+    },
+    {
+      "trait_type": "Publisher",
+      "value": "Liberty Gospel Tracts"
+    },
+    {
+      "trait_type": "Year",
+      "value": "2025"
+    }
+  ],
+  "token_id": "267",
+  "external_url": "https://steviep.xyz/jesus/pamphlets/267",
+  "description": "Photograph by Steve Pikelny (2025) | Published by Liberty Gospel Tracts | Content: History | Condition: Very Good | Type: Leaflet",
+  "image": "ipfs://bafybeidzlc5mqicwcuak6b3b2frqcmv4bcttdlmodicczlx3yj6oxzvilm/267.jpg"
+}

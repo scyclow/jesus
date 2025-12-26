@@ -1,0 +1,29 @@
+{
+  "name": "Man's most-asked Question",
+  "attributes": [
+    {
+      "trait_type": "Type",
+      "value": "Pamphlet"
+    },
+    {
+      "trait_type": "Condition",
+      "value": "Okay"
+    },
+    {
+      "trait_type": "Content",
+      "value": "Comic"
+    },
+    {
+      "trait_type": "Publisher",
+      "value": "Unknown"
+    },
+    {
+      "trait_type": "Year",
+      "value": "2025"
+    }
+  ],
+  "token_id": "268",
+  "external_url": "https://steviep.xyz/jesus/pamphlets/268",
+  "description": "Photograph by Steve Pikelny (2025) | Published by Unknown | Content: Comic | Condition: Okay | Type: Pamphlet",
+  "image": "ipfs://bafybeidzlc5mqicwcuak6b3b2frqcmv4bcttdlmodicczlx3yj6oxzvilm/268.jpg"
+}

@@ -1,0 +1,29 @@
+{
+  "name": "You Matter To Jesus",
+  "attributes": [
+    {
+      "trait_type": "Type",
+      "value": "Pamphlet"
+    },
+    {
+      "trait_type": "Condition",
+      "value": "Terrible"
+    },
+    {
+      "trait_type": "Content",
+      "value": "Informational"
+    },
+    {
+      "trait_type": "Publisher",
+      "value": "The Brooklyn Tabernacle"
+    },
+    {
+      "trait_type": "Year",
+      "value": "2025"
+    }
+  ],
+  "token_id": "241",
+  "external_url": "https://steviep.xyz/jesus/pamphlets/241",
+  "description": "Photograph by Steve Pikelny (2025) | Published by The Brooklyn Tabernacle | Content: Informational | Condition: Terrible | Type: Pamphlet",
+  "image": "ipfs://bafybeidzlc5mqicwcuak6b3b2frqcmv4bcttdlmodicczlx3yj6oxzvilm/241.jpg"
+}

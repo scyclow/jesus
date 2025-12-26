@@ -1,0 +1,29 @@
+{
+  "name": "YOLO You Only Live Once",
+  "attributes": [
+    {
+      "trait_type": "Type",
+      "value": "Card"
+    },
+    {
+      "trait_type": "Condition",
+      "value": "Very Good"
+    },
+    {
+      "trait_type": "Content",
+      "value": "Advice"
+    },
+    {
+      "trait_type": "Publisher",
+      "value": "Repent Or Perish"
+    },
+    {
+      "trait_type": "Year",
+      "value": "2025"
+    }
+  ],
+  "token_id": "250",
+  "external_url": "https://steviep.xyz/jesus/pamphlets/250",
+  "description": "Photograph by Steve Pikelny (2025) | Published by Repent Or Perish | Content: Advice | Condition: Very Good | Type: Card",
+  "image": "ipfs://bafybeidzlc5mqicwcuak6b3b2frqcmv4bcttdlmodicczlx3yj6oxzvilm/250.jpg"
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Bible Answers",
+  "attributes": [
+    {
+      "trait_type": "Type",
+      "value": "Book"
+    },
+    {
+      "trait_type": "Condition",
+      "value": "Good"
+    },
+    {
+      "trait_type": "Content",
+      "value": "Educational"
+    },
+    {
+      "trait_type": "Publisher",
+      "value": "Review and Herald Publishing Association"
+    },
+    {
+      "trait_type": "Year",
+      "value": "2025"
+    }
+  ],
+  "token_id": "273",
+  "external_url": "https://steviep.xyz/jesus/pamphlets/273",
+  "description": "Photograph by Steve Pikelny (2025) | Published by Review and Herald Publishing Association | Content: Educational | Condition: Good | Type: Book",
+  "image": "ipfs://bafybeidzlc5mqicwcuak6b3b2frqcmv4bcttdlmodicczlx3yj6oxzvilm/273.jpg"
+}

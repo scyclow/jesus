@@ -13,6 +13,6 @@ console.log(data.length)
 
 
 data.forEach(d => {
-  d.image = `ipfs://QmTkz7vhnMQr2jj1yXMA272fZY3LgfKj7aBAPdgBsYjnTL/${d.token_id}.jpg`
+  d.image = `ipfs://bafybeidzlc5mqicwcuak6b3b2frqcmv4bcttdlmodicczlx3yj6oxzvilm/${d.token_id}.jpg`
   fs.writeFileSync(`./docs/metadata/${d.token_id}.json`, JSON.stringify(d, null, 2))
 })

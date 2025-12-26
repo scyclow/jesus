@@ -1,0 +1,29 @@
+{
+  "name": "It's Free",
+  "attributes": [
+    {
+      "trait_type": "Type",
+      "value": "Leaflet"
+    },
+    {
+      "trait_type": "Condition",
+      "value": "Okay"
+    },
+    {
+      "trait_type": "Content",
+      "value": "Informational"
+    },
+    {
+      "trait_type": "Publisher",
+      "value": "Bible Tracts, Inc."
+    },
+    {
+      "trait_type": "Year",
+      "value": "2025"
+    }
+  ],
+  "token_id": "263",
+  "external_url": "https://steviep.xyz/jesus/pamphlets/263",
+  "description": "Photograph by Steve Pikelny (2025) | Published by Bible Tracts, Inc. | Content: Informational | Condition: Okay | Type: Leaflet",
+  "image": "ipfs://bafybeidzlc5mqicwcuak6b3b2frqcmv4bcttdlmodicczlx3yj6oxzvilm/263.jpg"
+}

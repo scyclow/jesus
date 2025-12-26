@@ -1,0 +1,29 @@
+{
+  "name": "Un Hogar Para Ti",
+  "attributes": [
+    {
+      "trait_type": "Type",
+      "value": "Leaflet"
+    },
+    {
+      "trait_type": "Condition",
+      "value": "Very Good"
+    },
+    {
+      "trait_type": "Content",
+      "value": "Spanish"
+    },
+    {
+      "trait_type": "Publisher",
+      "value": "Gospel Tract and Bible Society"
+    },
+    {
+      "trait_type": "Year",
+      "value": "2025"
+    }
+  ],
+  "token_id": "261",
+  "external_url": "https://steviep.xyz/jesus/pamphlets/261",
+  "description": "Photograph by Steve Pikelny (2025) | Published by Gospel Tract and Bible Society | Content: Spanish | Condition: Very Good | Type: Leaflet",
+  "image": "ipfs://bafybeidzlc5mqicwcuak6b3b2frqcmv4bcttdlmodicczlx3yj6oxzvilm/261.jpg"
+}
